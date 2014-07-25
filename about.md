@@ -14,7 +14,7 @@ image:
 <a markdown="0" href="{{ site.url }}/downloads" class="btn">Download now!</a>
 <a markdown="0" href="{{ site.url }}/downloads" class="btn">Video introductions!</a>
 
-## Join the cause, open source **smart grid** technology:
+## Join the cause, open source **smart grid** technology
 
 Imagine a house or building that understands your exact energy wishes. Selected controllable devices instantly snapping into action when the sun shines on the solar panels, or whenever local generated energy is available. And the electric car re-charging when energy is cheap. FAN connects every device with every thinkable energy management service, easily and efficiently. Using local energy and saving costs was never easier.
 
