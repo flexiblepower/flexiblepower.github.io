@@ -6,7 +6,7 @@ layout: post
 title: Stedin joins the Alliance!
 description: 
 category: articles
-tags: [Stedin, PowerMatcher, FAN]
+tags: [Stedin, PowerMatcher, FAN, Couperus]
 image:
   feature: smart-grid.jpg
   credit: unknown
