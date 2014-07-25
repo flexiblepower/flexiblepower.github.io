@@ -11,4 +11,13 @@ comments: true
 share: true
 ---
 
-Netbeheerder Stedin treedt toe tot stichting Flexiblepower Alliance Network, ter ontwikkeling van de “PowerMatcher” als groeimodel voor slimme netten. Stedin is daarmee de vierde participant in de stichting naast de oprichters Alliander en TNO, en Accenture. Stedin zal tevens toetreden tot het bestuur van de stichting.
+STEDIN enters the FAN alliance in in order to join the cause and support the PowerMatcher technology for smarter grids. Stedin is the fourth participant joining the Alliance after Alliander, TNO and Accenture. In addition Stedin will enter the board of the Alliance.
+
+# The Couperus Project
+
+Stedin was using PowerMatcher technology in the Couperus project in The Hague. In this project the PowerMatcher is used to connect several heat pumps to wind generated energy. Heat & cold storage is used to balance the variations in wind energy supply. Stedin and the FAN are determined to channel their experiences in broader applications; expanding their knowledge from new construction sites to old buildings.
+
+# Smarter grids are going to make the difference
+
+Nancy Kabalt, CEO of Stedin: "Using heatpumps we can leverage ambient temperatures for the heating of buildings. Because of that gas connections can become obsolete in some areas, however electricity is still needed. Using the PowerMatcher we can better manage the electricity demand so that DSO can minimize new investments in the grid.
+
