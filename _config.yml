@@ -1,4 +1,4 @@
-encoding: 		  UTF-8
+encoding:UTF-8
 title:            Welcome to the Flexible Power Alliance Network
 description:      Watch the video to learn more about this Smart Grid Open Source Alliance!
 logo:             site-logo.png
@@ -10,9 +10,9 @@ url:              http://flexiblepower.github.io
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
-  email:          you@email.com
+  name:           Alexander Krstulovic
+  avatar:         baf_krstulovic.jpg
+  email:          alexander.krstulovic@alliander.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   facebook:
