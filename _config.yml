@@ -1,5 +1,5 @@
-title:            Flexible Power Alliance Network
-description:      Describe your website here.
+title:            Welcome to the Flexible Power Alliance Network
+description:      Watch the video to learn more about this Smart Grid Open Source Alliance!
 logo:             site-logo.png
 disqus_shortname:
 search:           true
@@ -33,13 +33,17 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
+  - title: The Alliance
     url: /about/
-  - title: Articles
-    url: /articles/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
+  - title: The Technologies
+    url: /technologies/
+  - title: News
+    url: /articles/     
+  - title: Developers
+    url: /developers/
+  - title: Downloads
+    url: /downloads/   
+  - title: Resources
     url: http://mademistakes.com
     external: true
 
