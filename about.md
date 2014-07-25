@@ -1,33 +1,22 @@
 ---
 layout: page
 permalink: /about/
-title: About the Jekyll Theme
-tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
+title: Welcome to the FlexiblePower Alliance Network
+tags: [Smart Grid, Technology, Demand, Reponse, Powermatcher, FPAI, Flexible, Power, Application, Infrastructure, Open Source, Disruptive]
 modified: 2013-09-13
 image:
   feature: smart-grid.jpg
   credit: unknown
   creditlink: 
 ---
+<a markdown="0" href="{{ site.url }}/technologies/" class="btn">What is it? >>></a>
+<a markdown="0" href="{{ site.url }}/getinvolved/" class="btn">Get Involved! >>></a>
+<a markdown="0" href="{{ site.url }}/downloads/" class="btn">Download now! >>></a>
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes).
+Imagine a house or building that understands your exact energy wishes. Selected controllable devices instantly snapping into action when the sun shines on the solar panels, or whenever local generated energy is available. And the electric car re-charging when energy is cheap. FAN connects every device with every thinkable energy management service, easily and efficiently. Using local energy and saving costs was never easier.
 
-## So Simple Theme is all about:
+FAN is a new open standard that connects (household) devices with energy management services. FAN gives users control over the energy consumption in their house or building.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations. 
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Disqus comments if you choose to enable.
-* Simple and clear permalink structure[^1].
-* Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
-* Vanilla [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) to make your code examples look snazzy.
-* Simple search that overlays results based on post title.
-* [Grunt build script]({{ site.url }}/theme-setup/index.html#theme-development) for easier theme development.
-* [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) for search engines
+FAN can be built into devices and energy management services of diverse manufacturers. Thanks to FAN, they can work together as a team – to decide whether to use, store or sell locally produced energy, for instance, or to determine which device should be switched on first. Controlling the energy services on  a smart phone or tablet, users can set the energy preferences, ensuring that devices are turned on, off or down whenever they want. FAN makes it easy to use renewable energy and will mean significant savings on your energy bill.
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
-
-[^1]: Example: *domain.com/category-name/post-title*
+Want to build FAN into your appliance or app? The FAN standard is available free of charge. You can download the initial release of the specifications and corresponding software now. Interested in our fact sheet? Download it here.
