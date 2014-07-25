@@ -24,7 +24,7 @@ Stedin was using PowerMatcher technology in the Couperus project in The Hague. I
 
 Nancy Kabalt, CEO of Stedin: "Using heatpumps we can leverage ambient temperatures for the heating of buildings. Because of that gas connections can become obsolete in some areas, however electricity is still needed. Using the PowerMatcher we can better manage the electricity demand so that DSO can minimize new investments in the grid. Bert den Ouden, CEO of the FAN, mentions: "The Couperus Project is a prominent example. The PowerMatcher cleverly brings all aspects together: sustainable energy, the grid, storage and a new way of heating buildings. This technology could be the final answer to the targets that were set in the Dutch energy bill"
 
-<figure">
+<figure>
 	<img src="/images/stedin.jpg">
 	<figcaption>Stedin enters the Flexible Power Alliance Network.</figcaption>
 </figure>
