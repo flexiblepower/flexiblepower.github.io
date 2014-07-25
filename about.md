@@ -11,10 +11,9 @@ image:
 ---
 <a markdown="0" href="{{ site.url }}/technologies" class="btn">What are we offering?</a>
 <a markdown="0" href="{{ site.url }}/getinvolved" class="btn">Get involved!</a>
+<a markdown="0" href="{{ site.url }}/downloads" class="btn">Download the Software!</a>
 
-Hello this is a test.
-
-## So Simple Theme is all about:
+## Join the cause, open source **smart grid** technology:
 
 * Alexander Krstulovic
 * Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
