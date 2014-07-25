@@ -6,7 +6,7 @@ tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
 modified: 2013-09-13
 image:
   feature: so-simple-sample-image-4.jpg
-  credit: Alexander Krstulovic
+  credit: Michael Rose
   creditlink: http://mademistakes.com
 ---
 
@@ -14,7 +14,7 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 
 ## So Simple Theme is all about:
 
-* hello this is a test
+* Responsive templates. Looking good on mobile, tablet, and desktop.
 * Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
 * Minimal embellishments and subtle animations. 
 * Readable typography to make your words shine.
