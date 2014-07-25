@@ -3,12 +3,14 @@ layout: page
 permalink: /about/
 title: Welcome to the Flexible Power Alliance Network
 tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
-modified: 2013-09-13
+modified: 2014-07-25
 image:
   feature: smart-grid.jpg
   credit: unknown
   creditlink: unknown
 ---
+<a markdown="0" href="{{ site.url }}/technologies" class="btn">What are we offering?</a>
+<a markdown="0" href="{{ site.url }}/getinvolved" class="btn">Get involved!</a>
 
 Hello this is a test.
 
@@ -28,6 +30,6 @@ Hello this is a test.
 * [Grunt build script]({{ site.url }}/theme-setup/index.html#theme-development) for easier theme development.
 * [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) for search engines
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+
 
 [^1]: Example: *domain.com/category-name/post-title*
