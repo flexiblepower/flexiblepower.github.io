@@ -1,7 +1,7 @@
 ---
 author:
-	name: Bert den Ouden
-	avatar: b_den_ouden.png
+  name: Bert den Ouden
+  avatar: b_den_ouden.png
 layout: post
 title: Stedin joins the FAN!
 description: 
