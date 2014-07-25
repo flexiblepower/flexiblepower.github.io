@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/
-title: Welcome to the Flexible Power Alliance Network
+title: Welcome to the Flexiblepower Alliance Network
 tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
 modified: 2014-07-25
 image:
@@ -20,4 +20,4 @@ Imagine a house or building that understands your exact energy wishes. Selected 
 
 FAN is a new open standard that connects (household) devices with energy management services. FAN gives users control over the energy consumption in their house or building.
 
-test test
+FAN can be built into devices and energy management services of diverse manufacturers. Thanks to FAN, they can work together as a team – to decide whether to use, store or sell locally produced energy, for instance, or to determine which device should be switched on first. Controlling the energy services on  a smart phone or tablet, users can set the energy preferences, ensuring that devices are turned on, off or down whenever they want. FAN makes it easy to use renewable energy and will mean significant savings on your energy bill.
