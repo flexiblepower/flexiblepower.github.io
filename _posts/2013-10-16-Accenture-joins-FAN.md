@@ -1,7 +1,7 @@
 ---
 author:
   name: Bert den Ouden
-  avatar: b_den_ouden.png
+  avatar: baf_krstulovic.jpg
 layout: post
 title: Accenture joins the Alliance!
 description: 
