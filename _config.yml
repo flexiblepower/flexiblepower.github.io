@@ -1,26 +1,28 @@
-title:            Welcome to the Flexible Power Alliance Network
-description:      Watch the video to learn more about this Smart Grid Open Source Alliance!
-logo:             site-logo.png
+title:            PowerMatcher
+description:      Balance your production/consumption
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+url:              http://flexiblepower.github.io/powermatcher
 disqus_shortname:
-search:           true
-# Change url to your domain. Leave localhost server or blank when working locally.
-# You don't need to specify the protocol if you want it available on http and https. Example: //localhost:4000
-url:              http://flexiblepower.github.io
 
 # Owner/author information
 owner:
-  name:           Alexander Krstulovic
-  avatar:         baf_krstulovic.jpg
-  email:          alexander.krstulovic@alliander.com
-  # Social networking links used in footer. Update and remove as you like.
+  name:           Flexiblepower Alliance Network
+  avatar:         bio-photo.jpg
+  bio:            "Describe your self."
+  email:          your@email.com
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:
   facebook:
   github:
-  stackexchange:
+  stackoverflow:
   linkedin:
   instagram:
-  flickr:
+  lastfm:
   tumblr:
+  pinterest:
+  foursquare:
+  steam:
+  dribbble:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
 
@@ -30,25 +32,26 @@ google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
+#UTF-8
+encoding: UTF-8
+
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: The Alliance
-    url: /about/
-  - title: The Technologies
-    url: /technologies/
   - title: News
-    url: /articles/     
-  - title: Developers
-    url: /developers/
-  - title: Downloads
-    url: /downloads/   
-  - title: Resources
-    url: http://mademistakes.com
-    external: true
-
+    url: /posts/
+  - title: About
+    url: /about/
+  - title: Why PM?
+    url: /why/
+  - title: Features
+    url: /features/
+  - title: Get started
+    url: /get-started/
+  - title: Get involved
+    url: /get-involved/
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Amsterdam
 future:      true
 pygments:    true
 #highlighter: pygments
@@ -72,4 +75,4 @@ kramdown:
     coderay_css: class
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "README.md", "LICENSE", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

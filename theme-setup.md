@@ -2,121 +2,72 @@
 layout: page
 permalink: /theme-setup/
 title: Theme Setup
-description: "Instructions on how to install and customize the Jekyll theme So Simple."
-modified: 2013-09-11
-tags: [Jekyll, theme, install, setup]
+description: "Instructions on how to install and customize the Jekyll theme Minimal Mistakes."
+tags: [Jekyll, theme, responsive]
+image:
+  feature: texture-feature-02.jpg
+  credit: Texture Lovers
+  creditlink: http://texturelovers.com
 ---
 
-General notes and suggestions for customizing **So Simple Theme**.
-
-* Table of Contents
+<section id="table-of-contents" class="toc">
+  <header>
+    <h3 >Contents</h3>
+  </header>
+<div id="drawer" markdown="1">
+*  Auto generated table of contents
 {:toc}
+</div>
+</section><!-- /#table-of-contents -->
+
+General notes and suggestions for customizing Minimal Mistakes.
 
 ## Basic Setup for a new Jekyll site
 
 1. [Install Bundler](http://bundler.io) `gem install bundler` and then install [Jekyll](http://jekyllrb.com) and all dependencies `bundle install`.
-2. Fork the [So Simple Theme repo](https://github.com/mmistakes/so-simple-theme/fork).
+2. Fork the [Minimal Mistakes repo](http://github.com/mmistakes/minimal-mistakes/fork).
 3. Clone the repo you just forked and rename it.
 4. Edit `_config.yml` to personalize your site.
 5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
 6. Read the documentation below for further customization pointers and documentation.
 
-<div markdown="0"><a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn">Download the Theme</a></div>
+<div markdown="0"><a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn">Download the Theme</a></div>
 
 **Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you don't want on your site.
 {: .notice}
 
 ---
 
-## Setup for an Existing Jekyll site
-
-1. Clone the following folders: `_includes`, `_layouts`, `assets`, and `images`.
-2. Clone the following files and personalize content as need: `about.md`, `articles.html`, `index.html`, `tags.html`, `feed.xml`, and `sitemap.xml`.
-3. Set the following variables in your `config.yml` file:
-
-{% highlight yaml %}
-title:            Site Title
-description:      Site description for the metas.
-logo:             site-logo.png
-disqus_shortname: shortname
-search:           true
-# Your site's domain goes here. When working locally use localhost server leave blank
-# PS. If you set this wrong stylesheets and scripts won't load and most links will break.
-# PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
-url:              http://localhost:4000
-
-# Owner/author information
-owner:
-  name:           Your Name
-  avatar:         your-photo.jpg
-  email:          your@email.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:
-  facebook:
-  github:
-  linkedin:
-  instagram:
-  tumblr:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/123123123123132123"
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: About
-    url: /about/
-  - title: Articles
-    url: /articles/
-  - title: Google
-    url: http://google.com
-    external: true
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-pygments:    true
-markdown:    kramdown
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-{% endhighlight %}
-
----
-
 ## Folder Structure
 
-{% highlight bash %}
-so-simple-theme/
+{% highlight text %}
+minimal-mistakes/
 ├── _includes/
-|    ├── browser-upgrade.html  #prompt to upgrade browser on < IE8
-|    ├── footer.html  #site footer
-|    ├── head.html  #site head
-|    ├── navigation.html #site navigation and masthead
-|    └── scripts.html  #jQuery, plugins, GA, etc.
+|    ├── _author-bio.html        # bio stuff layout. pulls optional owner data from _config.yml
+|    ├── _browser-upgrade.html   # prompt to install a modern browser for < IE9
+|    ├── _footer.html            # site footer
+|    ├── _head.html              # site head
+|    ├── _navigation.html        # site top navigation
+|    └── _scripts.html           # site scripts
 ├── _layouts/
-|    ├── page.html  #page layout
-|    └── post.html  #post layout
-├── _posts/
+|    ├── home.html               # homepage layout
+|    ├── page.html               # page layout
+|    ├── post-index.html         # post index layout
+|    └── post.html               # single post layout
+├── _posts/                      # MarkDown formatted posts
 ├── assets/
-|    ├── css/  #preprocessed less styles
-|    ├── fonts/  #icon webfonts
+|    ├── css/                    # site stylesheets
+|    ├── fonts/                  # webfonts
 |    ├── js/
-|    |   ├── _main.js  #main JavaScript file, plugin settings, etc
-|    |   ├── plugins  #jQuery plugins
-|    |   └── vendor/  #jQuery and Modernizr
+|    |   ├── _main.js            # main JavaScript file, plugin settings, etc
+|    |   ├── plugins/            # scripts and jQuery plugins to combine with _main.js
+|    |   ├── scripts.min.js      # concatenated and minified _main.js + plugin scripts
+|    |   └── vendor/             # vendor scripts to leave alone and load as is
 |    └── less/
-├── images  #images for posts and pages
-├── _config.yml  #Jekyll site options
-├── about.md  #about page
-├── articles.html  #lists all posts from latest to oldest
-├── index.html  #homepage. lists 10 latest posts
-├── tags.html  #lists all posts sorted by tag
-└── sitemap.xml  #autogenerated sitemap for search engines
+├── images/                      # images for posts and pages
+├── about.md                     # sample about page
+├── posts.md                     # sample post index page. lists all posts in reverse chronology
+└── index.md                     # sample homepage. lists 5 latest posts
 {% endhighlight %}
 
 ---
@@ -125,20 +76,13 @@ so-simple-theme/
 
 ### _config.yml
 
-Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. Links are absolute and prefixed with `{{ "{{ site.url " }}}}` in the various `_includes` and `_layouts`, so remember to properly set `url`[^1] and use `http://localhost:4000` when developing locally or else the theme's stylesheet and scripts won't load.
-#### Disqus Comments
-
-Create a [Disqus](http://disqus.com) account and change `disqus_shortname` in `_config.yml` to the Disqus *shortname* you just setup. To enable commenting on a post, add the following to its front matter:
-
-{% highlight yaml %}
-comments: true
-{% endhighlight %}
+Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to change the `title`, `description`, and `url` of your site. When working locally use `http://localhost:4000` or comment out `url` to avoid broken links prefixed with `{{ "{{ site.url " }}}}`[^1] in the various `_includes` and `_layouts`. Just remember to set `url` back to the live domain before deploying or pushing to GitHub Pages.
 
 #### Owner/Author Information
 
-Change your name, and avatar photo (200x200 pixels or larger), email, and social networking urls. If you want to link to an external image on Gravatar or something similiar you'll need to edit the path in `head.html` since it assumes it is located in `/images`.
+Change your name, bio, and avatar photo (100x100 pixels or larger), Twitter url, email, and Google+ url. If you want to link to an external image on Gravatar or something similiar you'll need to edit the path in `_author-bio.html` since it assumes it is located in `/images`.
 
-Including a link to your Google+ profile has the added benefit of displaying [Google Authorship](https://plus.google.com/authorship) in Google search results if you've went ahead and applied for it.
+Including a link to your Google+ profile has the added benefit of displaying [Google Authorship](https://plus.google.com/authorship) in Google search results if you've went ahead and applied for it. Don't have a Google+ account? Just leave it blank.
 
 #### Google Analytics and Webmaster Tools
 
@@ -153,39 +97,18 @@ Edit page/post titles and URLs to include in the site's navigation. For external
 links:
   - title: About Page
     url: /about/
-  - title: Articles
-    url: /articles/
+  - title: Posts
+    url: /posts/
   - title: Other Page
     url: /other-page/
-  - title: External Link
+  - title: External Page
     url: http://mademistakes.com
-    external: true 
+    external: true
 {% endhighlight %}
-
-#### Simple Search
-
-Adding the following to `_config.yml` enables search using Christian Fei's [Simple Jekyll jQuery plugin](https://github.com/christian-fei/Simple-Jekyll-Search). Clicking search will trigger a fullscreen overlay that searches post titles' using an autogenerated JSON file.
-
-{% highlight yaml %}
-search: true
-{% endhighlight %}
-
-<figure>
-  <img src="{{ site.url }}/images/simple-search-screenshot.jpg" alt="search screenshot">
-  <figcaption>Clicking search triggers an overlay that allows you to search by post title.</figcaption>
-</figure>
-
-#### Other Stuff
-
-The rest is just your average Jekyll config settings. Nothing too crazy here...
-
-### _includes
-
-For the most part you can leave these as is since the author/owner details are pulled from `_config.yml`. That said you'll probably want to customize the copyright stuff in `footer.html` to your liking.
 
 ### Adding Posts and Pages
 
-There are two main content layouts: `post.html` (for posts) and `page.html` (for pages). Both have support for large **feature images** that span the full-width of the screen, and both are meant for text heavy blog posts (or articles).
+There are two main content layouts: *post.html* (for posts) and *page.html* (for pages). Both have large **feature images** that span the full-width of the screen, and both are meant for long form articles and blog posts.
 
 There are two rake tasks that can be used to create a new post or page with all YAML Front Matter. Using either `rake new_post` or `rake new_page` will prompt you for a title and tags to classify them. Example below:
 
@@ -193,6 +116,7 @@ There are two rake tasks that can be used to create a new post or page with all 
 rake new_post
 
 Enter a title for your post: My Awesome Post
+Enter category name to group your post in (leave blank for none): blog
 Enter tags to classify your post (comma separated): web development, code
 Creating new post: _posts/2014-02-10-my-awesome-post.md
 {% endhighlight %}
@@ -201,9 +125,9 @@ There are a few configuration variables that can be changed in `Rakefile.rb`. By
 
 #### Feature Images
 
-A good rule of thumb is to keep feature images nice and wide so you don't push the body text too far down. An image cropped to around 1024 x 256 pixels will keep file size down with an acceptable resolution for most devices. If you want to serve these images responsively I'd suggest looking at [Picturefill](https://github.com/scottjehl/picturefill) or [Adaptive Images](http://adaptive-images.com/).
+A good rule of thumb is to keep feature images nice and wide so you don't push the body text too far down. An image cropped around around 1024 x 256 pixels will keep file size down with an acceptable resolution for most devices. If you want to serve these images responsively I'd suggest looking at the [Jekyll Picture Tag](https://github.com/scottjehl/picturefill) plugin[^2].
 
-The two layouts make the assumption that the feature images live in the *images* folder. To add a feature image to a post or page just include the filename in the front matter like so. 
+The two layouts make the assumption that the feature images live in the `images/` folder. To add a feature image to a post or page just include the filename in the front matter like so. 
 
 {% highlight yaml %}
 image:
@@ -220,24 +144,41 @@ image:
   creditlink: http://mademistakes.com #url to their site or licensing
 {% endhighlight %}
 
-#### Categories
+#### Post Index Page
 
-In the sample `_posts` folder you may have noticed `category: articles` in the front matter. I like keeping all posts grouped in the same folder. If you decide to rename or add categories you will need to modify the permalink in `articles.md` along with the filename (if renaming).
+A [sample index page]({{ site.url }}/posts/) listing all posts grouped by the year they were published has been provided. The name can be customized to your liking by editing a few references. For example, to change **Posts** to **Writing** update the following:
 
-For example. Say you want to group all your posts under `blog/` instead of `articles/`. In your post add `category: blog` to the front matter, rename or duplicate `articles.html` to `blog.html` and change the permalink in that file to `permalink: /blog/`.
+* In `_config.yml` under `links:` rename the title and URL to the following:
+{% highlight yaml %}
+  links:
+  - title: Writing
+    url: /writing/
+{% endhighlight %}
+* Rename `posts.md` to `writing.md` and update the YAML front matter to match the title and URL set in `_config.yml`
+* Update the **View all posts** link in `post.html` layout found in `_layouts` to match title and URL set previously.
 
-If done correctly `/blog/` should be a page listing all of the site's posts.
+#### Thumbnails for OG and Twitter Cards
 
-**ProTip:** To create multiple category pages, listing posts assigned to just that category modify the `for post` loop found in `articles.html` to something like `{{ "{% for post in site.categories.articles " }}%}`. Just be careful if you decide to paginate this page, Jekyll won't limit it to the category and will pull from all of your posts unless you use a plugin or a mess of Liquid if statements.
+Post and page thumbnails work the same way. These are used by [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) meta tags found in *_head.html*. If you don't assign a thumbnail the default graphic *(default-thumb.png)* is used. I'd suggest changing this to something more meaningful --- your logo or avatar are good options.
+
+#### Table of Contents
+
+Any article or page that you want a *table of contents* to render insert the following HTML in your post before the actual content. [Kramdown will take care of the rest](http://kramdown.rubyforge.org/converter/html.html#toc) and convert all headlines into a contents list.
+
+**PS:** The TOC is hidden on small devices because I haven't gotten around to optimizing it. For now it only appears on larger screens (tablet and desktop).
 {: .notice}
 
-#### Post/Page Thumbnails for OG and Twitter Cards
-
-Post and page thumbnails work the same way. These are used by [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) meta tags found in `head.html`. If you don't assign a thumbnail the image you assigned to `site.owner.avatar` in `_config.yml will be used.
-
-Here's an example of what a tweet to your site could look like if you activate Twitter Cards and include all the metas in your post's YAML.
-
-![Twitter Card summary large image screenshot]({{ site.url }}/images/twitter-card-summary-large-image.jpg)
+{% highlight html %}
+<section id="table-of-contents" class="toc">
+  <header>
+    <h3>Contents</h3>
+  </header>
+<div id="drawer" markdown="1">
+*  Auto generated table of contents
+{:toc}
+</div>
+</section><!-- /#table-of-contents -->
+{% endhighlight %}
 
 #### Videos
 
@@ -248,22 +189,6 @@ Not sure if this only effects Kramdown or if it's an issue with Markdown in gene
 {% highlight html %}
 <iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg" frameborder="0"> </iframe>
 {% endhighlight %}
-
-#### Social Share Links
-
-To enable Facebook, Twitter, and Google+ share links on a post or page, add the following to its front matter:
-
-{% highlight yaml %}
-share: true
-{% endhighlight %}
-
-#### Twitter Cards
-
-Twitter cards make it possible to attach images and post summaries to Tweets that link to your content. Summary Card meta tags have been added to `head.html` to support this, you just need to [validate and apply your domain](https://dev.twitter.com/docs/cards) to turn it on.
-
-#### Link Post Type
-
-So Simple Theme now supports **link posts**, made famous by John Gruber. To activate just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done. Here's an [example of a link post]({{ site.url }}/articles/sample-link-post) if you need a visual.
 
 ---
 
@@ -283,12 +208,15 @@ And if the command line isn't your thing (you're using Jekyll so it probably is)
 
 ## Questions?
 
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub Issue](https://github.com/mmistakes/so-simple-theme/issues/new).
+Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub Issue](https://github.com/mmistakes/minimal-mistakes/issues/new). And if you make something cool with this theme feel free to let me know.
+
+---
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License]({{ site.url }}/LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs. 
+This theme is free and open source software, distributed under the [GNU General Public License]({{ site.url }}/LICENSE) version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer. 
 
-If you'd like to give me credit somewhere on your blog or tweet a shout out to [@mmistakes](https://twitter.com/mmistakes), that would be pretty sweet.
 
-[^1]: Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for canonical urls in `head.html`. Don't include a trailing `/` in your base url ie: http://mademistakes.com. When developing locally I suggest using `http://localhost:4000` or whatever server you're using to properly load the theme's stylesheet, scripts, and image assets. If you leave this variable blank all links will resolve correctly except those pointing home.
+[^1]: Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for canonical urls in `_head.html`. Don't include a trailing `/` in your base url ie: `http://mademistakes.com`. When developing locally remove or comment out this line so local .css, .js, and images are used.
+
+[^2]: If you're using GitHub Pages to host your site be aware that plugins are disabled. So you'll need to build your site locally and then manually deploy if you want to use this sweet plugin.
