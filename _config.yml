@@ -1,7 +1,7 @@
 title:            PowerMatcher
 description:      Balance your production/consumption
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://flexiblepower.github.io/
+url:              http://flexiblepower.github.io
 disqus_shortname:
 
 # Owner/author information
