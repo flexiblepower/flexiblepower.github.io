@@ -40,5 +40,5 @@ Small companies (max 5 people) or (max EURO 150 000 turnover) are excepted form 
 If you want to get in touch.
 
 * Github (fire an issue)
-* Twitter
+* [Twitter](https://twitter.com/PowerMatcher)
 * info (_a_t_) flexiblepower.org
