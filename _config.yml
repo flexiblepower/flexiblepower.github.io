@@ -40,14 +40,14 @@ encoding: UTF-8
 links:
   - title: News
     url: /posts/
-  - title: Technology
-    url: /Technology/
-  - title: In practise
-    url: /in-practise/
   - title: Why PM?
     url: /why/
   - title: Features
     url: /features/
+  - title: In practise
+    url: /in-practise/
+  - title: Technology
+    url: /technology/
   - title: Get started
     url: /get-started/
   - title: Get involved
