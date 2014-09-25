@@ -11,8 +11,8 @@ image:
 ---
 
 ## Virtual Machine ##
-You can download VM image (not released yet).
+You can download a demo [here](https://github.com/flexiblepower/flexiblepower.github.io/blob/master/download/PowerMatcherSuite_13.10_Demo.zip?raw=true).
 
 ## Manual installation ##
-The manual intallation instruction can be found on github.
+The manual intallation instruction can be found on in the download file.
 

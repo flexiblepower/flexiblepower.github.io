@@ -40,8 +40,10 @@ encoding: UTF-8
 links:
   - title: News
     url: /posts/
-  - title: About
-    url: /about/
+  - title: Technology
+    url: /Technology/
+  - title: In practise
+    url: /in-practise/
   - title: Why PM?
     url: /why/
   - title: Features
@@ -50,6 +52,9 @@ links:
     url: /get-started/
   - title: Get involved
     url: /get-involved/
+  - title: About
+    url: /about/
+
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Amsterdam
 future:      true
