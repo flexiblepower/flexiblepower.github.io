@@ -74,3 +74,4 @@ There are multiple reasons to use the open source model. Here are some examples:
 3. [Open source software moves faster to commodity](http://www.youtube.com/watch?v=NnFeIt-uaEc)
 4. [The open source model can lead to more innovation](http://oss-watch.ac.uk/resources/openinnovsoftware)
 5. [Reduced vendor-lock-in](http://oss-watch.ac.uk/resources/whoneedssource)
+
