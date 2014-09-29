@@ -65,10 +65,12 @@ In a field test involving 10 micro-CHP systems at the premises of end-customerâ
 
 #--New Page: Why open source--##
 What is open source?
+
 * [opensource.com](http://opensource.com/resources/what-open-source)
 * [Open source initiative](http://opensource.org/osd)
 
 There are multiple reasons to use the open source model. Here are some examples:
+
 1. [Openess always wins in the end!](http://www.youtube.com/watch?v=wzoV57EW1uU)
 2. [Open source is part of the sharing economy](http://www.youtube.com/watch?v=Kbcgmf6eDKU)
 3. [Open source software moves faster to commodity](http://www.youtube.com/watch?v=NnFeIt-uaEc)
