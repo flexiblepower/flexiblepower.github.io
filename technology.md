@@ -12,6 +12,12 @@ image:
   creditlink: http://texturelovers.com
 ---
 
-## PowerMatcher technology explaind ##
+## PowerMatcher technology explained ##
 
 PowerMatcher works fine
+
+## Features Technical FPAI ##
+
+## Technical features PM ##
+
+## Theory ##
