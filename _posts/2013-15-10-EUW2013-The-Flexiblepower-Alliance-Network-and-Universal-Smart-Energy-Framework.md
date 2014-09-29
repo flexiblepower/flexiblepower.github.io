@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Flexiblepower Alliance Network and Universal Smart Energy Framework
+title: EUW2013: The Flexiblepower Alliance Network and Universal Smart Energy Framework
 description: "A link to the EUW2013 FAN presentation"
 tags: [PowerMatcher, FAN, European, Bert den Ouden, General director FAN, Netherlands ]
 comments: true
