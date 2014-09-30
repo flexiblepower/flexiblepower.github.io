@@ -26,6 +26,7 @@ The missing link is a communication and coordination protocol for Smart Grids, a
 
 ## PowerMatcher Mission Statement ##
 PowerMatcher aims to fill in the previously mentioned missing link. 
+
 * commercially and non-profit
 * scalable
 * market based
@@ -48,19 +49,20 @@ In a field test involving 10 micro-CHP systems at the premises of end-customerâ
 
 ## Business areas
 Examples of business areas which could benefit from PowerMatcher are the following:
-* Flexibility service providers (FSP)
+
+*	Flexibility service providers (FSP)
 
 	The FSP aggregates flexibility from individual households and/or businesses and offers it to flexibility consumers. 
 
-* Community service providers (CSP)
+*	Community service providers (CSP)
 
 	The CSP aggregates flexibility from a group of households (e.g. a community) and offers it to flexibility consumers.
 
-* Energy service companies (ESCO)
+*	Energy service companies (ESCO)
 
 	ESCO's use the flexibility of individual businesses in order to reduce the connection capacity.
 
-* Domotics / Intelligent Homes
+*	Domotics / Intelligent Homes
 
 	Use the flexibility available at individual households such that locally generated electricity is used on the spot as much as possible.
 
