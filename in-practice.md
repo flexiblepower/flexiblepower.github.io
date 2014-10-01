@@ -113,7 +113,7 @@ PowerMatcher device agents
 
 FPAI drivers (all open source):
 
-* S0 driver
+* S0 pulse counters 
 * Miele@Home gateway protocol
  *        Miele Dishwasher DW1000
  *        Miele Refrigerator
