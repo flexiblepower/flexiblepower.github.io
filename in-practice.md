@@ -105,3 +105,23 @@ Hybrid Energy Grid Management (HEGRID) focuses on realizing a prototype multi-co
 *Partners: Alliander, Centrum Wiskunde & Informatica (CWI), Eindhoven University of Technology (TU/e), Karlsruher Institut fÃ¼r Technologie (KIT), Siemens, Universiteit Twente, Technical Research Centre of Finland (VTT) and Toegepast Natuurwetenschappelijk Onderzoek (TNO).*
 
 #-- NEW PAGE: List of existing device agents --#
+
+PowerMatcher device agents
+
+* Bluegen (closed source, made by IBM)
+
+
+FPAI drivers:
+
+* S0 driver (open source)
+* Miele@Home gateway protocol
+**        Miele Dishwasher DW1000
+**        Miele Refrigerator
+* Simulation drivers + managers
+**        PV Panel
+**        Battery
+**        Heatpump
+* Hexabus driver
+*    Smartmeter driver + manager
+* Scenario application
+
