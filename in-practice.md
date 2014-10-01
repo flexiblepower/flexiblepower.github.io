@@ -111,16 +111,16 @@ PowerMatcher device agents
 * Bluegen (closed source, made by IBM)
 
 
-FPAI drivers:
+FPAI drivers (all open source):
 
-* S0 driver (open source)
+* S0 driver
 * Miele@Home gateway protocol
-**        Miele Dishwasher DW1000
-**        Miele Refrigerator
+ *        Miele Dishwasher DW1000
+ *        Miele Refrigerator
 * Simulation drivers + managers
-**        PV Panel
-**        Battery
-**        Heatpump
+ *        PV Panel
+ *        Battery
+ *        Heatpump
 * Hexabus driver
 *    Smartmeter driver + manager
 * Scenario application
