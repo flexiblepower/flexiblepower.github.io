@@ -24,9 +24,9 @@ The missing link is a communication and coordination protocol for Smart Grids, a
 
 ## PowerMatcher ##
 To fill in the previously mentioned missing link, an innovative software solution was designed: *PowerMatcher*. PowerMatcher technology is a distributed energy systems architecture and communication protocol, which facilitates implementation of standardized, scalable Smart Grids, that can include both conventional and renewable energy sources. Through intelligent clustering, numerous small electricity producing or consuming devices operate as a single highly-flexible generating unit, creating a significant degree of added-value in electricity markets. PowerMatcher Technology optimizes the potential for aggregated individual electricity producing and consuming devices to adjust their operation in order to increase the overall match between electricity production and consumption.
-Since its incarnation in 2004, by ECN/TNO, the PowerMatcher has been implemented in three major software versions. In a spiral approach, each software version was implemented from scratch with the first two versions being tested in simulations and field experiments. The third version is currently under development and is planned to be deployed in a number of field experiments and real-life demonstrations with a positive business case. PowerMatcher is now an Flexiblepower Alliance Network project.
+Since its incarnation in 2004, by ECN/TNO, the PowerMatcher has been implemented in three major software versions. In a spiral approach, each software version was implemented from scratch with the first two versions being tested in simulations and field experiments. The third version is currently under development and is planned to be deployed in a number of field experiments and real-life demonstrations with a positive business case. PowerMatcher is now an Flexiblepower Alliance Network project.  
 
-*"PowerMatcher is an ICT technology for making the electricity smart."*
+*"PowerMatcher is an ICT technology for making the electricity grid smart."*
 
 ## PowerMatcher Mission Statement ##
 PowerMatcher aims to facilitate the energy transition in a cost-effective manner, by providing a market-based coordination system for balancing demand and supply in clusters of distributed energy resources. The software is available both for commercial and non-profit purposes, the latter being governed by the open-source community.  
@@ -37,6 +37,7 @@ PowerMatcher can be used in various business cases. In most business cases, flex
 
 ## Business area's 
 The following business areas can be identified:
+
 *	Flexibility service providers (FSP)
 
 The FSP aggregates flexibility from individual households and/or businesses and offers it to flexibility consumers. 
@@ -56,11 +57,13 @@ Use the flexibility available at individual households such that locally generat
 ## Flexibility providers and consumers
 
 The following parties are in need of flexibility:
+
 * Balance response party (BRP)
 * Grid operator (TSO and DSO)
 * Individual end user  
 
 The following parties are potential sources of flexibility:
+
 * Individual households, notably with heat pumps and electric vehicles.
 * Groups of households, communities, local sustainability collectives, owners associations
 * Commercial electricity users
