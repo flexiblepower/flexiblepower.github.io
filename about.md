@@ -30,6 +30,6 @@ If you want to get in touch.
 * [Twitter](https://twitter.com/PowerMatcher)
 * info (_a_t_) flexiblepower.org (only for FAN related e-mail)
 * Questions:
-* * [General question](https://github.com/flexiblepower/FAN-wiki/issues/new?title=Question:My%20Question&body)
-* * [PowerMatcher question](https://github.com/flexiblepower/powermatcher/issues/new?title=Question:My%20Title&body)
-* * [FPAI-core question](https://github.com/flexiblepower/fpai-core/issues/new?title=Question:My%20Title&body)
+  * [General question](https://github.com/flexiblepower/FAN-wiki/issues/new?title=Question:My%20Question&body)
+  * [PowerMatcher question](https://github.com/flexiblepower/powermatcher/issues/new?title=Question:My%20Title&body)
+  * [FPAI-core question](https://github.com/flexiblepower/fpai-core/issues/new?title=Question:My%20Title&body)
