@@ -71,9 +71,9 @@ This power set point is communicated to the appliance by the device agent throug
 
 #Optimization techniques and the PowerMatcher optimization
 At the moment we distinguish at least three types of optimization system approaches:
-1)	Centralized optimization (e.g. Simplex method)
-2)	Decentralized optimization (part of the objective function is calculated locally)
-3)	Agent technology
+1.	Centralized optimization (e.g. Simplex method)
+2.	Decentralized optimization (part of the objective function is calculated locally)
+3.	Agent technology
 In a centralized optimization system a control signal is often centrally imposed meaning a control center determines whether your air-condition should be turned on or off. A centralized optimization can also become very processing-intensive with increasing amount of connected devices and parameters.
 
 A decentralized optimization is already more in line with PowerMatcher ideology, yet we feel that the solution would still be too complex. 
@@ -105,7 +105,7 @@ A dashboard can show controls and information to the end user about the current 
 
 Drivers and Energy Apps communicate with one another via the abstraction layer. FPAI defines four categories under which all devices can be herded:
 
-1) Uncontrollable. These appliances are not controllable when they consume or produce energy. An example is a solar panel.
-2) Time shiftable. These apliiances are capable of shifting their supply or demand in time, however constrained within a limit. An example is a washing machine that needs to be ready before the break of dawn.
-3) Buffer/Storage. These devices are flexible in energy production. In addition they are coupled to a buffer such as a battery. An example is a heatpump or electric vehicle.
-4) Unconstrained. These devices are flexible in production and/or consumption, there is however no buffer or storage. An example is a generator.
+1. Uncontrollable. These appliances are not controllable when they consume or produce energy. An example is a solar panel.
+2. Time shiftable. These apliiances are capable of shifting their supply or demand in time, however constrained within a limit. An example is a washing machine that needs to be ready before the break of dawn.
+3. Buffer/Storage. These devices are flexible in energy production. In addition they are coupled to a buffer such as a battery. An example is a heatpump or electric vehicle.
+4. Unconstrained. These devices are flexible in production and/or consumption, there is however no buffer or storage. An example is a generator.
