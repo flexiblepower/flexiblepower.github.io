@@ -19,7 +19,7 @@ The manual intallation instruction can be found on in the download file.
 #Are you a consumer wanting to be a prosumer? 
 Being a prosumer means producing your own energy next to the consumption of energy. Do you have a solar panel and do you want your washing machine to switch on when it is producing power?
 
-You don’t have to wait for the market to be ready with a fully operational PowerMatcher infrastructure in place. You can download the PowerMatcher here and start to optimize your own house. The documentation explains step by step how you can install the PowerMatcher on a computer and how to connect it to your devices*
+You donâ€™t have to wait for the market to be ready with a fully operational PowerMatcher infrastructure in place. You can download the PowerMatcher here and start to optimize your own house. The documentation explains step by step how you can install the PowerMatcher on a computer and how to connect it to your devices*
 
 We already have a set of agents and drivers that work with a set of appliances. See if your appliance is listed here. Not in there and like a little bit of hacking? Join our community and get some support so that you can have a PowerMatcher system up in no time.
 
@@ -28,7 +28,7 @@ The PowerMatcherSuite can be used to optimize your office building or even a set
 
 The PowerMatcher has been implemented in the Couperus project in The Hague to optimize a residential apartment building with solar panels and heat pumps. The PowerMatcher can also be used to optimize your climate control systems or electric vehicle park. But also larger industrial installations that have flexibility  can use the PowerMatcher technology to unlock their flexibility; for instance greenhouse farmers have CHPs, or datacenters have backup generators that are idle most of the time. Virtually any combination of devices is possible; load only, production only; or a combination of both.
 
-The Energy Xchange Enablers (EXE) company is the first commercial solution that has leveraged PowerMatcher technology to unlock flexibility with clients (for instance a set of office buildings with a considerable volume of PV and battery installations) and use that flexibility to more effectively purchase energy on the energy markets. Your company won’t need an energy trading license to do this. Contact Energy Xchange Enablers here.
+The Energy Xchange Enablers (EXE) company is the first commercial solution that has leveraged PowerMatcher technology to unlock flexibility with clients (for instance a set of office buildings with a considerable volume of PV and battery installations) and use that flexibility to more effectively purchase energy on the energy markets. Your company wonâ€™t need an energy trading license to do this. Contact Energy Xchange Enablers here.
 
 Want a flying start? All you need to do for your company to be able to leverage the PowerMatcher technology is to make your devices capable of talking PowerMatcher language. It needs a device driver and possibly a device agent. Check out our list of ready available drivers and agents or follow this tutorial that instructs your developers to build an agent quickly and easily.
 
@@ -54,7 +54,7 @@ The device agent contains logic to use the FPAI control space and construct bids
 Check out our list of ready available drivers and agents or follow this tutorial that instructs your developers to build a driver or agent quickly and easily.
 
 #Are you a developer wanting to help us move forward?
-That is great news! We need all the help we can get to bring this disruptive open source technology out there. We have dedicated another page that will guide you into setting up a PowerMatcher instance. The source code can be found on github.com/flexiblepower. Detailed documentation is also available on github’s wiki as well as an issue tracker.
+That is great news! We need all the help we can get to bring this disruptive open source technology out there. We have dedicated another page that will guide you into setting up a PowerMatcher instance. The source code can be found on github.com/flexiblepower. Detailed documentation is also available on githubâ€™s wiki as well as an issue tracker.
 
 Spread the word and help our community grow!
 
