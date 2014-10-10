@@ -24,10 +24,11 @@ When supply and demand are equal (i.e. when the supply function and demand funct
 #Agent Technology
 The technology differentiates from other demand response technologies due to its multi agent based decentralized approach.
 The PowerMatcher consists of various agents that communicate via the PowerMatcher protocol. These agents are the:
-•	Device agent 				[plaatjes]
-•	Concentrator agent
-•	Auctioneer agent
-•	Objective agent
+
+*	Device agent 				[plaatjes]
+*	Concentrator agent
+*	Auctioneer agent
+*	Objective agent
 
 #The Device Agent
 In the PowerMatcher framework a smart device is represented by a device agent. The device agent contains logic to operate the process associated with the device in an economical optimal way.  It translates the state of a smart device (battery charge is low or CHP output is 1500W and gas consumption is 0,61 Euro/m3) to a bid on the PowerMatcher market (see Protocol section). 
@@ -71,6 +72,7 @@ This power set point is communicated to the appliance by the device agent throug
 
 #Optimization techniques and the PowerMatcher optimization
 At the moment we distinguish at least three types of optimization system approaches:
+
 1.	Centralized optimization (e.g. Simplex method)
 2.	Decentralized optimization (part of the objective function is calculated locally)
 3.	Agent technology
