@@ -12,6 +12,7 @@ image:
   creditlink: http://texturelovers.com
 ---
 
+<iframe width="560" height="315" src="//www.youtube.com/embed/Zz4OpVwYWYE" frameborder="0" allowfullscreen></iframe>
 
 ## A quick overview of the PowerMatcher technology ##
 * The PowerMatcher is an open source information and communications technology (ICT) for coordination in a smart electricity grid. It is capable of optimizing over high numbers of small units: distributed generators, responsive demand and electricity storage. 
