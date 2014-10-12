@@ -35,31 +35,10 @@ bing_verify:
 #UTF-8
 encoding: UTF-8
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: News
-    url: /posts/
-  - title: Why PM?
-    url: /why/
-  - title: Features
-    url: /features/
-  - title: In practice
-    url: /in-practice/
-  - title: Technology
-    url: /technology/
-  - title: Get started
-    url: /get-started/
-  - title: Get involved
-    url: /get-involved/
-  - title: About
-    url: /about/
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Amsterdam
 future:      true
-pygments:    true
-#highlighter: pygments
+highlighter: pygments
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks

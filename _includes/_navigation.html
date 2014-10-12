@@ -1,14 +1,65 @@
-<div class="navigation-wrapper">
-	<div class="site-name">
-		<a href="{{ site.url }}">{{ site.title }}</a>
-	</div><!-- /.site-name -->
-	<div class="top-navigation">
-		<nav role="navigation" id="site-nav" class="nav">
-		    <ul>
-		        {% for link in site.links %}
-				<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-		        {% endfor %}
-		    </ul>
+<div class="row">
+	<div class="col-md-6 col-md-offset-2">
+		<img class="img-responsive" src="/images/site/pms_logo.png"/>
+	</div>
+	<div class="col-md-2">
+		<div class="inner-addon right-addon">			
+			<input id="searchform" class="form-control" type="search" placeholder="SEARCH HERE" >
+			<span class="glyphicon glyphicon-search searchform-top-image"></span>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<nav class="navbar navbar-default" role="navigation">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav nav-justified">
+		        <li class="active"><a href="#">News</a></li>
+		        <li><a href="#">Why PM?</a></li>
+		        <li><a href="#">Features</a></li>
+		        <li><a href="#">In Practice</a></li>
+		        <li><a href="#">Technology</a></li>
+		        <li><a href="#">Get Started</a></li>
+		        <li><a href="#">Get Involved</a></li>
+		        <li><a href="#">About</a></li>
+		        <!--<li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="#">News</a></li>
+		            <li><a href="#"></a></li>
+		            <li><a href="#">Features</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#">One more separated link</a></li>
+		          </ul>
+		        </li>-->
+		      </ul>
+		    </div>
+		  </div>
 		</nav>
-	</div><!-- /.top-navigation -->
-</div><!-- /.navigation-wrapper -->
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<div class="float-center-wrapper">
+			<div id="header-carousel">
+				<div>
+					<img class="col-xs-12 img-responsive" src="/images/site/banner.jpg" />
+				</div>
+				<div>
+					<img class="col-xs-12 img-responsive" src="/images/site/banner_inner.jpg" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

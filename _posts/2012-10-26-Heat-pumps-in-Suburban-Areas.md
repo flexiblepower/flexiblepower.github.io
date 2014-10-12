@@ -4,6 +4,7 @@ title: Heat pumps in Suburban Areas
 description: "Heat pumps in Suburban Areas"
 tags: [PowerMatcher, Heat pumps, ECN]
 comments: true
+thumbnail: /images/Couperus.jpg
 ---
 
 <img src="https://www.ecn.nl/typo3temp/pics/c23590ae5a.jpg">
