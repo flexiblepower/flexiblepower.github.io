@@ -1,4 +1,8 @@
 $(document).ready(function(){
+	$(".home-article-title").dotdotdot({
+		watch: "window"
+	});
+
 	$("#header-carousel").slick({
 		arrows: true,
 		infinite: true,

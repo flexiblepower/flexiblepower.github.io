@@ -30,7 +30,7 @@
     <hr/>
     <div class="row introductions">
       <div class="col-md-4">
-        <div class="intro-story">
+        <div class="intro-story1">
           <img class="img-responsive img-center" src="/images/site/whoweare_icon.png"/>
           <h1>Who <span class="last-word">we are</span></h1> 
           <p>
@@ -41,7 +41,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="intro-story">
+        <div class="intro-story2">
           <img  class="img-responsive img-center" src="/images/site/nutshell_icon.png"/>  
           <h1>In a <span class="last-word">nutshell</span></h1> 
           <p>
@@ -51,7 +51,7 @@
         </div>  
       </div>
       <div class="col-md-4">
-        <div class="intro-story">
+        <div class="intro-story3">
           <img class="img-responsive img-center" src="/images/site/technical_icon.png"/>
           <h1>Get <span class="last-word">technical</span></h1>  
           <p>
@@ -107,22 +107,26 @@
       <div class="col-md-3">
         <div class="post-summary">
           <img class="img-responsive" src="{{ post.thumbnail }}"/>
-            <article>
-              {% if post.link %}    
-                <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
-              {% else %}
-                <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>                
-              {% endif %}
-            </article>
-          </div>
+          <article class="home-article-title">
+            {% if post.link %}    
+              <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
+            {% else %}
+              <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>                
+            {% endif %}
+          </article>
         </div>
+      </div>
       {% endfor %}
+    </div>    
+      <div class="float-center-wrapper">
+        <button class="center-header">More news</button>
+      </div>
     </div>
   </div>
 </div>
 <div class="row">
   <div class="footer-wrap">
-  <footer>
+  <footer class="col-md-12">
     {% include _footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->
@@ -132,4 +136,5 @@
 {% include _scripts.html %}
   
 </body>
+
 </html>

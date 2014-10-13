@@ -26,6 +26,10 @@ a:hover {
 	color: #333;
 }
 
+body {
+	overflow-x: hidden!important;
+}
+
 /* enable absolute positioning */
 .inner-addon { 
     position: relative; 
@@ -36,6 +40,7 @@ a:hover {
   position: absolute;
   padding: 9px;
   pointer-events: none;
+  color: white;
 }
 
 /* align icon */
@@ -51,10 +56,11 @@ a:hover {
 	background-color: #43515A;
 	color: white;
 	font-style: italic;
-	font-size: 10px;
-	padding:5px;
-	border-radius:5px;	
+	font-size: 14px;
+	padding:10px;
+	border-radius:10px;	
 	margin-right:0;
+	font-family: alliander-font-light;
 }
 
 /* placeholder color */
@@ -74,9 +80,10 @@ a:hover {
 }
 
 .searchform-top-image {
-	border-radius: 5px;
+	border-radius: 10px;
 	background-color: #829F41;
 	margin-left:0;
+	padding:10px;
 }
 
 /*menu */
@@ -130,7 +137,7 @@ a:hover {
 .float-center-wrapper {
 	width: 95%; 
     position: relative;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 #header-carousel img {
@@ -175,9 +182,19 @@ a:hover {
 	font-family: alliander-font-light;
 }
 
-.home #index .intro-story {
+.home #index .intro-story1 {
+	padding: 35px 70px 35px 0px;
+	position: relative;
+}
+
+.home #index .intro-story2 {
 	padding: 35px;
-	position:relative;
+	position: relative;
+}
+
+.home #index .intro-story3 {
+	padding: 35px 0px 35px 70px;
+	position: relative;
 }
 
 .home #index .introductions img {
@@ -213,23 +230,102 @@ h1.center-header {
 	margin: 50px 0;
 }
 
+.float-center-wrapper {
+	text-align:center;
+}
+
+.float-center-wrapper > button {
+	font-family: alliander-font;
+	background-color: #43515A;
+	border: 0;
+	border-radius: 12px;
+	color: white;
+	padding: 12px 15px;
+	margin-bottom: 50px;
+	width:250px;
+
+}
+
+.float-center-wrapper button:hover {
+	background-color: #829F41;
+}
+
 .post-summary {
-	height: 300px;
-	border: 1px solid #eee;
+	
+	border: 1px solid #BDC3C6;
 	border-radius: 10px;
+	margin-bottom: 40px;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
 .post-summary img {
-	width:100%;
+	width: 100%;
 	border-radius: 10px 10px 0 0;
-}
-
-.post-summary article h2 {
-	padding: 20px;
 }
 
 .post-summary article h2 a {
 	font-family: alliander-font-bold;
 	color: #829F41;
 	font-size: 16px;
+}
+
+article.home-article-title {
+	height: 100px;
+	width: inherit;
+	padding: 0px 20px;
+}
+
+.post-summary article h2 {
+	height: 70px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+
+footer {
+	background-color: #43515A;
+	border-top: 15px solid #829F41;
+	font-family: alliander-font-light;
+}
+
+ul.footer-list{
+	text-transform: uppercase;
+	margin: 50px 0 0 -40px;
+	color: white;
+	list-style: none;
+	line-height:30px;
+}
+
+.newsletter-subscription {
+	margin: 50px 0 0 40px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.newsletter-subscription input[type="text"] {
+	width: 100%;
+	background-color: #3C474C;
+	border: 1px solid #BDC3C6;
+	border-radius: 15px;
+	height:35px;
+	padding-left:10px;
+}
+
+.newsletter-subscription button {
+	background-color: #829F41;
+	border:0;
+	border-radius: 15px;
+	padding: 3px 35px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.newsletter-subscription button:hover {
+	background-color: #829F41;
+}
+
+.copyright {
+	color: white;
+	text-align: right;
 }
