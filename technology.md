@@ -1,11 +1,13 @@
 ---
 layout: page
 permalink: /technology/
+title: Powermatcher
+title-green: technology
 modified: 29-9-2014
 tagline: PowerMatcher Technology
 tags: [PowerMatcher, Technology, Transactive Energy, how it works]
 image:
-  feature: texture-feature-02.jpg
+  feature: site/banner_inner.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

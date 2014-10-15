@@ -1,20 +1,21 @@
 ---
 layout: page
 permalink: /in-practice/
-title: In practice
+title: In
+title-green: practice
 tagline: PowerMatcher™ Technology
 tags: [PowerMatcher™, Practice, Transactive Energy, Features]
 modified: 22-9-2014
 comments: true
 image:
-  feature: texture-feature-02.jpg
+  feature: site/banner_inner.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
 
 Current PowerMatcher™ implementations can be also be found on the [Flexiblepower Alliance Network](http://www.flexiblepower.org/implementations/ "Flexiblepower Alliance Network")
 
-<img src="{{ site.url }}/images/fan-implementations.png">
+<img data-caption="Fan Implementations"  src="/images/fan-implementations.png">
 
 
 # REFERENCE PROJECTS IN OPERATION
@@ -22,21 +23,21 @@ Current PowerMatcher™ implementations can be also be found on the [Flexiblepow
 ## PowerMatching City
 **Location: Hoogkerk, The Netherlands**
 
-<img src="{{ site.url }}/images/PMC.png">
+<img src="/images/PMC.png">
 
 In 2010 the PowerMatcher™ technology was implemented in Hoogkerk. The goal was to show that the technology not only worked during tests in a laboratory environment but also in real-life. 25 household were selected and outfitted with several intelligent devices such as smart washing machines, heat-pumps, solar panels and micro-CHP's.  The results showed that consumers can and will change their energy usage profile to benefit from lower energy prices when local power is abundant. Connecting devices and coordinating energy demands resulted in a lower peak in the grid and it significantly reduced the difference in supply and demand in the neighborhood. Another significant result was the insight that the technology was not yet ready for large scale deployment at that time. Particularly the installation and configuration of devices and the connection to the local market were complex and time consuming.
 
 ## Matrix V
 **Location: Amsterdam, The Netherlands**
 
-<img src="{{ site.url }}/images/Matrix-V.jpg">
+<img data-caption="Matrix V" src="/images/Matrix-V.jpg">
 
 Late in 2011 the PowerMatcher™ technology was installed in an office building housing around 15 companies. The PowerMatcher™ technology was used to coordinate the energy production of PV on the rooftop with the energy demand of dishwashers and fridges in the coffee corners of the building. Goal was to determine if connecting existing appliances in office buildings to the smart grid was economically viable. The results showed that refitting existing appliances by adding switches and sensors to the mains plug of a regular appliance can be beneficial. However the benefits are bigger when using smart appliances where the technology is integrated. The reason is not only the higher cost of having additional equipment with which you can only switch on and off, but mainly the need for energy related information from the device itself. That information is usually available in smart appliances.
 
 ## Couperus
 **Location: the Hague, The Netherlands**
 
-<img src="{{ site.url }}/images/Couperus.jpg">
+<img src="/images/Couperus.jpg">
 
 In 2012 a new complex with 300 apartments has been outfitted with heat-pumps. The PowerMatcher™ technology helps to coordinate the energy use of these heat-pumps in order to reduce peak loads and differences in supply and demand. For the end users, the system should lead to a lower energy bill, without reducing customer comfort or freedom.
 
@@ -45,28 +46,28 @@ In 2012 a new complex with 300 apartments has been outfitted with heat-pumps. Th
 ## PowerMatching City II
 **Location: Groningen, The Netherlands**
 
-<img src="{{ site.url }}/images/PMC.png">
+<img src="/images/PMC.png">
 
 PMCII is the follow up to PowerMatching City. The project started in May 2013 and more than doubles the number of household to around 60. The focus is less on the technological side but more on energy services and energy markets. The project will test how different personal goals of end-users have different types of impact on the local energy system. Some households will aim to minimize their energy costs, by buying when energy is cheap and selling when energy is expensive. Others will aim to minimize their interaction with the outside by using locally available energy as much as possible.
 
 ##Ecogrid
 **Location: Bornholm**
 
-<img src="{{ site.url }}/images/EcoGrid.png">
+<img src="/images/EcoGrid.png">
 
 The EU funded research project Ecogrid started in 2011 and will coordinate the energy demands of 2.000 households on the island of Bornholm (Denmark) with local production by wind turbines. Without added intelligence, the high penetration of renewable energy (>50%) on the island causes critical usage of the existing grid-transport capacity and may result in difficult if not impossible balancing of supply and demand.   The participants will be equipped with residential smart devices using gateways and â€œsmartâ€� controllers. Installation of the solutions allows for real-time prices to be communicated to consumers and allows users to configure their automatic demand-response preferences, e.g. through different types of electricity price contracts. â€œAutomationâ€� and customer choice is one of the key elements in this project.
 
 ##Smart Grid Pilot Heerhugowaard
 **Location: Heerhugowaard, The Netherlands**
 
-<img src="{{ site.url }}/images/SEC.jpg">
+<img src="/images/SEC.jpg">
 
 One of the projects of the Smart Energy Collective (SEC) is located in the city of Heerhugowaard, more specifically, in a 10 year old neighborhood. Most of the 3.000 households have solar panels on their roofs. The remaining electricity demand is produced by a wind turbine. The project aims to install PowerMatcher™â„¢ technology in 300-500 households in 2014, with the addition of a number of microCHPâ€™s, electric vehicles, heat-pumps and smart appliances. The project will evaluate several customer value propositions regarding energy flexibility.  The goal is to determine if the interaction of gas and electricity can be used to optimize a local energy market, by using spare capacity in the gas grid to reduce peak loads in the power grid.
 
 ##Lochem Energy
 **Location: Lochem**
 
-<img src="{{ site.url }}/images/Lochem-Energie.png">
+<img src="/images/Lochem-Energie.png">
 
 Lochem Energy is a smart energy initiative in an existing grid. It is the result of a user initiative to start a local energy cooperative by households to reduce their energy consumption and produce a larger part of their energy needs locally. The aim is to have a total of 1MW of PV systems at multiple locations to serve 250 customers, without any investments in new grid capacity.
 
@@ -75,7 +76,7 @@ Lochem Energy is a smart energy initiative in an existing grid. It is the result
 ## Houthaven
 **Location: Amsterdam**
 
-<img src="{{ site.url }}/images/Houthaven.png">
+<img src="/images/Houthaven.png">
 
 The Houthaven project  is part of the European NEXT-building program, in which a new generation of "low energy buildings" with smart technologies are tested in Amsterdam, Lyon and Helsingborg. Houthaven is an old harbor area which will be redeveloped. Once redeveloped, it will consist of 2.000 households and 40.000 m2 of commercial property (schools, offices andshops). The harbor areashould become climate neutral.
 

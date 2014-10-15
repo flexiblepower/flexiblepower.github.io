@@ -12,6 +12,8 @@
 
 {% include _navigation.html %}
 
+{% include _header-home.html %}
+
 <div id="index" class="row">
   <div class="col-md-8 col-md-offset-2">
     <div class="row">
@@ -31,7 +33,7 @@
     <div class="row introductions">
       <div class="col-md-4">
         <div class="intro-story1">
-          <img class="img-responsive img-center" src="/images/site/whoweare_icon.png"/>
+          <img class="img-responsive" src="/images/site/whoweare_icon.png"/>
           <h1>Who <span class="last-word">we are</span></h1> 
           <p>
             The PowerMatcher is a smartgrid technology of TNO.
@@ -42,7 +44,7 @@
       </div>
       <div class="col-md-4">
         <div class="intro-story2">
-          <img  class="img-responsive img-center" src="/images/site/nutshell_icon.png"/>  
+          <img  class="img-responsive" src="/images/site/nutshell_icon.png"/>  
           <h1>In a <span class="last-word">nutshell</span></h1> 
           <p>
             A quick overview of the technology; FAQs; Experience with Virtual Power Plants and Active Distribution Management. Your fast route to the technology.
@@ -52,7 +54,7 @@
       </div>
       <div class="col-md-4">
         <div class="intro-story3">
-          <img class="img-responsive img-center" src="/images/site/technical_icon.png"/>
+          <img class="img-responsive" src="/images/site/technical_icon.png"/>
           <h1>Get <span class="last-word">technical</span></h1>  
           <p>
             The PowerMatcher automatically balances demand and supply in clusters of Distributed Energy Resources. The technology is based on Multi-agent Systems technology.
@@ -104,7 +106,7 @@
     <h1 class="center-header"><a href="/posts/">Latest <span class="last-word">News</span></a></h1>
     <div class="row">
       {% for post in site.posts limit:4 %}
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="post-summary">
           <img class="img-responsive" src="{{ post.thumbnail }}"/>
           <article class="home-article-title">
