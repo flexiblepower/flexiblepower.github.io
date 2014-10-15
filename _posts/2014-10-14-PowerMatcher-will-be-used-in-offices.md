@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EXE & Triodos are working on PowerMatcher technology in offices
-description: "FlexiblePower Alliance Network (FAN) prompts stakeholders in energy sector to develop joint standard"
+description: "Powermatcher technology will be used for offices"
 tags: [PowerMatcher, EXE, Triodos, R.E.X. , Offices, smart grid]
 comments: true
 ---
