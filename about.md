@@ -1,13 +1,14 @@
 ---
 layout: page
 permalink: /about/
-title: About the PowerMatcher
+title: About the 
+title-green: PowerMatcher
 tagline: PowerMatcher, Mission, 
 tags: [about, PowerMatcher, FAN, Transactive Energy]
 modified: 8-8-2014
 comments: true
 image:
-  feature: texture-feature-02.jpg
+  feature: site/banner_inner.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

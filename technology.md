@@ -1,17 +1,18 @@
 ---
 layout: page
 permalink: /technology/
-title: Technology
+title: Powermatcher
+title-green: technology
+modified: 29-9-2014
 tagline: PowerMatcher Technology
 tags: [PowerMatcher, Technology, Transactive Energy, how it works]
-modified: 29-9-2014
-comments: true
 image:
-  feature: texture-feature-02.jpg
+  feature: site/banner_inner.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
 
+<<<<<<< HEAD
 The PowerMatcher Suite is a ‘demand response’ technology that balances all smart devices, from low voltage to high voltage, in a virtual market. The PowerMatcher could also be herded among the recently coined term transactive energy.
 
 “Transactive energy (TE) is a new hot topic in the energy industry, but what exactly is it? Frankly, it is a concept so new that it does not yet have a formal definition. Carl Imhoff, manager of electricity infrastructure for the Pacific Northwest National Laboratory summed it up by saying, “Transactive energy is a means of using economic signals or incentives to engage all the intelligent devices in the power grid—from the consumer to the transmission system—to get a more optimal allocation of resources and engage demand in ways we haven’t been able to before.” 
