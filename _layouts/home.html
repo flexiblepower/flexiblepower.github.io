@@ -105,20 +105,21 @@
     <hr class="black-hr" />
     <h1 class="center-header"><a href="/posts/">Latest <span class="last-word">News</span></a></h1>
     <div class="row">
-      {% for post in site.posts limit:4 %}
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="post-summary">
-          <img class="img-responsive" src="{{ post.thumbnail }}"/>
-          <article class="home-article-title">
-            {% if post.link %}    
-              <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
-            {% else %}
-              <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>                
-            {% endif %}
-          </article>
-        </div>
-      </div>
-      {% endfor %}
+      <div class="featured-articles">
+        {% for post in site.posts limit:4 %}  
+          <div class="col-md-3">
+            <div class="item">
+              <img class="img-responsive" src="{{ post.thumbnail }}"/>
+              <article class="sidebar-article-title">
+                {% if post.link %}    
+                  <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
+                {% else %}
+                  <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>                
+                {% endif %}
+              </article>
+            </div> 
+          </div>           
+          {% endfor %}
     </div>    
       <div class="float-center-wrapper">
         <button class="center-header">More news</button>

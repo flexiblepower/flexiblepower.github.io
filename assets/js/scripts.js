@@ -22,6 +22,9 @@ $(document).ready(function(){
 		
 	});
 	
+	$(".featured-articles .item .sidebar-article-title h2").dotdotdot({
+		
+	});
 
 	$("#header-carousel").slick({
 		arrows: true,
