@@ -8,7 +8,7 @@ $(document).ready(function(){
 	}).parent().addClass('active');
 
 	$(window).load(function() {
-    	$('.page #main article .article-wrap img').captionjs({
+    	$('.page #main article .article-wrap img[data-caption]').captionjs({
     		"is_responsive"   : true,
     		"mode": "animated"
     	});
@@ -18,9 +18,7 @@ $(document).ready(function(){
 		watch: "window"
 	});
 
-	$(".sidebar-articles .item .sidebar-article-title h2").dotdotdot({
-		
-	});
+	$(".item .sidebar-article-title h2").dotdotdot({});
 	
 
 	$("#header-carousel").slick({
