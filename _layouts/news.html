@@ -1,13 +1,53 @@
-{% for post in site.posts %}    
-  {% if post.tags contains 'sustainia' %}
-    <img src="{{ post.thumbnail }}"/>
-    <article>
-      {% if post.link %}    
-        <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
-      {% else %}
-        <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
-      {% endif %}
-    </article>
-  {% endif %}    
-{% endfor %}
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+<body class="news">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% include _header-home.html %}
+
+<div id="index" class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="row">
+      <h1 class="center-header"><a href="/posts/">Latest <span class="last-word">News</span></a></h1>
+      <div class="featured-articles">
+        {% for post in site.posts %}  
+          <div class="col-md-3">
+            <div class="item">
+              <img class="img-responsive" src="{{ post.thumbnail }}"/>
+              <article class="sidebar-article-title">
+                {% if post.link %}    
+                  <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
+                {% else %}
+                  <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>                
+                {% endif %}
+              </article>
+            </div> 
+          </div>           
+        {% endfor %}
+      </div> 
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="footer-wrap">
+  <footer class="col-md-12">
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+</div>
+
+
+{% include _scripts.html %}
+  
+</body>
+
+</html>

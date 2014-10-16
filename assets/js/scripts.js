@@ -8,7 +8,7 @@ $(document).ready(function(){
 	}).parent().addClass('active');
 
 	$(window).load(function() {
-    	$('.page #main article .article-wrap img').captionjs({
+    	$('.page #main article .article-wrap img[data-caption]').captionjs({
     		"is_responsive"   : true,
     		"mode": "animated"
     	});
