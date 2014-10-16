@@ -1,4 +1,4 @@
 ---
-layout: news-index
+layout: news
 permalink: /news/
 ---
