@@ -14,17 +14,19 @@ $(document).ready(function(){
     	});
 	});
 
+	$('ul.nav li.dropdown').hover(function() {
+  		$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
+	}, function() {
+  		$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
+	});
+
 	$(".home-article-title").dotdotdot({
 		watch: "window"
 	});
 
-	$(".sidebar-articles .item .sidebar-article-title h2").dotdotdot({
-		
-	});
+	$(".sidebar-articles .item .sidebar-article-title h2").dotdotdot({});
 	
-	$(".featured-articles .item .sidebar-article-title h2").dotdotdot({
-		
-	});
+	$(".featured-articles .item .sidebar-article-title h2").dotdotdot({});
 
 	$("#header-carousel").slick({
 		arrows: true,

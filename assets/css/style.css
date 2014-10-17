@@ -541,7 +541,6 @@ ul.footer-list{
 	display:block;
 	border-radius:30px; 
 	border:2px #fff solid;
-	background:url(../images/arrow.png) 170px center no-repeat; 
 }
 .slider1_btn a{
 	color: white;
@@ -551,4 +550,8 @@ ul.footer-list{
 	font:600 18px/60px 'Open Sans', sans-serif;
 	display:block;
 	text-transform:uppercase;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;    
 }
