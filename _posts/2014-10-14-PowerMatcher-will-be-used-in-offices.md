@@ -11,4 +11,4 @@ comments: true
 
 This movie explains more (in Dutch):
 
-<iframe src="//www.youtube.com/embed/C1wZlyu3U94" frameborder="0" allowfullscreen></iframe>
+<iframe width="360" height="500" src="//www.youtube.com/embed/C1wZlyu3U94" frameborder="0" allowfullscreen></iframe>
