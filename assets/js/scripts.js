@@ -70,7 +70,7 @@ $(document).ready(function(){
 			"height": "200px",
 			"visibility": "visible"
 		});
-	}, 1000);
+	}, 2000);
 	
 
 	changeIntroHeight();
