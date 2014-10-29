@@ -37,7 +37,7 @@
       <article>
         <h1>{{ page.title }}<span class="green-word"> {{ page.title-green }} </span></h1>
         <div class="date">
-          {{ page.date | date: "%B %d, %Y" }} | {% for tag in page.tags %} {{ tag }}, {% endfor %} 
+          {{ page.date | date: "%B %d, %Y" }} | {% for tag in page.tags %} <span class="tag">{{ tag }}</span>, {% endfor %} 
         </div>
         <p>
           {{ page.description }}

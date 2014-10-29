@@ -8,7 +8,7 @@ $(document).ready(function(){
 	}).parent().addClass('active');
 
 	$(window).load(function() {
-    	$('.page #main article .article-wrap img[data-caption]').captionjs({
+    	$('.page #main article .article-wrap *[data-caption]').captionjs({
     		"is_responsive"   : true,
     		"mode": "animated"
     	});
@@ -42,4 +42,9 @@ $(document).ready(function(){
   		slidesToShow: 4,
   		slidesToScroll: 1
 	});
+
+	var div = $('iframe');
+	var width = (div.width() * 0.6);
+
+	$("iframe").css('height', width);
 });

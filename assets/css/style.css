@@ -131,7 +131,7 @@ body {
 	border-bottom: 5px solid #FFFFFF;
 }
 
-.navbar li.active {
+.navbar li.active, .navbar li:hover {
 	border-bottom: 5px solid #829F41;
 }
 
@@ -140,7 +140,7 @@ body {
 }
 
 .float-center-wrapper {
-	width: 95%; 
+	width: 100%; 
     position: relative;
     margin: 0 auto;
 }
@@ -273,7 +273,7 @@ h1.center-header {
 .post-summary {
 	min-height: 395px;
 	border: 1px solid #BDC3C6;
-	border-radius: 10px;
+	border-radius: 20px;
 	margin-bottom: 40px;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -282,7 +282,7 @@ h1.center-header {
 .post-summary img {
 	width: 100%;
 	height: 325px!important;
-	border-radius: 10px 10px 0 0;
+	border-radius: 20px 20px 0 0;
 }
 
 .post-summary article h2 a {
@@ -347,12 +347,14 @@ ul.footer-list{
 }
 
 .copyright {
+	padding-top: 5px;
 	color: white;
 	text-align: right;
 }
 
 /*pages specific*/
 .featured-image {
+	width:100%;
 	display: block;
 	margin:0 auto;
 }
@@ -455,9 +457,8 @@ ul.footer-list{
 
 .sidebar-articles .item, .featured-articles .item {
 	height: 300px;
-
 	border: 1px solid #BDC3C6;
-	border-radius: 10px;
+	border-radius: 20px;
 	margin: 40px auto;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -523,17 +524,23 @@ ul.footer-list{
 	height:616px;
 	display: inline-block;
 	background:url(/images/site/banner.jpg) no-repeat center top; background-size:auto;
-	background-size:100% auto;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	 background-size: 100% auto;
 }
 
 .slider2{ 
 	float:left;
 	width:100%;
 	min-width:990px;
-	height: 384px;
+	height: 616px;
 	display: inline-block;
-	background:url(/images/site/banner_inner.jpg) no-repeat center top; background-size:auto;
-	background-size:100% auto;
+	background:url(/images/site/Home-banner-bg.jpg) no-repeat center top; background-size:auto;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	 background-size: 100% auto;
 }
 
 
@@ -602,4 +609,34 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .navbar-toggle .icon-bar {
 	
 	margin: 0 auto;
+}
+
+.tag {
+	color: #829F41;
+}
+
+iframe {
+	width:100%;
+}
+
+.footer-wrapper {
+	margin: 0 120px 0 40px;
+}
+
+.social-media-links {
+	padding-bottom:10px;
+}
+
+.pm-logo-header {
+	padding-top:15px;
+}
+
+.slick-prev {
+	position: relative;
+	left:50px!important;
+}
+
+.slick-next {
+	position: relative;
+	right:50px!important;
 }
