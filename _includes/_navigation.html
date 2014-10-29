@@ -3,9 +3,11 @@
 		<a href="/"><img class="img-responsive pm-logo-header" src="/images/site/pms_logo.png"/></a>
 	</div>
 	<div class="col-md-2">
-		<div class="inner-addon right-addon">			
-			<input id="searchform" class="form-control" type="search" placeholder="SEARCH HERE" >
-			<span class="glyphicon glyphicon-search searchform-top-image"></span>
+		<div id="search" class="inner-addon right-addon">	
+			<form action="/search" method="get">		
+				<input id="search-query" name="q" class="form-control" type="search" placeholder="SEARCH HERE" autocomplete="off">
+				<span class="glyphicon glyphicon-search searchform-top-image"></span>
+			</form>
 		</div>
 	</div>
 </div>

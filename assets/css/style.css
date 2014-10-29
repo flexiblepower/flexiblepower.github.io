@@ -56,7 +56,7 @@ body {
 .left-addon input  { padding-left:  30px; }
 .right-addon input { padding-right: 30px; }
 
-#searchform {
+#search-query {
 	margin: 40px 0;
 	background-color: #43515A;
 	color: white;
@@ -69,18 +69,18 @@ body {
 }
 
 /* placeholder color */
-#searchform::-webkit-input-placeholder { /* WebKit browsers */
+#search-query::-webkit-input-placeholder { /* WebKit browsers */
    	color: white;
 }
-#searchform:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+#search-query:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
 	color: white;
 	opacity:  1;
 }
-#searchform::-moz-placeholder { /* Mozilla Firefox 19+ */
+#search-query::-moz-placeholder { /* Mozilla Firefox 19+ */
 	color: white;
 	opacity:  1;
 }
-#searchform:-ms-input-placeholder { /* Internet Explorer 10+ */
+#search-query:-ms-input-placeholder { /* Internet Explorer 10+ */
 	color: white;
 }
 
@@ -190,6 +190,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .slick-prev:before, .slick-next:before {
 	color: #43515A!important;
+}
+
+
+.float-center-wrapper .slick-prev:hover, .float-center-wrapper .slick-next:hover {
+	background-color:transparent;
 }
 
 #index {
