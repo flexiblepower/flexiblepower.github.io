@@ -64,6 +64,16 @@ $(document).ready(function(){
 		});
 	}
 
+	setTimeout(function() {
+		console.log("bam");		
+			$("iframe#twitter-widget-0").css({
+				"width": "100%",
+				"height": "200px",
+				"visibility": "visible"
+			});
+	}, 1000);
+	
+
 	changeIntroHeight();
 
 	$(window).resize(function(){		

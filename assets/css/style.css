@@ -689,3 +689,11 @@ iframe {
 .slick-prev:before, .slick-next:before, .slick-prev:hover, .slick-next:hover {
 	font-size: 40px!important;
 }
+
+#twitter-widget-0 {
+	width:100%;
+}
+
+iframe {
+	visibility:hidden;
+}
