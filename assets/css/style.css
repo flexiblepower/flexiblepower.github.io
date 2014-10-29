@@ -188,31 +188,49 @@ body {
 }
 
 .home #index .intro-story1 {
-	padding: 35px 70px 35px 0px;
+	width:100%;
+	padding: 20px 40px;
 	position: relative;
 }
 
 .home #index .intro-story2 {
-	padding: 35px;
+	width:100%;
+	padding: 20px 40px;
 	position: relative;
 }
 
 .home #index .intro-story3 {
-	padding: 35px 0px 35px 70px;
+	width:100%;
+	padding: 20px 40px;
 	position: relative;
 }
 
 @media only screen and (max-width: 1024px)  { 
 	.home #index .intro-story1 {
-		padding-right: 0!important;
+		padding: 0!important;
+	}
+
+	.home #index .intro-story1 button {
+		position: relative;
+		left:0;
 	}
 
 	.home #index .intro-story2 {
-		padding-left: 0!important;
+		padding: 0!important;
+	}
+
+	.home #index .intro-story2 button {
+		position: relative;
+		left:0;
 	}
 
 	.home #index .intro-story3 {
-		padding-left: 0!important;
+		padding: 0!important;
+	}
+
+	.home #index .intro-story3 button {
+		position: relative;
+		left:0;
 	}
 
 }
@@ -229,7 +247,9 @@ body {
 	border-radius: 12px;
 	color: white;
 	padding: 10px 15px;
-	margin-top:20px;
+	position: absolute;
+	left:    40px;
+	bottom:   0;
 }
 
 .read-more-button:hover {
@@ -456,7 +476,9 @@ ul.footer-list{
 }
 
 .sidebar-articles .item, .featured-articles .item {
+	background-color: white;
 	height: 300px;
+	width: 300px;
 	border: 1px solid #BDC3C6;
 	border-radius: 20px;
 	margin: 40px auto;
@@ -528,6 +550,7 @@ ul.footer-list{
 	-moz-background-size: 100% auto;
 	-o-background-size: 100% auto;
 	 background-size: 100% auto;
+	 margin-top: -2px;
 }
 
 .slider2{ 
@@ -542,7 +565,6 @@ ul.footer-list{
 	-o-background-size: 100% auto;
 	 background-size: 100% auto;
 }
-
 
 .banner_inner { 
 	width:990px;
@@ -638,5 +660,9 @@ iframe {
 
 .slick-next {
 	position: relative;
-	right:50px!important;
+	right:70px!important;
+}
+
+.slick-prev:before, .slick-next:before, .slick-prev:hover, .slick-next:hover {
+	font-size: 40px!important;
 }
