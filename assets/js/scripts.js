@@ -70,6 +70,7 @@ $(document).ready(function(){
 			"height": "200px",
 			"visibility": "visible"
 		});
+		$(".spinner").hide();
 	}, 2000);
 	
 
