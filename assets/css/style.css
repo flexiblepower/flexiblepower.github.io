@@ -699,6 +699,6 @@ iframe {
 	width:100%;
 }
 
-iframe {
+iframe#twitter-widget-0 {
 	visibility:hidden;
 }
