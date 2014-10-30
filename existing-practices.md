@@ -23,8 +23,8 @@ FPAI drivers (all open source):
 
 * S0 pulse counters 
 * Miele@Home gateway protocol
- *        Miele Dishwasher DW1000
- *        Miele Refrigerator
+	*        Miele Dishwasher DW1000
+	*        Miele Refrigerator
 * Simulation drivers + managers
  *        PV Panel
  *        Battery
