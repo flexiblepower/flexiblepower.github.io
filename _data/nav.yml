@@ -1,0 +1,40 @@
+- title: "News"
+  href: "/news/"
+
+- title: "Why PM?"
+  href: "/why/"
+  subcategories:
+    - subtitle: "Why Powermatcher"
+      subhref: "/why/powermatcher/"
+    - subtitle: "Powermatcher Businesscases"
+      subhref: "/why/Businesscases/"
+    - subtitle: "Why open source?"
+      subhref: "/why/opensource/"
+
+- title: "Features"
+  href: "/features/"
+
+- title: "In Practice"
+  subcategories:
+    - subtitle: "In Operation"
+      subhref: "/in-practice/in-operation/"
+    - subtitle: "Existing practices"
+      subhref: "/in-practice/existing-practices/"
+
+- title: "Technology"
+  href: "/Technology/"
+
+
+- title: "Get started"
+  href: "/get-started/"
+
+- title: "Get Involved"
+  href: "/get-involved/"
+  subcategories: 
+    - subtitle: "Why join?"
+      subhref: "/get-involved/why-join/"
+    - subtitle: "Contribute"
+      subhref: "/get-involved/contribute/"
+
+- title: "About"
+  href: "/about/"
