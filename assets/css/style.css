@@ -484,7 +484,6 @@ ul.footer-list{
 	text-transform: uppercase;
 }
 
-
 .join-box h2 {
 	color: white;
 	padding: 25% 10% 0 10%;
@@ -531,8 +530,6 @@ ul.footer-list{
 		width: 300px;
 	}
 }
-
-
 
 .sidebar-articles .item img {
 	width:100%;
@@ -689,14 +686,20 @@ iframe {
 	padding-top:15px;
 }
 
-.slick-prev {
-	position: relative;
-	left:50px!important;
+button.slick-prev {
+	left:50px;
 }
 
-.slick-next {
-	position: relative;
-	right:70px!important;
+button.slick-next {
+	right:70px;
+}
+
+#partners-carousel button.slick-next {
+	right:-25px;
+}
+
+#partners-carousel button.slick-prev {
+	left:-25px;
 }
 
 .slick-prev:before, .slick-next:before, .slick-prev:hover, .slick-next:hover {
