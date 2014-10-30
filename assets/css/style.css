@@ -112,7 +112,7 @@ h1 {
 .navbar-default {
 	padding-top: 5px;
 	background-color: white;
-	margin-bottom:0px;
+	margin-bottom:-3px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -124,7 +124,7 @@ h1 {
 	font-family: alliander-font-bold;
 	text-transform: uppercase;
 	font-weight:bolder;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .navbar li a {

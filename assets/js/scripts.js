@@ -60,7 +60,7 @@ $(document).ready(function(){
 			if ($(this).height() > introHighestHeight) {
 				introHighestHeight = $(this).height();
 			}
-			$("div[class*='intro-story']").height(introHighestHeight + 30);
+			$("div[class*='intro-story']").height(introHighestHeight + 50);
 		});
 	}
 
