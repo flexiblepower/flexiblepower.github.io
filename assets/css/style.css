@@ -169,7 +169,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 .dropdown-menu>li.active>a {
-	background-color: white;
 	color: #829F41;
 }
 
