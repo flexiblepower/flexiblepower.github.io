@@ -4,6 +4,7 @@ title: “Excellent paper” on Recent Results
 description: "Overview of Achievements & Papers"
 tags: [PowerMatcher, IEEE Power, San Diego, renewable]
 comments: true
+thumbnail: /images/site/PMnewslogo.png
 ---
 
 “Excellent paper” on Recent Results

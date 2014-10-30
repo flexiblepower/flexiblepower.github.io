@@ -4,6 +4,7 @@ title: First results from PowerMatching City
 description: "First results from PowerMatching City"
 tags: [PowerMatcher, PowerMatching City, Micro-CHP, Imbalance]
 comments: true
+thumbnail: /images/site/PMnewslogo.png
 ---
 Although PowerMatching city was officially opened in April this year (2012), it had to wait for the heating system to show its full potential. Last september, when the days got shorter and the nights colder, the heat demand of the households started to increase, requiring the micro-CHP and heat pump units to provide heat. Using thermal buffers filled with 200 liters of water, the flexibility of these systems is used to optimize the system.
  

@@ -4,6 +4,7 @@ title: Essent EV now PowerMatcher ready
 description: "Essent EV now PowerMatcher ready"
 tags: [PowerMatcher, EV, Essent, Volkswagen, Innosys]
 comments: true
+thumbnail: /images/site/PMnewslogo.png
 ---
 On March 31st, two of the two hundred all electrical Essent vehicles were equipped with the PowerMatcher Technology at InnoSys Delft BV. An Essent all electrical vehicleembedded PC containing the PowerMatcher software was built in both Volkwagen Golfs, as well a router with UMTS connection for the neccesay network connection. To top it off, a beautiful display in the trunk was installed as well. Tim de Lange of InnoSys did all the hard work and at the end of the day, in both cars all hardware was installed.
  
