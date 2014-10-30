@@ -2,7 +2,7 @@
 layout: page
 permalink: /features/
 title: PowerMatcher
-title-green: features
+titleGreen: features
 tagline: Features, PowerMatcher
 tags: [PowerMatcher, Features,peakshaving,demand]
 modified: 8-8-2014

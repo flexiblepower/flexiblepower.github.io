@@ -2,7 +2,7 @@
 layout: page
 permalink: /in-practice/existing-practices/
 title: Existing
-title-green: practices
+titleGreen: practices
 tagline: PowerMatcher™ Technology
 tags: [PowerMatcher™, Practice, Transactive Energy, Features]
 modified: 22-9-2014

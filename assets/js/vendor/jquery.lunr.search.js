@@ -49,7 +49,8 @@
       return lunr(function() {
         this.field('title', { boost: 10 });
         this.field('body');
-        this.ref('id');      
+        this.field("titleGreen"); 
+        this.ref('id');
       });
     };
     
@@ -94,9 +95,13 @@
           displaydate: function() {
             // only for posts (e.g. Oct 12, 2012)
             return dateFormat(parseDate(raw.date), 'mmm dd, yyyy');
-          }
+          },
+          titleGreen: raw.titleGreen           
         });
-      }
+      }     
+      $.extend(entry, {
+        titleGreen: raw.titleGreen    
+      });     
       
       return entry;
     };

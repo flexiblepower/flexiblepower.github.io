@@ -2,7 +2,7 @@
 layout: page
 permalink: /technology/
 title: Powermatcher
-title-green: technology
+titleGreen: technology
 modified: 29-9-2014
 tagline: PowerMatcher Technology
 tags: [PowerMatcher, Technology, Transactive Energy, how it works]

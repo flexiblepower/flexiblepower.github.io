@@ -6,6 +6,15 @@ image:
   feature: powermatcher-logo.png
   credit: PowerMatcher community
   creditlink: http://www.flexiblepower.org
+carousel_images:
+  - /images/site/tno-logo.jpg
+  - /images/site/EcoGrid_logo.png
+  - /images/site/tno-logo.jpg
+  - /images/site/EcoGrid_logo.png
+  - /images/site/tno-logo.jpg
+  - /images/site/EcoGrid_logo.png
+  - /images/site/tno-logo.jpg
+  - /images/site/EcoGrid_logo.png
 ---
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/Zz4OpVwYWYE" frameborder="0" allowfullscreen></iframe>

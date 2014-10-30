@@ -181,7 +181,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .float-center-wrapper {
 	width: 100%; 
     position: relative;
-    margin: 0 auto;
+}
+
+.more-news-button {
+	margin-top: 30px;
 }
 
 #header-carousel img {
@@ -533,6 +536,7 @@ ul.footer-list{
 	margin-bottom: 40px;
 	text-overflow: ellipsis;
 	overflow: hidden;
+	margin: 0 auto;
 }
 
 @media only screen and (max-width: 970px)  {  
@@ -704,11 +708,11 @@ button.slick-next {
 }
 
 #partners-carousel button.slick-next {
-	right:-25px;
+	right:-35px;
 }
 
 #partners-carousel button.slick-prev {
-	left:-25px;
+	left:-35px;
 }
 
 .slick-prev:before, .slick-next:before, .slick-prev:hover, .slick-next:hover {
@@ -734,4 +738,12 @@ footer a {
 
 footer a:hover{
 	color: white;
+}
+
+.search-result-row {
+	font-family: alliander-font-light; 
+}
+
+.search-result-row h4 {
+	
 }

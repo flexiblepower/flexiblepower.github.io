@@ -2,7 +2,7 @@
 layout: page
 permalink: /get-started/
 title: How to 
-title-green: get started
+titleGreen: get started
 description: "How to get started with the PowerMatcher"
 tags: [Jekyll, theme, responsive]
 image:

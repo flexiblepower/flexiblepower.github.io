@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/
 title: About the 
-title-green: PowerMatcher
+titleGreen: PowerMatcher
 tagline: PowerMatcher, Mission, 
 tags: [about, PowerMatcher, FAN, Transactive Energy]
 modified: 8-8-2014

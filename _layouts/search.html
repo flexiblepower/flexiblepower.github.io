@@ -23,10 +23,14 @@
           <script id="search-results-template" type="text/mustache">
             {{#entries}}
               <article>
-                <h3>
-                  {{#date}}<time datetime="{{pubdate}}" pubdate>{{displaydate}}</time>{{/date}}
-                  <a href="{{url}}">{{title}} {{title-green}}</a>
-                </h3>
+                <div class="row search-result-row">
+                  <div class="col-md-2">
+                    <h4>{{#date}}<time datetime="{{pubdate}}" pubdate>{{displaydate}}</time>{{/date}}</h4>
+                  </div>
+                  <div class="col-md-10">
+                    <h4><a href="{{url}}">{{title}} {{titleGreen}}</a></h4>
+                  </div>
+                </div>
               </article>
             {{/entries}}
           </script>

@@ -2,7 +2,7 @@
 layout: page
 permalink: /why/opensource/
 title: Powermatcher 
-title-green: Businesscases
+titleGreen: Businesscases
 tagline: Minimal Mistakes, a Jekyll Theme
 tags: [PowerMatcher, Why, Transactive Energy]
 modified: 8-8-2014

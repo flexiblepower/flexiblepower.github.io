@@ -2,7 +2,7 @@
 layout: overviewpage
 permalink: /why/
 title: Why 
-title-green: PowerMatcher
+titleGreen: PowerMatcher
 tagline: Minimal Mistakes, a Jekyll Theme
 tags: [PowerMatcher, Why, Transactive Energy]
 modified: 8-8-2014
