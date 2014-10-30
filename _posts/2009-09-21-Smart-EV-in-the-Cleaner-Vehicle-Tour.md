@@ -4,6 +4,7 @@ title: Smart EV in the Cleaner Vehicle Tour
 description: "Smart EV in the Cleaner Vehicle Tour"
 tags: [PowerMatcher, Prius, EV, Cleaner Vehicle Tour 2009]
 comments: true
+thumbnail: /images/site/PMnewslogo.png
 ---
 
 The ECN Smart Electric Vehicle participated in the Cleaner Vehicle Tour 2009 which was held in Amsterdam as part of the European Mobility Week. The smart vehicle is equipped with PowerMatcher functionality enabling the car to participate in a smart electricity grid or a virtual power plant. The electricity grid may be overloaded if an increasing number of consumers charge their vehicles at the same time. ECN examines how to avoid such a peak load in the electricity grid by using ECN’s PowerMatcher technology.

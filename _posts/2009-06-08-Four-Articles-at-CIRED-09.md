@@ -4,6 +4,7 @@ title: Four Articles at CIRED'09
 description: "Four Articles at CIRED'09"
 tags: [PowerMatcher,CIRED, Gigre, Nedap, AREVA]
 comments: true
+thumbnail: /images/site/PMnewslogo.png
 ---
 
 At the CIRED 2009 Conference in Prague, four PowerMatcher related papers have been presented. The theme of this year’s conference was: Innovation in Electricity Distribution for a Sustainable Future. CIRED is the leading International Conference on Electricity Distribution. The PowerMatcher related papers cover a wide range of topics: from field test upscaling via Smart Houses and Smart Substations to intelligent software agent strategies.

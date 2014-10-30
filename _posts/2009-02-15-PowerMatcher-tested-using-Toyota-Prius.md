@@ -4,6 +4,7 @@ title: PowerMatcher tested using Toyota Prius
 description: "PowerMatcher tested using Toyota Prius"
 tags: [PowerMatcher, Prius, EV]
 comments: true
+thumbnail: /images/site/PMnewslogo.png
 ---
 
 More and more electrically-powered vehicles are appearing on the market. They are charged using the existing electricity grid. But the grid may be overloaded if an increasing number of consumers charge their vehicles at the same time. ECN examines how to avoid such a peak load in the electricity grid. The answer is by using ECN’s PowerMatcher.
