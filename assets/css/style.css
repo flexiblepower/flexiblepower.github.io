@@ -282,6 +282,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 }
 
+.introductions {
+	margin-bottom: 100px;
+}
+
 .home #index .introductions img {
 	height: 150px;
 	padding-left:50px;
@@ -536,7 +540,7 @@ ul.footer-list{
 	margin-bottom: 40px;
 	text-overflow: ellipsis;
 	overflow: hidden;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 @media only screen and (max-width: 970px)  {  
@@ -687,10 +691,6 @@ iframe {
 	width:100%;
 }
 
-.footer-wrapper {
-	margin-top: 30px;
-}
-
 .social-media-links {
 	padding-bottom:10px;
 }
@@ -744,6 +744,7 @@ footer a:hover{
 	font-family: alliander-font-light; 
 }
 
-.search-result-row h4 {
-	
+.footer-wrapper .footer-image {
+	margin-left: -5px;
+	margin-top: 40px;
 }
