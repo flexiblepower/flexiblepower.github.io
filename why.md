@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: overviewpage
 permalink: /why/
 title: Why 
 title-green: PowerMatcher

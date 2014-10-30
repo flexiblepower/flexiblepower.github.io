@@ -30,6 +30,10 @@ body {
 	overflow-x: hidden!important;
 }
 
+h1 {
+	font-size: 30px;
+}
+
 .no-margin-left-right {
 	margin-left:0;
 	margin-right:0;
@@ -223,7 +227,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 .home #index p {
-	font-size: 18px;
+	font-size: 14px;
 	font-family: alliander-font-light;
 }
 
@@ -466,7 +470,7 @@ ul.footer-list{
 }
 
 .page-sidebar {
-	min-height: 1100px;
+	min-height: 1200px;
 }
 
 .page-sidebar h1, .page-sidebar h2 {
@@ -484,6 +488,8 @@ ul.footer-list{
 	border-radius: 30px;
 	font-family: alliander-font;
 	text-transform: uppercase;
+	float:right;
+	margin-top: 40px;
 }
 
 .join-box h2 {
@@ -497,8 +503,8 @@ ul.footer-list{
 	background-color: #3C474C;
 	border: 1px solid #BDC3C6;
 	border-radius: 15px;
-	height: 45px;
-	padding: 10px 35px;
+	height: 35px;
+	padding: 5px 25px;
 	margin: 10% 10% 0 10%;
 }
 
@@ -510,6 +516,7 @@ ul.footer-list{
 	height: 220px;
 	width: 220px;
 	margin-top: 40px;
+	float: right;
 }
 
 .sidebar-articles h1, .featured-articles h1 {
@@ -677,7 +684,7 @@ iframe {
 }
 
 .footer-wrapper {
-	margin: 0 160px 0 120px;
+	margin-top: 30px;
 }
 
 .social-media-links {
