@@ -11,9 +11,6 @@
     - subtitle: "Why open source?"
       subhref: "/why/opensource/"
 
-- title: "Features"
-  href: "/features/"
-
 - title: "In Practice"
   subcategories:
     - subtitle: "In Operation"
