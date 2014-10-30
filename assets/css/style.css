@@ -143,6 +143,14 @@ body {
 	color: #829F41;
 }
 
+.navbar li.active a.subitem {
+	color: white;
+}
+
+.navbar li.active a.subitem:hover {
+	color: #829F41;
+}
+
 ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;    
 }
@@ -577,7 +585,7 @@ ul.footer-list{
 	min-width:990px;
 	height:616px;
 	display: inline-block;
-	background:url(/images/site/banner.jpg) no-repeat center top; background-size:auto;
+	background:url(/images/site/banner_med.jpg) no-repeat center top; background-size:auto;
 	-webkit-background-size: 100% auto;
 	-moz-background-size: 100% auto;
 	-o-background-size: 100% auto;
@@ -591,7 +599,7 @@ ul.footer-list{
 	min-width:990px;
 	height: 616px;
 	display: inline-block;
-	background:url(/images/site/Home-banner-bg.jpg) no-repeat center top; background-size:auto;
+	background:url(/images/site/Home-banner-bg_med.jpg) no-repeat center top; background-size:auto;
 	-webkit-background-size: 100% auto;
 	-moz-background-size: 100% auto;
 	-o-background-size: 100% auto;
