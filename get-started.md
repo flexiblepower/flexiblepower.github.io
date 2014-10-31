@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: overviewpage
 permalink: /get-started/
 title: How to 
 titleGreen: get started
