@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: overviewpage
 permalink: /get-involved/
 title: Get involved with the 
 titleGreen: PowerMatcher
