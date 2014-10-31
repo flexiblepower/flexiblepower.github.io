@@ -1,7 +1,7 @@
 ---
 layout: overviewpage
 permalink: /why/
-title: What is the 
+title: Whay and What is the 
 titleGreen: PowerMatcherSuite?
 tagline: Why is de PowerMatcher build?
 tags: [PowerMatcher, Why, Transactive Energy]
