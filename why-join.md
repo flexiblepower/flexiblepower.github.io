@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /get-involved/why-join/
-title: Help us
-titleGreen: Grow! 
+title: Why should I
+titleGreen: Join? 
 tagline: PowerMatcher, Github
 tags: [Community, open source, Gitub, PowerMatcher, get involved, Transactive Energy]
 modified: 12-9-2014
