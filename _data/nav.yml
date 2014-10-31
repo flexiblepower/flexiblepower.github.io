@@ -6,7 +6,9 @@
   subcategories:
     - subtitle: "Why Powermatcher"
       subhref: "/why/powermatcher/"
-    - subtitle: "Powermatcher Businesscases"
+    - subtitle: "Why FPAI"
+      subhref: "/why/fpai/"
+    - subtitle: "Businesscases"
       subhref: "/why/Businesscases/"
     - subtitle: "Why open source?"
       subhref: "/why/opensource/"
@@ -15,15 +17,36 @@
   subcategories:
     - subtitle: "In Operation"
       subhref: "/in-practice/in-operation/"
-    - subtitle: "Existing practices"
-      subhref: "/in-practice/existing-practices/"
+    - subtitle: "Driver List"
+      subhref: "/in-practice/driver-list/"
 
 - title: "Technology"
   href: "/Technology/"
+  subcategories:
+    - subtitle: "Powermatcher"
+      subhref: "/Technology/powermatcher/"
+    - subtitle: "FPAI"
+      subhref: "/Technology/fpai/"
+
 
 
 - title: "Get started"
   href: "/get-started/"
+  subcategories:
+    - subtitle: "Consumers"
+      subhref: "/get-started/consumers/"
+    - subtitle: "Companies"
+      subhref: "/get-started/companies/"
+    - subtitle: "Energy Collectives"
+      subhref: "/get-started/energy-collectives/"
+    - subtitle: "Aggregators"
+      subhref: "/get-started/aggregators/"
+    - subtitle: "Manufacturers"
+      subhref: "/get-started/manufacturers/"
+    - subtitle: "Developers"
+      subhref: "/get-started/developers/"
+    - subtitle: "Grid Operators"
+      subhref: "/get-started/grid-operators/"
 
 - title: "Get Involved"
   href: "/get-involved/"
