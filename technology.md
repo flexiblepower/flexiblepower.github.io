@@ -1,8 +1,8 @@
 ---
-layout: page
-permalink: /technology/
-title: Powermatcher
-titleGreen: technology
+layout: overviewpage
+permalink: /Technology/
+title: The
+titleGreen: Suite
 modified: 29-9-2014
 tagline: PowerMatcher Technology
 tags: [PowerMatcher, Technology, Transactive Energy, how it works]
