@@ -3,7 +3,7 @@ layout: overviewpage
 permalink: /why/
 title: Why 
 titleGreen: PowerMatcher
-tagline: Minimal Mistakes, a Jekyll Theme
+tagline: Why is de PowerMatcher build?
 tags: [PowerMatcher, Why, Transactive Energy]
 modified: 8-8-2014
 comments: true
@@ -13,4 +13,4 @@ image:
   creditlink: http://texturelovers.com
 ---
 
-Hier komt een overview van alle opties voor why powermatcher
+Please use the menu bar to select a topic!
