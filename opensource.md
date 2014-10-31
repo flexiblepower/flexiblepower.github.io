@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /why/opensource/
-title: Powermatcher 
-titleGreen: Businesscases
+title: Why
+titleGreen: Open Source?
 tagline: Minimal Mistakes, a Jekyll Theme
-tags: [PowerMatcher, Why, Transactive Energy]
+tags: [Open Source, Apache 2.0, Github]
 modified: 8-8-2014
 comments: true
 image:
