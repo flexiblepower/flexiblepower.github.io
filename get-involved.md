@@ -8,7 +8,7 @@ tags: [Community, open source, Gitub, PowerMatcher, get involved, Transactive En
 modified: 12-9-2014
 comments: true
 image:
-  feature: site/banner_inner.jpg
+  feature: site/Get Involved_website.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
