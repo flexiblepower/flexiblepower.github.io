@@ -31,21 +31,21 @@ The PowerMatcher consists of various agents that communicate via the PowerMatche
 *	Auctioneer agent
 *	Objective agent
 
-#The Device Agent
+##The Device Agent
 In the PowerMatcher framework a smart device is represented by a device agent. The device agent contains logic to operate the process associated with the device in an economical optimal way.  It translates the state of a smart device (battery charge is low or CHP output is 1500W and gas consumption is 0,61 Euro/m3) to a bid on the PowerMatcher market (see Protocol section). 
 The device agent could also contain logic to make the device “smart” by including end user wishes as well external input such as  weather or energy price forecasts. By taking into account this extra information the device can determine for itself what would be the best time to consume…. or produce energy.
 
 To steer  and read out the machine, a “physical” connection has to be made with the device. This could be done by mapping the agent directly to the IO of the device or perhaps a web service as delivered by the device manufacturer. Instead we have chosen to run PowerMatcher on the FPAI technology as an intermediate layer;  this only requires a connection of the device agent to the abstraction layer of FPAI. FPAI takes care of the actual physical connection with the device (see FPAI section). As a result the PowerMatcher device agent does not have to think about the type of machine, brand, or model number. The reader is referred to the FPAI section for a more detailed explanation of FPAI technology.
 
-#The Concentrator Agent
+##The Concentrator Agent
 The concentrator agent performs three functions. The first function of the concentrator is the bundling of messages received from child agents. Children could be other concentrator agents or other device agents. The concentrator concentrates, or aggregates,  all these messages and publishes a single message upward in the hierarchy. 
 The second function entails the virtual representation of concepts or physical entities in the real world. A concentrator can bundle every smart device in a single household and therefore represent this household. A concentrator can also represent an electric cable, transformer or for instance a neighborhood.
 Lastly, the concentrator can be used to manipulate the children agents that are present in a sub cluster. Affecting a single concentrator allows for localized manipulation. The first idea of local manipulation that has been implemented in the PowerMatcher is the capability of local congestion management; by making the concentrator more intelligent it can peak shave loads and make sure that the net output of sub cluster stays within certain power limits.
 
-#The Auctioneer Agent
+##The Auctioneer Agent
 The auctioneer  always stands on top of the hierarchy and bundles all messages received from child agents. The auctioneer determines the optimal set point (see Optimization Techniques) of the cluster and returns this set point to each child agent; each child node will receive this set point and forward it to his children….and so forth.
 
-#The Objective Agent
+##The Objective Agent
 The objective agent gives a cluster its purpose. The objective agent interfaces to the business logic behind the specific application. The objective agent can be connected to the auctioneer or a concentrator agent. The objective agent  can send external incentives to manipulate the other agent by means of the general PowerMatcher protocol (See Protocol section). 
 When the objective agent is absent, the goal of the cluster is to balance itself, i.e., it strives for an equal supply and demand within the cluster itself. Depending on the specific application, the goal of the cluster might be different. If the cluster has to operate as a virtual power plant, for example, it needs to follow a certain externally provided setpoint schedule. Such an externally imposed objective can be realized by implementing an objective agent.  Other couplings could be with the energy trading market, external optimization algorithms etc.
 
@@ -71,7 +71,7 @@ When his state of charge is almost full a battery is only willing to charge at l
 The returning message is the internal PowerMatcher price. This price is the set point that optimizes the entire cluster and was determined by the auctioneer (see Optimization techniques). The price message flows through every branch and to every endpoint, the device agent. The device agent maps this price to his prior published bid curve and determines its consumption or production set point, indeed that is the amount of power the device was willing to acquire or produce for that price. 
 This power set point is communicated to the appliance by the device agent through the FPAI abstraction layer (see Device Agent and FPAI).
 
-#Optimization techniques and the PowerMatcher optimization
+##Optimization techniques and the PowerMatcher optimization
 At the moment we distinguish at least three types of optimization system approaches:
 
 1.	Centralized optimization (e.g. Simplex method)
@@ -85,7 +85,7 @@ In the PowerMatcher framework we relied on agent technology. Your appliance and 
 
 The optimization of the PowerMatcher is based on the micro-economic principle of demand and supply. When supply and demand are equal (i.e. when the supply function and demand function intersect) the economy is said to be at equilibrium. PowerMatcher core application provides the marketing mechanism which is embedded in the communication protocol for the determination of the equilibrium, while the agents work as actors representing demand and/or supply.
 
-#Bid curve aggregation and determining the optimal set point
+##Bid curve aggregation and determining the optimal set point
 As bid curves are send higher up the hierarchy they are received by the parent agent. A parent agent is always a concentrator or auctioneer agent. Both agents aggregate the received bid curves and compose a new single bid curve. Aggregation means as much as adding bid curves; bid curves that represent generation of energy, produce ‘negative power’ or ‘negative supply’ and are therefore subtracted. 
 
 [plaatje]
@@ -96,5 +96,5 @@ After aggregation of all child agent bid curves a new aggregated bid curve is co
 
 The auctioneer performs one extra action after aggregation to determine the optimal point of the system. Since the final aggregated bid curve represents the net power demand as a function of the price, the price where the net demand equals zero is the point where the systems supplies as much power as is demanded. This is the internal price where the system is in balance. Consequently this price is communicated down the hierarchy, each individual device will start consuming or producing energy as ‘promised’ by its bid curve.
 
-#Optimization of current state and events
+##Optimization of current state and events
 The PowerMatcher always optimizes the current state. The state of the system changes due to events. So as soon as the internal temperature of a refrigerator changes it sends out a new bid curve, or event. This event is then dealt with within the PowerMatcher possibly causing a chain of events  if the implications of the bid curve caused a significant change in the system.
