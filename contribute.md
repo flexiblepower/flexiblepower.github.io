@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /get-involved/contribute/
-title: 
-titleGreen: Contribute
+title: How can I
+titleGreen: Contribute?
 tagline: PowerMatcher, Github
 tags: [Community, open source, Gitub, PowerMatcher, get involved, Transactive Energy]
 modified: 12-9-2014
