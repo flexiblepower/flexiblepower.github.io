@@ -6,7 +6,7 @@ titleGreen: get started
 description: "How to get started with the PowerMatcher"
 tags: [Jekyll, theme, responsive]
 image:
-  feature: site/banner_inner.jpg
+  feature: site/Get Started_website.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
