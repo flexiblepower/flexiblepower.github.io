@@ -12,8 +12,6 @@ image:
   creditlink: http://texturelovers.com
 ---
 
-#Flexible Power Application Infrastructure
-
 The Flexible Power Application Infrastructure (FPAI) provides a runtime environment that makes it possible to quickly design and implement new transactive energy services and devices. FPAI enables easy deployment and configuration of ‘Energy Apps’ and device drivers, and provides easy interaction through the energy flexibility interface. Now device manufacturers can write generic device drivers for their appliances that can be used by any control algorithm that runs on FPAI. Also any control algorithm that is developed on FPAI can make use of all available drivers. Since all of platform development is done in open source (see http://github.com/flexiblepower), anyone can contribute to this framework and no vendor lock-in is possible.
 
 A dashboard can show controls and information to the end user about the current state of your appliances in the form of Widgets. Each Widget shows information for an appliance. It is possible to have multiple Widgets per appliance.
