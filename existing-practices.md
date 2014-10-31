@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /in-practice/existing-practices/
+permalink: /in-practice/driver-list/
 title: Existing
 titleGreen: practices
 tagline: PowerMatcher™ Technology
-tags: [PowerMatcher™, Practice, Transactive Energy, Features]
+tags: [FPAI, Drivers, Smart Appliances]
 modified: 22-9-2014
 comments: true
 image:
