@@ -14,6 +14,7 @@
       subhref: "/why/opensource/"
 
 - title: "In Practice"
+  href: "/in-practice/"
   subcategories:
     - subtitle: "In Operation"
       subhref: "/in-practice/in-operation/"

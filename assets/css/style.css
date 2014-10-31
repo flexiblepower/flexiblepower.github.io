@@ -287,7 +287,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .home #index .introductions img {
 	height: 150px;
-	padding-left:50px;
 }
 
 .read-more-button {
@@ -589,9 +588,10 @@ ul.footer-list{
 #homebanner_mainbox{
 	color: white;
 	width:100%;
-	height:616px;
+	height:100%;
 	display:block;
 }
+
 .slider1{ 
 	float:left;
 	width:100%;
@@ -599,10 +599,8 @@ ul.footer-list{
 	height:616px;
 	display: inline-block;
 	background:url(/images/site/banner_med.jpg) no-repeat center top; background-size:auto;
-	-webkit-background-size: 100% auto;
-	-moz-background-size: 100% auto;
-	-o-background-size: 100% auto;
-	 background-size: 100% auto;
+	background-size:cover;
+
 	 margin-top: -2px;
 }
 
@@ -613,9 +611,8 @@ ul.footer-list{
 	height: 616px;
 	display: inline-block;
 	background:url(/images/site/Home-banner-bg_med.jpg) no-repeat center top; background-size:auto;
-	-webkit-background-size: 100% auto;
-	-moz-background-size: 100% auto;
-	-o-background-size: 100% auto;
+	background-size:cover;
+
 	 background-size: 100% auto;
 }
 
@@ -711,7 +708,7 @@ button.slick-next {
 }
 
 #partners-carousel button.slick-prev {
-	left:-35px;
+	left:-45px;
 }
 
 .slick-prev:before, .slick-next:before, .slick-prev:hover, .slick-next:hover {
