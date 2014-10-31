@@ -4,6 +4,7 @@ title: First PowerMatcher seminar successful
 description: "First PowerMatcher seminar successful"
 tags: [PowerMatcher,ECN, VITO, Nedap, AREVA]
 comments: true
+thumbnail: /images/site/PMnewslogo.png
 ---
 
 The PowerMatcher makes a necessary step towards practice. The current increase in renewable energy sources makes matching of energy demand and supply more and more an urgent matter. On October 28th, around 120 professionals from Flanders and The Netherlands gathered in Breda for the First PowerMatcher Seminar. The broad group of attendants, for the largest part representing industrial parties, learned how the PowerMatcher technology makes its step from research to implementation. 
