@@ -332,8 +332,12 @@ h1.center-header {
 	padding: 12px 15px;
 	margin-bottom: 50px;
 	width:210px;
-	float: right;
 
+
+}
+
+.page-sidebar .float-center-wrapper > button {
+	float: right;
 }
 
 .float-center-wrapper button:hover {
