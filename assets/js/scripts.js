@@ -71,7 +71,7 @@ $(document).ready(function(){
 			"visibility": "visible"
 		});
 		$(".spinner").hide();
-	}, 2000);
+	}, 3000);
 	
 
 	changeIntroHeight();
