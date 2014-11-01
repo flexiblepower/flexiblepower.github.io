@@ -7,6 +7,7 @@ tagline: Minimal Mistakes, a Jekyll Theme
 tags: [Open Source, Apache 2.0, Github]
 modified: 8-8-2014
 comments: true
+parent: why
 image:
   feature: site/banner_inner.jpg
   credit: Texture Lovers

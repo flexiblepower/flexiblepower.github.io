@@ -6,6 +6,7 @@ titleGreen: Flexible Power Application Infrastructure
 modified: 29-9-2014
 tagline: PowerMatcher Technology
 tags: [FPAI, Smart Appliances, Operating System, Standard, Interface]
+parent: why
 image:
   feature: site/banner_inner.jpg
   credit: Texture Lovers

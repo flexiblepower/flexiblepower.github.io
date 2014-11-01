@@ -34,11 +34,18 @@
       <h1>{{ page.title }}<span class="green-word"> {{ page.titleGreen }} </span></h1>
       <hr/>
       <div class="article-wrap">
-        {{ content }}
-      </div><!-- /.article-wrap -->
-      {% if site.disqus_shortname and page.comments %}
-        <section id="disqus_thread"></section><!-- /#disqus_thread -->
-      {% endif %}
+        <div class="row">
+          {% for subpage in site.pages %}
+            
+              {% if subpage.parent == page.parentTitle %}
+              <div class="col-md-3">
+                {{ subpage.title }} {{ subpage.titleGreen }}
+               </div>
+              {% endif %}
+           
+          {% endfor %}
+        </div>
+      </div><!-- /.article-wrap -->      
     </article>
   </div>
 </div><!-- /#index -->
