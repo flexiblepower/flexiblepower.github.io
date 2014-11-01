@@ -744,3 +744,13 @@ footer a:hover{
 	margin-left: -5px;
 	margin-top: 40px;
 }
+
+.subpage-title {
+	font-family: alliander-font-light;
+	text-transform: uppercase;
+    overflow: hidden;
+}
+
+.subpage-title .subpage-title-green {
+	color: #829F41;
+}

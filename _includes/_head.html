@@ -11,7 +11,7 @@
 			{% elsif page.image.feature contains 'https://' %}
 				"{{ page.image.feature }}"
 			{% else %}
-				"{{ site.url }}/images/{{ page.image.feature }}"
+				"{{ site.url }}{{ page.image.feature }}"
 			{% endif %}
 		>
 	{% else %}
@@ -23,7 +23,7 @@
 				{% elsif page.image.thumb contains 'https://' %}
 					"{{ page.image.thumb }}"
 				{% else %}
-						"{{ site.url }}/images/{{ page.image.thumb }}"
+						"{{ site.url }}{{ page.image.thumb }}"
 				{% endif %}
 			{% else %}
 				{% if site.logo contains 'http://' %}
@@ -31,7 +31,7 @@
 				{% elsif site.logo contains 'https://' %}
 					"{{ site.logo }}"
 				{% else %}
-						"{{ site.url }}/images/{{ site.logo }}"
+						"{{ site.url }}{{ site.logo }}"
 				{% endif %}
 			{% endif %}
 		>

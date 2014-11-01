@@ -1,5 +1,5 @@
 ---
-layout: overviewpage
+layout: overview
 permalink: /get-involved/
 title: Help us
 titleGreen: Grow!
@@ -8,7 +8,7 @@ tags: [Community, open source, Gitub, PowerMatcher, get involved, Transactive En
 modified: 12-9-2014
 comments: true
 image:
-  feature: site/Get Involved_website.jpg
+  feature: /images/site/Get Involved_website.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

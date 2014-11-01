@@ -8,8 +8,10 @@ tags: [PowerMatcher, Why, Transactive Energy]
 modified: 8-8-2014
 comments: true
 parent: why
+summary: This is the summary for this page
 image:
-  feature: site/banner_inner.jpg
+  feature: /images/site/banner_inner.jpg
+  thumbnail: /images/site/banner_inner.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

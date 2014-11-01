@@ -9,7 +9,8 @@ modified: 8-8-2014
 comments: true
 parent: why
 image:
-  feature: site/banner_inner.jpg
+  feature: /images/site/banner_inner.jpg
+  thumbnail: /images/site/banner_inner.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

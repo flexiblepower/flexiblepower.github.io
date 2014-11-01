@@ -22,7 +22,7 @@
     {% elsif page.image.feature contains 'https://' %}
       "{{ page.image.feature }}"
     {% else %}
-      "/images/{{ page.image.feature }}"
+      "{{ page.image.feature }}"
     {% endif %}
   alt="{{ page.title }} feature image">
   </div><!-- /.image-wrap -->

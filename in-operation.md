@@ -8,7 +8,7 @@ tags: [PowerMatcher™, Practice, Transactive Energy, Features]
 modified: 22-9-2014
 comments: true
 image:
-  feature: site/banner_inner.jpg
+  feature: /images/site/banner_inner.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

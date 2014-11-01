@@ -8,7 +8,7 @@ tags: [Operating System, Abstraction Layer, Standard, Interface]
 modified: 8-8-2014
 comments: true
 image:
-  feature: site/banner_inner.jpg
+  feature: /images/site/banner_inner.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
