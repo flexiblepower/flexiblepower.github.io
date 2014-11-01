@@ -762,7 +762,8 @@ footer a:hover{
   }
   .navbar-fixed-top,
   .navbar-fixed-bottom,
-  .navbar-static-top {
+  .navbar-static-top,
+  .row {
     margin-right: 0;
     margin-left: 0;
   }
