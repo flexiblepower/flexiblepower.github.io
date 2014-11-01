@@ -44,9 +44,12 @@
                 {% endif %} 
 
                 {% assign counter=counter | plus:1 %}                                  
-                  <div class="col-md-4">       
+                <div class="col-md-4">  
+                     
                   <div class="overview-image">
-                    <img src="{{ subpage.image.thumbnail }}" alt="{{image.credit}}"/>
+                    <a href="{{ subpage.permalink }}">  
+                      <img src="{{ subpage.image.thumbnail }}" alt="{{image.credit}}"/>
+                    </a>
                   </div>
                   <h4>
                     <span class="subpage-title">{{ subpage.title }} <span class="subpage-title-green"> {{ subpage.titleGreen }} </span></span>
@@ -55,7 +58,9 @@
                     <p>
                       {{ subpage.summary }}
                     </p>
+                  
                 </div>
+
                 {% if counter == 0 or counter == 3 or counter == 6 or counter == 9 %}
                   </div>  
                 {% endif %}   

@@ -331,7 +331,8 @@ h1.center-header {
 	color: white;
 	padding: 12px 15px;
 	margin-bottom: 50px;
-	width:250px;
+	width:210px;
+	float: right;
 
 }
 
@@ -594,26 +595,21 @@ ul.footer-list{
 
 .slider1{ 
 	float:left;
-	width:100%;
-	min-width:990px;
+	width:100%;	
 	height:616px;
 	display: inline-block;
 	background:url(/images/site/banner_med.jpg) no-repeat center top; background-size:auto;
-	background-size:cover;
-
-	 margin-top: -2px;
+	background-size: 100% auto;
+	margin-top: -2px;
 }
 
 .slider2{ 
 	float:left;
-	width:100%;
-	min-width:990px;
+	width:100%;	
 	height: 616px;
 	display: inline-block;
 	background:url(/images/site/Home-banner-bg_med.jpg) no-repeat center top; background-size:auto;
-	background-size:cover;
-
-	 background-size: 100% auto;
+	background-size: 100% auto;
 }
 
 .banner_inner { 
@@ -646,6 +642,7 @@ ul.footer-list{
 	font:800 36px/46px  'alliander-font-extrabold', sans-serif;
 	display:block;
 }
+
 .slider1_btn{	
 	position: relative; 
 	top:344px; 
