@@ -11,7 +11,7 @@ parent: get-involved
 summary: This is the summary for this page
 image:
   feature: /images/site/Get Involved_website.jpg
-  thumbnail: /images/site/Get Involved_website.jpg
+  thumbnail: /images/site/banner_inner.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
