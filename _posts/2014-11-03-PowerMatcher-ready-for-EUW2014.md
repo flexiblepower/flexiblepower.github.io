@@ -10,12 +10,12 @@ thumbnail: http://www.hostessservice.nl/image/index/index/fid/46
 
 #PowerMatcher community is online
 After months of work, it time to promote the powermatcher community! All code is online (on github) and the powermatcher community has a new website: powermatcher.org.
-Besides the code this website is hosted on github[http://flexiblepower.github.io/get-involved/contribute/]! Everybody send in changes to improve the website.
+Besides the code this website is hosted on [Github](http://flexiblepower.github.io/get-involved/contribute/)! Everybody is welcome to improve the software code or website!
 
 # European utility week 2014
 Come visit us at the EUW2014! Find out more on the open source PowerMatcher technology on the Energy experiance booth and in the talks.
 
-Smart Homes & End User Engagement
+[Smart Homes & End User Engagement](http://www.clarion-cms.com/uploads/Pages/site098_13917_en_file1.pdf)
 SESSION 43: DR IN PRACTICE
 
 09.00-09.20
