@@ -1,5 +1,5 @@
 ---
-layout: overviewpage
+layout: overview
 permalink: /in-practice/
 title: In
 titleGreen: practice
