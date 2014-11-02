@@ -7,8 +7,11 @@ tagline: PowerMatcher™ Technology
 tags: [PowerMatcher™, Practice, Transactive Energy, Features]
 modified: 22-9-2014
 comments: true
+parent: in-practice
+summary: A list of all real life implementations of the PowerMatcher and FPAI
 image:
   feature: /images/site/banner_inner.jpg
+  thumbnail: /images/site/banner_inner.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
