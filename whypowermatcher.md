@@ -32,7 +32,7 @@ There are already numerous implementations of PowerMatcher in the field where th
 
 ## Advantages ##
 
-* Consumer/Prosumer remains in control. PowerMatcher does not centrally impose a signal to turn off your airco from a distance. As a consumer you always stay in control and determine where you want your to device to offer its flexibility.
+* Consumer/Prosumer remains in control. PowerMatcher does not centrally impose a signal to turn off your airco from a distance. As a consumer you always stay in control and determine where you want your device to offer its flexibility.
 
 * Highly Scalable. The PowerMatcher makes use of agent technology, conceptually it is therefore infinitely scalable.
 
