@@ -23,8 +23,8 @@ PowerMatching the Future
  * PowerMatcher Stakeholder value proposition
  * Insight in the future of PowerMatcher and PowerMatcher as the future 
  * Fields results
-Alexander Krstulovic, IT Consultant,
-Alliander
+ * 
+Alexander Krstulovic, IT Consultant, Alliander
 
 6 nov 09.40-10.00
 A Generic Infrastructure for Coupling Flexible
@@ -32,13 +32,13 @@ Devices and Demand Response Systems
  * Removing silos will propel the entire industry, for appliances as well as services
  * Flexible power application infrastructure as an open source
  * Join the community: add your drivers or energy appand use all available resources
-Winifred Roggekamp, Domain Architect,
-Technolution B.V 
+ * 
+Winifred Roggekamp, Domain Architect, Technolution B.V 
 
 6 nov 12.00-12.20
 PowerMatcher & Consumer Behaviour
  * Objectives and workings of PowerMatcher including results
  * Make customers aware of the changes that will altertheir role in the future energy system
  * Combining PowerMatcher and customer participation
-Arnoud Rijneveld, Innovator,
-Stedin
+
+Arnoud Rijneveld, Innovator, Stedin
