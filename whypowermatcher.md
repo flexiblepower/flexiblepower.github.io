@@ -36,7 +36,7 @@ There are already numerous implementations of PowerMatcher in the field where th
 
 * Highly Scalable. The PowerMatcher makes use of agent technology, conceptually it is therefore infinitely scalable.
 
-* Cost effictive even at small scale. The PowerMatcher does not require difficult models of each device running in a central application. It can be implemented cost effictively even in the low voltage grid such as common households and small businesses. This is a radical increase in scope because most flexility available now is being harvested in larger industrial installations.
+* Cost effective even at small scale. The PowerMatcher does not require difficult models of each device running in a central application. It can be implemented cost effictively even in the low voltage grid such as common households and small businesses. This is a radical increase in scope because most flexility available now is being harvested in larger industrial installations.
 
 * Local congestion management. The PowerMatcher is capable of managing local congestion points. This is great news because with increasing numbers of electric vehicles and heatpumpt most congestion issues are expected locally.
 
