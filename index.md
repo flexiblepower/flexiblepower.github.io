@@ -14,7 +14,7 @@ carousel_images:
   - /images/site/tno-logo.jpg
   - /images/site/EcoGrid_logo.png
   - /images/site/tno-logo.jpg
-  - /images/site/EcoGrid_logo.png
+  - http://www.flexiblepower.org/wp-content/themes/fan3/assets/img/logo-alliander.png
 ---
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/Zz4OpVwYWYE" frameborder="0" allowfullscreen></iframe>
