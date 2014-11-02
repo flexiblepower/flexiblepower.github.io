@@ -41,3 +41,9 @@ Winifred Roggekamp, Domain Architect, Technolution B.V
  * Combining PowerMatcher and customer participation
 
 Arnoud Rijneveld, Innovator, Stedin
+
+#Questions?
+Ask questions on Github or offline at the EUW2014!
+  * [General question](https://github.com/flexiblepower/FAN-wiki/issues/new?title=Question:My%20Question&body)
+  * [PowerMatcher question](https://github.com/flexiblepower/powermatcher/issues/new?title=Question:My%20Title&body)
+  * [FPAI-core question](https://github.com/flexiblepower/fpai-core/issues/new?title=Question:My%20Title&body)
