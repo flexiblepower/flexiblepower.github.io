@@ -8,6 +8,7 @@ tags: [Open Source, Apache 2.0, Github]
 modified: 8-8-2014
 comments: true
 parent: why
+summary: The Suite is open sourced under the Apache 2.0 license. A unique proposition in the smart grid world. We believe it will propell adoption.
 image:
   feature: /images/site/banner_inner.jpg
   thumbnail: /images/site/banner_inner.jpg
