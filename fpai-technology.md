@@ -6,7 +6,8 @@ titleGreen: Flexible Power Application Infrastructure
 modified: 29-9-2014
 tagline: PowerMatcher Technology
 tags: [FPAI, Smart Appliances, Operating System, Standard, Interface]
-parent: why
+parent: technology
+summary: A more detailed explanation on the Flexible Power Application Infrastructure; a operating system platform for easily connecting a multitide of devices and apps.
 image:
   feature: /images/site/banner_inner.jpg
   thumbnail: /images/site/banner_inner.jpg
