@@ -16,7 +16,7 @@ image:
   creditlink: http://texturelovers.com
 ---
 
-Why join the development?
+Both individuals and organisations are welcomed to join the development.
 
 ## Individuals ##
 
