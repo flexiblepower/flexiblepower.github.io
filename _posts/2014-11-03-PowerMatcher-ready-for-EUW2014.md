@@ -18,7 +18,7 @@ Come visit us at the EUW2014! Find out more on the open source PowerMatcher tech
 [Smart Homes & End User Engagement](http://www.clarion-cms.com/uploads/Pages/site098_13917_en_file1.pdf)
 SESSION 43: DR IN PRACTICE
 
-09.00-09.20
+6 nov 09.00-09.20
 PowerMatching the Future
  * PowerMatcher Stakeholder value proposition
  * Insight in the future of PowerMatcher and PowerMatcher as the future 
@@ -26,7 +26,7 @@ PowerMatching the Future
 Alexander Krstulovic, IT Consultant,
 Alliander
 
-09.40-10.00
+6 nov 09.40-10.00
 A Generic Infrastructure for Coupling Flexible
 Devices and Demand Response Systems
  * Removing silos will propel the entire industry, for appliances as well as services
@@ -35,7 +35,7 @@ Devices and Demand Response Systems
 Winifred Roggekamp, Domain Architect,
 Technolution B.V 
 
-12.00-12.20
+6 nov 12.00-12.20
 PowerMatcher & Consumer Behaviour
  * Objectives and workings of PowerMatcher including results
  * Make customers aware of the changes that will altertheir role in the future energy system
