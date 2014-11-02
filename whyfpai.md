@@ -22,9 +22,14 @@ All this variety on both the DSM and appliance level presents Energy Management 
 
 [plaatje]
 
-Nowadays most EMS’es are tightly coupled to a particalar DSM approach. This results in a vendor lock-in for consumers. A switch to another DSM approach/service almost always requires the installation of another EMS (hardware box).
+Nowadays most EMS’es are tightly coupled to a particular DSM approach. This results in a vendor lock-in for consumers. A switch to another DSM approach/service almost always requires the installation of another EMS (hardware box).
 
-The FlexiblePower Application Infrastructure (FPAI) is a runtime environment where on one side smart grid applications can be deployed and on the other side appliances can be connected. The FPAI provides interfaces to interact with the environment and connect devices and smart grid apps. Part of the interface definitions are the Control Spaces and Allocations.
+The FlexiblePower Application Infrastructure (FPAI) is a runtime environment where on one side smart grid applications can be deployed and on the other side appliances can be connected. The FPAI provides interfaces to interact with the environment,such as a User Interface, and connect devices and smart grid apps. Part of the interface definitions are the Control Spaces and Allocations.
 
-FPAI aims to create an interoperable platform that is able to connect to a variety of appliances and support a host of DSM approaches. This way the EMS hardware does not need to be changed when a consumers switches from one service to another. At the same time the FlexiblePower Application Infrastructure makes it easier for service providers to introduce new services, since they do not have to provide the EMS hardware to their consumers to go with it.
+FPAI aims to create an interoperable platform that is able to connect to a variety of appliances and support a variety of DSM approaches. 
+  - This way the EMS hardware does not need to be changed when a consumers switches from one service to another. 
+  - At the same time the FlexiblePower Application Infrastructure makes it easier for service providers to introduce new services, since they do not have to provide the EMS hardware to their consumers to go with it.
+  - Developers of services do not have to deal with a new specific interface for every type, brand and model of a device. They only have to communicate with the standard Energy Flexibility Interface as specified by FPAI.
+  - Lastly smart appliance manufacturers only have to provide a single driver in order for their device to be interoperable with a variety of services.
+
 
