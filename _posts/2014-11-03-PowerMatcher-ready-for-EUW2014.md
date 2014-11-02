@@ -8,8 +8,37 @@ published: false
 thumbnail: http://www.hostessservice.nl/image/index/index/fid/46
 ---
 
-#New website
-
-Together with FAN Partners, The FAN release the new community webwsite powermatcher.org.
+#PowerMatcher community is online
+After months of work, it time to promote the powermatcher community! All code is online (on github) and the powermatcher community has a new website: powermatcher.org.
+Besides the code this website is hosted on github! Everybody send in changes to improve the website.
 
 # European utility week 2014
+Come visit us at the EUW2014! Find out more on the PowerMatcher technology on the Energy experiance booth and in the talks.
+
+Smart Homes & End User Engagement
+SESSION 43: DR IN PRACTICE
+
+09.00-09.20
+PowerMatching the Future
+ * PowerMatcher Stakeholder value proposition
+ * Insight in the future of PowerMatcher and PowerMatcher as the future 
+ * Fields results
+Alexander Krstulovic, IT Consultant,
+Alliander
+
+09.40-10.00
+A Generic Infrastructure for Coupling Flexible
+Devices and Demand Response Systems
+ * Removing silos will propel the entire industry, for appliances as well as services
+ * Flexible power application infrastructure as an open source
+ * Join the community: add your drivers or energy appand use all available resources
+Winifred Roggekamp, Domain Architect,
+Technolution B.V 
+
+12.00-12.20
+PowerMatcher & Consumer Behaviour
+ * Objectives and workings of PowerMatcher including results
+ * Make customers aware of the changes that will altertheir role in the future energy system
+ * Combining PowerMatcher and customer participation
+Arnoud Rijneveld, Innovator,
+Stedin
