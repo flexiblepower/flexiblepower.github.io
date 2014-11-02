@@ -13,4 +13,7 @@ image:
   creditlink: http://texturelovers.com
 ---
 
+The Suite comprises two disruptive open source technologies; the PowerMatcher and the Flexible Power Application Infrastructure. Both technologies are complementary but can also function on their own. The PowerMatcher is a smart grid coordination mechanism. The Flexible Power Application Infrastructure, FPAI in short, is an operating system  which enables appliances, the smart grid and smart services to communicate with each other.
+
+
 
