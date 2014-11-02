@@ -3,7 +3,7 @@ layout: page
 permalink: /why/opensource/
 title: Why
 titleGreen: Open Source?
-tagline: Minimal Mistakes, a Jekyll Theme
+tagline: Why open source: openess always wins in the end!
 tags: [Open Source, Apache 2.0, Github]
 modified: 8-8-2014
 comments: true
@@ -12,8 +12,6 @@ summary: The Suite is open sourced under the Apache 2.0 license. A unique propos
 image:
   feature: /images/site/banner_inner.jpg
   thumbnail: /images/site/banner_inner.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
 
 # The PowerMatcher Suite and Open Source
