@@ -18,7 +18,7 @@ image:
 
 Why join the development?
 
-## Reasons to join the development ##
+## Individuals ##
 
 If you came this far you probably find that the problems we are facing in the near future regarding our massive energy consumption habits are unsustainable. By joining our movement you can do your part in reducing the consumption of fossil fuels because we can make much more efficient use of the already available infrastructure, integrate more renewables and have more electric vehicles yea! Besides making the world a better place you might also find that we are working on a very nifty piece of technology. However we are not under the impression that we have thought of the perfect product, but perhaps with your help we can get a step further to perfection!
 
