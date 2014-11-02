@@ -8,8 +8,8 @@ published: false
 thumbnail: http://www.hostessservice.nl/image/index/index/fid/46
 ---
 
-#PowerMatcher community is online
-After months of work, it time to promote the powermatcher community! All code is online (on github) and the powermatcher community has a new website: powermatcher.org.
+#PowerMatcher community is online!
+After months of work, it time to promote the powermatcher online community! All code is online (on github) and the powermatcher community has a new website: powermatcher.org.
 Besides the code this website is hosted on [Github](http://flexiblepower.github.io/get-involved/contribute/)! Everybody is welcome to improve the software code or website!
 
 # European utility week 2014
