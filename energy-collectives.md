@@ -6,9 +6,10 @@ titleGreen: Self-Sustaining?
 description: "How to get started with the PowerMatcher"
 tags: [Jekyll, theme, responsive]
 parent: get-started
-summary: This is the summary for this page
-image: Use the PowerMatcherSuite to form a microgrid.
+summary: Use the PowerMatcherSuite to form a microgrid.
+image: 
   feature: /images/site/Get Started_website.jpg
+  thumbnail: /images/site/Get Started_website.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
