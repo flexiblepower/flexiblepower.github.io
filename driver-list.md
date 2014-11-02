@@ -26,9 +26,9 @@ FPAI drivers (all open source):
 	*        Miele Dishwasher DW1000
 	*        Miele Refrigerator
 * Simulation drivers + managers
- *        PV Panel
- *        Battery
- *        Heatpump
+	*        PV Panel
+	*        Battery
+	*        Heatpump
 * Hexabus driver
-*    Smartmeter driver + manager
+	*	 Smartmeter driver + manager
 * Scenario application
