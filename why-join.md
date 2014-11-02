@@ -8,7 +8,7 @@ tags: [Community, open source, Gitub, PowerMatcher, get involved, Transactive En
 modified: 12-9-2014
 comments: true
 parent: get-involved
-summary: This is the summary for this page
+summary: We need all the help we can get to get the technology out there.
 image:
   feature: /images/site/Get Involved_website.jpg
   thumbnail: /images/site/banner_inner.jpg
