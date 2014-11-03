@@ -29,7 +29,7 @@ As an Organisation it could also be of interest for you to actively join the dev
 	* Gain insight in security (make sure that new features are save for you to implement)
 	* Built in new features and ask others members to help
 	* The community might be able to help with issues you are experiencing
-	* 
+	
 2. Compatibility
 	* Help others make sure that your products are compatible with new releases 
 
@@ -47,6 +47,6 @@ As an Organisation it could also be of interest for you to actively join the dev
 
 7. Proof for your customers that you know the software since you make active contributions.
 		
-Please contact info@flexiblepower.org and subscribe to our github.com/flexiblepower repository.
+Please contact info@flexiblepower.org if you want to join the FAN and subscribe to our [github.com/flexiblepower](github.com/flexiblepower) repositories.
 
 	
