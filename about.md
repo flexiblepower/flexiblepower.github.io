@@ -19,7 +19,7 @@ PowerMatcher is founded by ECN/TNO. PowerMatcher is now an Flexiblepower Allianc
 
 
 ## Licence ##
-The project is licenced under the [Apache License, Version 2.0](https://github.com/flexiblepower/powermatcher/blob/master/LICENSE). 
+The PowerMatcherSuite projects are licenced under the [Apache License, Version 2.0](https://github.com/flexiblepower/powermatcher/blob/master/LICENSE). 
 
 ## Use of PowerMatcher Trademark ##
 PowerMatcher is an [registered trademark of TNO](http://oami.europa.eu/eSearch/#details/trademarks/004298097).
