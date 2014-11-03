@@ -78,4 +78,12 @@ $(document).ready(function(){
 		var black2 = $(this).text();
 		$("#" + id).text(black2.slice(0, black2.indexOf(green2))).append("<span class='subpage-title-green'>" + green2 + "</span>");
 	});
+
+	//setTimeout(function() {	    	
+    	//var content = myIFrame.contentWindow.document.body.innerHTML;
+	//	$("span.p-nickname").hide();
+	//	console.log($("span.p-nickname").html());
+	//}, 4000);
+	
+
 });
