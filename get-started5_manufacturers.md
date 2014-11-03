@@ -1,4 +1,4 @@
-/images/---
+---
 layout: page
 permalink: /get-started/manufacturers/
 title: Are you a device manufacturer wanting to become PowerMatcher Ready?
