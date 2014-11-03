@@ -22,12 +22,12 @@
       subhref: "/in-practice/driver-list/"
 
 - title: "Technology"
-  href: "/Technology/"
+  href: "/technology/"
   subcategories:
     - subtitle: "Powermatcher"
-      subhref: "/Technology/powermatcher/"
+      subhref: "/technology/powermatcher/"
     - subtitle: "FPAI"
-      subhref: "/Technology/fpai/"
+      subhref: "/technology/fpai/"
 
 
 
