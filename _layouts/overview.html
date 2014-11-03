@@ -32,8 +32,11 @@
   <div class="col-md-10 col-md-offset-1">
     <article>
       <h1>{{ page.title }}<span class="green-word"> {{ page.titleGreen }} </span></h1>
-      <hr/>
       <div class="article-wrap">
+        <p>
+          {{ content }}
+        </p>
+        <hr/>
           {% assign counter = 0 %}
           {% for subpage in site.pages %}            
               {% if subpage.parent == page.parentTitle %}

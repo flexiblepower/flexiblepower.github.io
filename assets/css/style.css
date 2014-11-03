@@ -332,8 +332,6 @@ h1.center-header {
 	padding: 12px 15px;
 	margin-bottom: 50px;
 	width:210px;
-
-
 }
 
 .page-sidebar .float-center-wrapper > button {
@@ -645,6 +643,61 @@ ul.footer-list{
 .bigtext{
 	font:800 36px/46px  'alliander-font-extrabold', sans-serif;
 	display:block;
+}
+
+
+@media only screen and (max-width: 1024px)  { 
+	.banner_text {
+		display: none;
+	}
+
+	.slick-prev  {
+		display: none!important;
+	}
+
+	.slick-next  {
+		display: none!important;
+	}
+
+	.slider1_btn {
+		display: none!important;
+	}	
+}
+
+@media only screen and (max-width: 1300px)  { 
+	.slider1{ 
+		height: 300px;
+	}
+
+	.slider2{ 
+		height: 300px;
+	}
+
+	.banner_text {
+		display: none;
+	}
+
+	.slick-prev  {
+		display: none!important;
+	}
+
+	.slick-next  {
+		display: none!important;
+	}
+
+	.slider1_btn {
+		display: none!important;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.slider1{ 
+		height: 150px;
+	}
+
+	.slider2{ 
+		height: 150px;
+	}
 }
 
 .slider1_btn{	
