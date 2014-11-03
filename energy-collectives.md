@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /get-started/energy-collectives/
-title: Are you an energy collective wanting to be
+title: Are you an energy collective wanting to be Self-Sustaining?
 titleGreen: Self-Sustaining?
 description: "How to get started with the PowerMatcher"
 tags: [Jekyll, theme, responsive]

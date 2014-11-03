@@ -1,7 +1,7 @@
 ---
 layout: overview
 permalink: /Technology/
-title: The
+title: The Suite
 titleGreen: Suite
 modified: 29-9-2014
 tagline: PowerMatcher Technology

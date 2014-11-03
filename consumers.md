@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /get-started/consumers/
-title: Are you a consumer wanting to be a
+title: Are you a consumer wanting to be a prosumer?
 titleGreen: prosumer?
 description: "How to get started with the PowerMatcher"
 tags: [Jekyll, theme, responsive]

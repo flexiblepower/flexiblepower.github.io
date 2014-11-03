@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /get-started/companies/
-title: Are you a company wanting a more
+title: Are you a company wanting a more green office?
 titleGreen: green office?
 description: "How to get started with the PowerMatcher"
 tags: [Jekyll, theme, responsive]

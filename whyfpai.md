@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /why/fpai/
-title: Why 
+title: Why Flexible Power Application Infrastructure
 titleGreen: Flexible Power Application Infrastructure
 tagline: Operating System, Abstraction Layer
 tags: [Operating System, Abstraction Layer, Standard, Interface]

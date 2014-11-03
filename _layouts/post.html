@@ -35,7 +35,7 @@
     <div class="row no-margin-left-right">
     <div class="col-md-9">
       <article>
-        <h1>{{ page.title }}<span class="green-word"> {{ page.titleGreen }} </span></h1>
+        <h1><span class="black-word">{{ page.title }}</span> <span class="green-word">{{ page.titleGreen }}</span></h1>
         <div class="date">
           {{ page.date | date: "%B %d, %Y" }} | {% for tag in page.tags %} <span class="tag">{{ tag }}</span>, {% endfor %} 
         </div>

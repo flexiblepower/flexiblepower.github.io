@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /get-started/developers/
-title: Are you a developer wanting to help us
+title: Are you a developer wanting to help us move forward?!
 titleGreen: move forward?!
 description: "How to get started with the PowerMatcher"
 tags: [Jekyll, theme, responsive]

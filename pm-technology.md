@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /Technology/powermatcher/
-title: PowerMatcher
+title: PowerMatcher under the Hood
 titleGreen: under the Hood
 tagline: Minimal Mistakes, a Jekyll Theme
 tags: [PowerMatcher, Technology, Explained]

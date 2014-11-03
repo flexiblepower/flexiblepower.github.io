@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /in-practice/driver-list/
-title: List of
+title: List of Drivers
 titleGreen: Drivers
 tagline: PowerMatcher™ Technology
 tags: [FPAI, Drivers, Smart Appliances]

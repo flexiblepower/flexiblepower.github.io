@@ -1,7 +1,7 @@
 /images/---
 layout: page
 permalink: /get-started/manufacturers/
-title: Are you a device manufacturer wanting to become
+title: Are you a device manufacturer wanting to become PowerMatcher Ready?
 titleGreen: PowerMatcher Ready?
 description: "How to get started with the PowerMatcher"
 parent: get-started

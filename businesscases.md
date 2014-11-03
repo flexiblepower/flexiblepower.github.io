@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /why/businesscases/
-title: Business
+title: Business Cases
 titleGreen: Cases
 tagline: Minimal Mistakes, a Jekyll Theme
 tags: [Flexibility, Prosumers, Transactive Energy]

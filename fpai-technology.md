@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /Technology/fpai/
-title: The
+title: The Flexible Power Application Infrastructure
 titleGreen: Flexible Power Application Infrastructure
 modified: 29-9-2014
 tagline: PowerMatcher Technology
