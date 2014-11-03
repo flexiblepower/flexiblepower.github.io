@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /in-practice/in-operation/
-title: In practice
-titleGreen: practice
+title: In 
+titleGreen: Operation
 tagline: PowerMatcher™ Technology
 tags: [PowerMatcher™, Practice, Transactive Energy, Features]
 modified: 22-9-2014
