@@ -31,9 +31,12 @@
 <div id="main" class="row" role="main">
   <div class="col-md-10 col-md-offset-1">
     <article>
-      <h1>{{ page.title }}<span class="green-word"> {{ page.titleGreen }} </span></h1>
-      <hr/>
+      <h1><span class="black-word">{{ page.title }}</span> <span class="green-word">{{ page.titleGreen }}</span></h1>
       <div class="article-wrap">
+        <p>
+          {{ content }}
+        </p>
+        <hr/>
           {% assign counter = 0 %}
           {% for subpage in site.pages %}            
               {% if subpage.parent == page.parentTitle %}
@@ -52,7 +55,7 @@
                     </a>
                   </div>
                   <h4>
-                    <span class="subpage-title">{{ subpage.title }} <span class="subpage-title-green"> {{ subpage.titleGreen }} </span></span>
+                    <span class="subpage-title" id="title-{{counter}}">{{ subpage.title }} <span class="subpage-title-green"> {{ subpage.titleGreen }} </span></span>
                   </h4>
                     <hr/>
                     <p>

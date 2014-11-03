@@ -1,12 +1,15 @@
 ---
 layout: page
 permalink: /get-started/companies/
-title: Are you a company wanting a more
+title: Are you a company wanting a more green office?
 titleGreen: green office?
 description: "How to get started with the PowerMatcher"
 tags: [Jekyll, theme, responsive]
+parent: get-started
+summary: The PowerMatcherSuite can be used to optimize your office building or even a set of office buildings.
 image:
   feature: /images/site/Get Started_website.jpg
+  thumbnail: /images/site/Get Started_website.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

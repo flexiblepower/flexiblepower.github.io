@@ -1,13 +1,14 @@
 ---
 layout: page
 permalink: /why/businesscases/
-title: Business
+title: Business Cases
 titleGreen: Cases
 tagline: Minimal Mistakes, a Jekyll Theme
 tags: [Flexibility, Prosumers, Transactive Energy]
 modified: 8-8-2014
 comments: true
-parent: why 
+parent: why
+summary: The Suite is targeted at a large user group and therefore holds various business cases for a variety  of stakeholders. Please read this section to find out how to cash the chips.
 image:
   feature: /images/site/banner_inner.jpg
   thumbnail: /images/site/banner_inner.jpg

@@ -1,12 +1,15 @@
 ---
 layout: page
 permalink: /get-started/energy-collectives/
-title: Are you an energy collective wanting to be
+title: Are you an energy collective wanting to be Self-Sustaining?
 titleGreen: Self-Sustaining?
 description: "How to get started with the PowerMatcher"
 tags: [Jekyll, theme, responsive]
-image:
+parent: get-started
+summary: Use the PowerMatcherSuite to form a microgrid.
+image: 
   feature: /images/site/Get Started_website.jpg
+  thumbnail: /images/site/Get Started_website.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

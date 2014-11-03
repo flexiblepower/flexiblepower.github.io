@@ -1,7 +1,7 @@
 ---
 layout: overview
 permalink: /get-involved/
-title: Help us
+title: Help us Grow!
 titleGreen: Grow!
 tagline: PowerMatcher, Github
 tags: [Community, open source, Gitub, PowerMatcher, get involved, Transactive Energy]

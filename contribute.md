@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /get-involved/contribute/
-title: How can I
+title: How can I Contribute?
 titleGreen: Contribute?
 tagline: PowerMatcher, Github
 tags: [Community, open source, Gitub, PowerMatcher, get involved, Transactive Energy]
 modified: 12-9-2014
 comments: true
 parent: get-involved
-summary: This is the summary for this page
+summary: Instructions on how to join the community and contribute code or other things.
 image:
   feature: /images/site/Get Involved_website.jpg
   thumbnail: /images/site/Get Involved_website.jpg

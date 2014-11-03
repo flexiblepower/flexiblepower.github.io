@@ -1,8 +1,8 @@
 ---
 layout: overview
 permalink: /why/
-title: Why and What is the 
-titleGreen: PowerMatcherSuite?
+title: Why and What is the PowerMatcher Suite?
+titleGreen: PowerMatcher Suite?
 tagline: Why is de PowerMatcher build?
 tags: [PowerMatcher, Why, Transactive Energy]
 modified: 8-8-2014

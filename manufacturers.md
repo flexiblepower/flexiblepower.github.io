@@ -1,12 +1,15 @@
 /images/---
 layout: page
 permalink: /get-started/manufacturers/
-title: Are you a device manufacturer wanting to become
+title: Are you a device manufacturer wanting to become PowerMatcher Ready?
 titleGreen: PowerMatcher Ready?
 description: "How to get started with the PowerMatcher"
+parent: get-started
+summary: Making your smart appliance PowerMatcher Ready is relatively simple!
 tags: [Jekyll, theme, responsive]
 image:
   feature: /images/site/Get Started_website.jpg
+  thumbnail: /images/site/Get Started_website.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

@@ -1,12 +1,15 @@
 ---
 layout: page
 permalink: /get-started/aggregators/
-title: Are you an aggregator wanting to 
+title: Are you an aggregator wanting to harvest Flexibility?
 titleGreen: harvest Flexibility?
 description: "How to get started with the PowerMatcher"
 tags: [Jekyll, theme, responsive]
+parent: get-started
+summary: Make profit by leveraging flexibility and trading on the wholesale markets.
 image:
-  feature: site/Get Started_website.jpg
+  feature: /images/site/Get Started_website.jpg
+  thumbnail: /images/site/Get Started_website.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

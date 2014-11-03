@@ -1,22 +1,25 @@
 ---
 layout: page
 permalink: /Technology/powermatcher/
-title: PowerMatcher
+title: PowerMatcher under the Hood
 titleGreen: under the Hood
 tagline: Minimal Mistakes, a Jekyll Theme
 tags: [PowerMatcher, Technology, Explained]
 modified: 8-8-2014
 comments: true
+parent: technology
+summary: Read up on the concept of PowerMatcher and see how PowerMatcher can change the world.
 image:
   feature: /images/site/banner_inner.jpg
+  thumbnail: /images/site/banner_inner.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
 
 
-The PowerMatcher Suite is a ‘demand response’ technology that balances all smart devices, from low voltage to high voltage, in a virtual market. The PowerMatcher could also be herded among the recently coined term transactive energy.
+The PowerMatcher is a ‘demand response’ technology that balances all smart devices, from low voltage to high voltage, in a virtual market. The PowerMatcher could also be herded among the recently coined term transactive energy.
 
-“Transactive energy (TE) is a new hot topic in the energy industry, but what exactly is it? Frankly, it is a concept so new that it does not yet have a formal definition. Carl Imhoff, manager of electricity infrastructure for the Pacific Northwest National Laboratory summed it up by saying, “Transactive energy is a means of using economic signals or incentives to engage all the intelligent devices in the power grid—from the consumer to the transmission system—to get a more optimal allocation of resources and engage demand in ways we haven’t been able to before.” 
+ *“Transactive energy (TE) is a new hot topic in the energy industry, but what exactly is it? Frankly, it is a concept so new that it does not yet have a formal definition. Carl Imhoff, manager of electricity infrastructure for the Pacific Northwest National Laboratory summed it up by saying, “Transactive energy is a means of using economic signals or incentives to engage all the intelligent devices in the power grid—from the consumer to the transmission system—to get a more optimal allocation of resources and engage demand in ways we haven’t been able to before.”*
 
 The PowerMatcher concept is based on the micro-economic principle of demand and supply. Supply and demand is one of the most fundamental concepts of economics and it is the backbone of a market economy. Demand refers to how much (quantity) of a product or service is desired by buyers. The quantity demanded is the amount of a product people are willing to buy at a certain price; the relationship between price and quantity demanded is known as the demand relationship. Supply represents how much the market can offer. The quantity supplied refers to the amount of a certain good producers are willing to supply when receiving a certain price. The correlation between price and how much of a good or service is supplied to the market is known as the supply relationship. Price expresses the willingness to pay for supply and demand. The relationship between demand and supply underlie the forces behind the allocation of resources. In market economy theories, demand and supply theory will allocate resources in the most efficient way possible.
 

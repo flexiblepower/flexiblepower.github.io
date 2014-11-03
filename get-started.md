@@ -1,10 +1,11 @@
 ---
 layout: overview
 permalink: /get-started/
-title: How to 
-titleGreen: get started
+title: How to get started 
+titleGreen:  get started
 description: "How to get started with the PowerMatcher"
 tags: [Jekyll, theme, responsive]
+parentTitle: get-started
 image:
   feature: /images/site/Get Started_website.jpg
   credit: Texture Lovers
