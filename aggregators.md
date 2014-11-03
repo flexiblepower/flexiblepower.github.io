@@ -9,7 +9,7 @@ parent: get-started
 summary: Make profit by leveraging flexibility and trading on the wholesale markets.
 image:
   feature: site/Get Started_website.jpg
-  thumbnail: site/Get Started_website.jpg
+  thumbnail: site/banner_innner.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
