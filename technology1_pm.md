@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /Technology/powermatcher/
+permalink: /technology/powermatcher/
 title: PowerMatcher under the Hood
 titleGreen: under the Hood
 tagline: Minimal Mistakes, a Jekyll Theme
