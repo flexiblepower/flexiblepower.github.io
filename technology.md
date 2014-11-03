@@ -1,6 +1,6 @@
 ---
 layout: overview
-permalink: /Technology/
+permalink: /technology/
 title: The Suite
 titleGreen: Suite
 modified: 29-9-2014
