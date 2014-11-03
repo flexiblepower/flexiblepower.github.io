@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /Technology/fpai/
+permalink: /technology/fpai/
 title: The Flexible Power Application Infrastructure
 titleGreen: Flexible Power Application Infrastructure
 modified: 29-9-2014
