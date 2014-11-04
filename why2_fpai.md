@@ -11,7 +11,7 @@ parent: why
 summary: An introduction into the world of FPAI, a platform that removes silo thinking for smart appliance connectivity.
 image:
   feature: /images/site/banner_inner.jpg
-  thumbnail: /images/site/banner_inner.jpg
+  thumbnail: /images/site/why_fpai.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
