@@ -10,7 +10,7 @@ parent: technology
 summary: A more detailed explanation on the Flexible Power Application Infrastructure; an operating system and platform for easily connecting a multitide of devices and apps.
 image:
   feature: /images/site/banner_inner.jpg
-  thumbnail: /images/site/banner_inner.jpg
+  thumbnail: /images/site/technology_fpai.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
