@@ -20,8 +20,6 @@ Over the years a lot of different Demand Side Management (DSM) approaches have b
 
 All this variety on both the DSM and appliance level presents Energy Management Systems (EMS) with a big challenge. This challenge is depicted below.
 
-[plaatje]
-
 Nowadays most EMS’es are tightly coupled to a particular DSM approach. This results in a vendor lock-in for consumers. A switch to another DSM approach/service almost always requires the installation of another EMS (hardware box).
 
 The FlexiblePower Application Infrastructure (FPAI) is a runtime environment where on one side smart grid applications can be deployed and on the other side appliances can be connected. The FPAI provides interfaces to interact with the environment,such as a User Interface, and connect devices and smart grid apps. Part of the interface definitions are the Control Spaces and Allocations.
