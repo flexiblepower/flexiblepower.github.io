@@ -11,7 +11,7 @@ parent: get-involved
 summary: Instructions on how to join the community and contribute code or other things.
 image:
   feature: /images/site/Get Involved_website.jpg
-  thumbnail: /images/site/Get Involved_website.jpg
+  thumbnail: /images/site/contribute.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
