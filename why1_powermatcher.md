@@ -11,7 +11,7 @@ parent: why
 summary: An introduction into the world of PowerMatcher, a smart grid coordination mechanism.
 image:
   feature: /images/site/banner_inner.jpg
-  thumbnail: /images/site/banner_inner.jpg
+  thumbnail: /images/site/why_pm.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

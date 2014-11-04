@@ -25,13 +25,24 @@ The PowerMatcher concept is based on the micro-economic principle of demand and 
 
 When supply and demand are equal (i.e. when the supply function and demand function intersect) the economy is said to be at equilibrium. The same mechanism is used in PowerMatcher. PowerMatcher core application provides the marketing mechanism for the determination of the equilibrium, while the agents work as actors representing demand and/or supply.
 
+<img src="/images/site/powermatcher.png">
+
 #Agent Technology
 The technology differentiates from other demand response technologies due to its multi agent based decentralized approach.
 The PowerMatcher consists of various agents that communicate via the PowerMatcher protocol. These agents are the:
 
-*	Device agent 				[plaatjes]
-*	Concentrator agent
-*	Auctioneer agent
+*	Device agent 			
+
+<img src="/images/site/deva.png"> <img src="/images/site/devb.png">
+
+*	Concentrator agent  
+
+<img src="/images/site/conb.png"> <img src="/images/site/conc.png">
+
+*	Auctioneer agent    
+
+<img src="/images/site/auca.png">
+
 *	Objective agent
 
 ##The Device Agent

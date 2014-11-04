@@ -10,7 +10,7 @@ parent: technology
 summary: A more detailed explanation on the Flexible Power Application Infrastructure; an operating system and platform for easily connecting a multitide of devices and apps.
 image:
   feature: /images/site/banner_inner.jpg
-  thumbnail: /images/site/banner_inner.jpg
+  thumbnail: /images/site/technology_fpai.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
@@ -23,7 +23,7 @@ The Energy Flexibility Interface defines a standard set of control spaces for fo
 
 The appliance driver uses a communication protocol to communicate with the appliance. At the physical level, this could be Zigbee, Z-Wave, PLC, WIFI, Ethernet, propriety, etc. This is often provided by the manufacturer of the appliance.
 
-[plaatje]
+<img src="/images/site/fpai.png">
 
 
 Using the Control Space of a device, Energy Apps can determine the usage profile of the devices, i.e. when a device should start or stop etc. The Energy App sends a control signal, or Allocation to the device based on certain events. In case of the PowerMatcher a control signal to the device would be the result of receiving a new market price. 
@@ -50,7 +50,7 @@ The Remote Management Interface allows for remote management of multiple FPAI no
 
 The owner of a FPAI hub can open a dashboard or Graphical User Interface (GUI) in his browser that shows controls and information about his FPAI hub and the current state of his appliances in the form of Widgets. Each Widget shows information about an appliance. It is possible to have multiple Widgets per appliance. 
 
-[plaatje]
+<img src="/images/site/gui.png">
 
 
 

@@ -8,7 +8,7 @@ tags: [about, PowerMatcher, FAN, Transactive Energy]
 modified: 8-8-2014
 comments: true
 image:
-  feature: /images/site/banner_inner.jpg
+  feature: /images/site/about.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

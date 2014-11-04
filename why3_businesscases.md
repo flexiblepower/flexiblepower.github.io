@@ -10,8 +10,8 @@ comments: true
 parent: why
 summary: The Suite is targeted at a large user group and therefore holds various business cases for a variety  of stakeholders. Please read this section to find out how to cash the chips.
 image:
-  feature: /images/site/banner_inner.jpg
-  thumbnail: /images/site/banner_inner.jpg
+  feature: /images/site/business_cases.jpg
+  thumbnail: /images/site/business_cases.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
