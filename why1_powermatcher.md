@@ -29,6 +29,8 @@ To fill in the missing link, an innovative software solution was designed: *Powe
 
 *"PowerMatcher is an ICT technology for making the electricity grid* **smart** *."*
 
+<iframe width="560" height="315" src="//www.youtube.com/embed/Zz4OpVwYWYE" frameborder="0" allowfullscreen></iframe>
+
 There are already numerous implementations of PowerMatcher in the field where the technology has proven itself, see [implementations](/in-practice/implementations) for a list of noticeable projects. If you want to contribute to PowerMatcher see the section [Get Involved](/get-involved). Also, if you are curious what PowerMatcher can mean for your business or how to make business with PowerMatcher, see [PowerMatcher Business Cases](/why/business-cases). PowerMatcher is maintained by the [Flexiblepower Alliance Network](http://www.flexiblepower.org) and the open-source community.
 
 ## Advantages ##
