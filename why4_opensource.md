@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /why/opensource/
-title: Why  
+title: Why  Open source?
 titleGreen: Open Source?!
-tagline: Why open source openess always wins in the end!
+tagline: Why openess always wins in the end!
 tags: [Open Source, Apache 2.0, Github]
 modified: 8-8-2014
 comments: true
