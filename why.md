@@ -14,4 +14,3 @@ image:
   creditlink: http://texturelovers.com
 ---
 
-Please use the menu bar to select a topic!
