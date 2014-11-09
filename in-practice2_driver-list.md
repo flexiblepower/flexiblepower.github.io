@@ -35,3 +35,5 @@ FPAI drivers (all open source):
 * Hexabus driver
 	*	 Smartmeter driver + manager
 * Scenario application
+
+Your driver here? [Fix this page](https://github.com/flexiblepower/flexiblepower.github.io/edit/master/in-practice2_driver-list.md)
