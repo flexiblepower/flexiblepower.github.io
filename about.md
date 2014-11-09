@@ -13,7 +13,7 @@ image:
   creditlink: http://texturelovers.com
 ---
 
-PowerMatcher is founded by ECN/TNO. PowerMatcher is now an Flexiblepower Alliance Network project.
+PowerMatcher is founded by ECN/TNO. PowerMatcherSuite (PowerMatcher and FPAI) is now an Flexiblepower Alliance Network project.
 
 [http://www.flexiblepower.org/](http://www.flexiblepower.org/)
 
