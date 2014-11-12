@@ -5,7 +5,7 @@ description: "EUW14 Ready"
 tags: [PowerMatcher, EUW, European utility week, FAN, github, open source, apache 2.0 , smart grid]
 comments: true
 published: true
-thumbnail: http://www.hostessservice.nl/image/index/index/fid/46
+thumbnail: /images/EUW.jpg
 ---
 
 #PowerMatcher community is online!
