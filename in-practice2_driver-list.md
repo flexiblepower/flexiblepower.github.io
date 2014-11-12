@@ -12,8 +12,6 @@ summary: A list of all currently available device agents for PowerMatcher and ap
 image:
   feature: /images/site/banner_inner.jpg
   thumbnail: /images/site/banner_inner.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
 
 List of existing device agents
