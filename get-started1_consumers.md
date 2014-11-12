@@ -4,14 +4,12 @@ permalink: /get-started/consumers/
 title: Are you a consumer wanting to be a prosumer?
 titleGreen: prosumer?
 description: "How to get started with the PowerMatcher"
-tags: [Jekyll, theme, responsive]
+tags: [Consumer, procumer, Solar]
 parent: get-started
 summary: Being a prosumer means producing your own energy next to the consumption of energy. Do you have a solar panel and do you want your washing machine to switch on when it is producing power? Look no further.
 image:
   feature: /images/site/Get Started_website.jpg
   thumbnail: /images/site/Get Started_website.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
 
 Being a prosumer means producing your own energy next to the consumption of energy. Do you have a solar panel and do you want your washing machine to switch on when it is producing power?
