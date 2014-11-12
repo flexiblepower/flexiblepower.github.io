@@ -12,8 +12,6 @@ summary: Read up on the concept of PowerMatcher and see how PowerMatcher can cha
 image:
   feature: /images/site/banner_inner.jpg
   thumbnail: /images/site/banner_inner.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
 
 
