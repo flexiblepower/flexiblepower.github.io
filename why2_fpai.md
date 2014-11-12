@@ -12,8 +12,6 @@ summary: An introduction into the world of FPAI, a platform that removes silo th
 image:
   feature: /images/site/banner_inner.jpg
   thumbnail: /images/site/why_fpai.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
 
 Over the years a lot of different Demand Side Management (DSM) approaches have been developed. Unfortunately these DSM approaches are not interoperable. A similar issue can be identified on the appliance level. Appliances provide the flexibility that is being exploited by DSM. To begin with there a lot of different appliances (washing machines, Combined Heat Power Systems, PV panels, fridges, etc.). They also use different protocols for communication (Zigbee, Z-wave, WiFi, PLC, etc.).
