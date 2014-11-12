@@ -12,8 +12,6 @@ summary: An introduction into the world of PowerMatcher, a smart grid coordinati
 image:
   feature: /images/site/banner_inner.jpg
   thumbnail: /images/site/why_pm.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
 
 # The current situation in electrical networks #
