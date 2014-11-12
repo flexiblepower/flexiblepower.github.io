@@ -12,8 +12,6 @@ summary: Instructions on how to join the community and contribute code or other 
 image:
   feature: /images/site/contribute.jpg
   thumbnail: /images/site/contribute.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
 
 PowerMatcher and FPAI are open source projects. Contributions are welcome and actively encouraged to improve the experience.
