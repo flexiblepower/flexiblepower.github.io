@@ -20,7 +20,7 @@ Over the years a lot of different Demand Side Management (DSM) approaches have b
 
 All this variety on both the DSM and appliance level presents Energy Management Systems (EMS) with a big challenge. 
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/dPiI7HJ_l1g" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/rZq0DkAW5e4" frameborder="0" allowfullscreen></iframe>
 
 Nowadays most EMS’es are tightly coupled to a particular DSM approach. This results in a vendor lock-in for consumers. A switch to another DSM approach/service almost always requires the installation of another EMS (hardware box).
 
