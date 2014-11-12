@@ -10,6 +10,4 @@ comments: true
 parentTitle: get-involved
 image:
   feature: /images/site/Get Involved_website.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
