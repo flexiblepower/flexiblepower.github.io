@@ -11,8 +11,6 @@ summary: A more detailed explanation on the Flexible Power Application Infrastru
 image:
   feature: /images/site/banner_inner.jpg
   thumbnail: /images/site/technology_fpai.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
 
 The Flexible Power Application Infrastructure (FPAI) provides a runtime environment that makes it possible to quickly design and implement new energy services and smart appliances. FPAI enables easy deployment and configuration of ‘Energy Apps’ and device drivers, and provides easy interaction through the Energy Flexibility Interface. Now device manufacturers can write generic device drivers for their appliances that can be used by any Energy App that runs on FPAI. Also any Energy App that is developed on FPAI can make use of all available drivers. 
