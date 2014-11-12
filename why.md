@@ -10,7 +10,5 @@ comments: true
 parentTitle: why
 image:
   feature: /images/site/banner_inner.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
 
