@@ -12,8 +12,6 @@ summary: We need all the help we can get to get the technology out there.
 image:
   feature: /images/site/Get Involved_website.jpg
   thumbnail: /images/site/why_join.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
 
 Both individuals and organisations are welcomed to join the development.
