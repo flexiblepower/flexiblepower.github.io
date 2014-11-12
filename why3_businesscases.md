@@ -3,7 +3,7 @@ layout: page
 permalink: /why/businesscases/
 title: Business Cases
 titleGreen: Cases
-tagline: Minimal Mistakes, a Jekyll Theme
+tagline: Business Cases for FPAI and PowerMatcher
 tags: [Flexibility, Prosumers, Transactive Energy]
 modified: 8-8-2014
 comments: true
@@ -12,8 +12,6 @@ summary: The Suite is targeted at a large user group and therefore holds various
 image:
   feature: /images/site/business_cases.jpg
   thumbnail: /images/site/business_cases.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
 
 PowerMatcher can be of use in various business cases. In most business cases, flexibility is of key value. In an electricity network where the supply is becoming more and more intermittent and less and less flexible, the ability to generate or consume electricity at a moment of choice becomes of high value. Several parties can provide this flexibility (*flex providers*) and other parties need this flexibility (*flex consumers*). Business area's could emerge where flex providers and consumers are linked with eachother.
