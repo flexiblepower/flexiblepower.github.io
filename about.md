@@ -21,7 +21,7 @@ The PowerMatcherSuite projects are licenced under the [Apache License, Version 2
 
 ## Use of PowerMatcher Trademark ##
 PowerMatcher is an [registered trademark of TNO](http://oami.europa.eu/eSearch/#details/trademarks/004298097).
-Only FAN-members are allowed to use the trademark and logo!
+Only FAN-members are allowed to use the trademark and logo! Checkout the [FAN website](http://www.flexiblepower.org/join/) for more information.
 
 ## Contact ##
 If you want to get in touch.
