@@ -9,7 +9,7 @@ thumbnail: /images/EUW.jpg
 ---
 
 #EUW 2014 presentations online!
-Check out the EUW 2014 presentations.
+Check out the EUW 2014 presentations (click on the name):
 
 ##[PowerMatching the Future](http://www.engerati.com/on-demand/powermatching-future/7117)
 Alexander Krstulovic, IT Consultant, Alliander
