@@ -14,7 +14,7 @@ Check out the EUW 2014 presentations.
 ##[PowerMatching the Future](http://www.engerati.com/on-demand/powermatching-future/7117)
 Alexander Krstulovic, IT Consultant, Alliander
 
-##[PowerMatcher & Consumer Behaviour]http://www.engerati.com/on-demand/powermatcher-consumer-behaviour/7124)
+##[PowerMatcher & Consumer Behaviour](http://www.engerati.com/on-demand/powermatcher-consumer-behaviour/7124)
 Arnoud Rijneveld, Innovator, Stedin
 
 ##[A Generic Infrastructure for Coupling Flexible Devices and Demand Response Systems](http://www.engerati.com/on-demand/generic-infrastructure-coupling-flexible-devices-and-demand-response-systems/7119)
