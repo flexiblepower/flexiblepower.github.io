@@ -14,6 +14,8 @@ image:
   thumbnail: /images/site/why_fpai.jpg
 ---
 
+FPAI is the second technology that is part of the PowerMatcher Suite. FPAI and PowerMatcher are complementary but can also be used on their own.
+
 Over the years a lot of different Demand Side Management (DSM) approaches have been developed. Unfortunately these DSM approaches are not interoperable. A similar issue can be identified on the appliance level. Appliances provide the flexibility that is being exploited by DSM. To begin with there a lot of different appliances (washing machines, Combined Heat Power Systems, PV panels, fridges, etc.). They also use different protocols for communication (Zigbee, Z-wave, WiFi, PLC, etc.).
 
 All this variety on both the DSM and appliance level presents Energy Management Systems (EMS) with a big challenge. 
@@ -22,7 +24,7 @@ All this variety on both the DSM and appliance level presents Energy Management 
 
 Nowadays most EMS’es are tightly coupled to a particular DSM approach. This results in a vendor lock-in for consumers. A switch to another DSM approach/service almost always requires the installation of another EMS (hardware box).
 
-The FlexiblePower Application Infrastructure (FPAI) is a runtime environment where on one side smart grid applications can be deployed and on the other side appliances can be connected. The FPAI provides interfaces to interact with the environment,such as a User Interface, and connect devices and smart grid apps. Part of the interface definitions are the Control Spaces and Allocations.
+The FlexiblePower Application Infrastructure (FPAI) is a runtime environment where on one side smart grid applications can be deployed and on the other side appliances can be connected, see it as a gateway operating system. The FPAI provides interfaces to interact with the environment,such as a User Interface, and connect devices and smart grid apps. Part of the interface definitions are the Control Spaces and Allocations.
 
 FPAI aims to create an interoperable platform that is able to connect to a variety of appliances and support a variety of DSM approaches. 
 
