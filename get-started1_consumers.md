@@ -9,7 +9,7 @@ parent: get-started
 summary: Being a prosumer means producing your own energy next to the consumption of energy. Do you have a solar panel and do you want your washing machine to switch on when it is producing power? Look no further.
 image:
   feature: /images/site/Get Started_website.jpg
-  thumbnail: /images/site/Get Started_website.jpg
+  thumbnail: /images/site/prosumer.jpg
 ---
 
 Being a prosumer means producing your own energy next to the consumption of energy. Do you have a solar panel and do you want your washing machine to switch on when it is producing power?
