@@ -9,7 +9,7 @@ parent: get-started
 summary: The PowerMatcherSuite can be used to optimize your office building or even a set of office buildings.
 image:
   feature: /images/site/Get Started_website.jpg
-  thumbnail: /images/site/Get Started_website.jpg
+  thumbnail: /images/site/green_office.jpg
 ---
 
 The PowerMatcherSuite can be used to optimize your office building or even a set of office buildings. In addition the PowerMatcher technology can also be used to reduce your energy bill by using the flexibility of your system to buy and/or sell your energy smart on the energy markets. How can you achieve these things? Read on!
