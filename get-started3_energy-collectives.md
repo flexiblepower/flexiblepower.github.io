@@ -8,8 +8,8 @@ tags: [Self-Sustaining, energy collective, smartgrid]
 parent: get-started
 summary: Use the PowerMatcherSuite to form a microgrid.
 image: 
-  feature: /images/site/Get Started_website.jpg
-  thumbnail: /images/site/Get Started_website.jpg
+  feature: /images/site/get_started_main.jpg
+  thumbnail: /images/site/get_started_main.jpg
 ---
 
 The PowerMatcher is a very scalable solution for connecting cluster of residential buildings and local generation units. By means of the PowerMatcher a microgrid can be created that maintains its own balance. A coupling with the power grid is still possible for those moments that the generation capability of your microgrid is not sufficient to deal with the load. 

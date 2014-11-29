@@ -9,5 +9,5 @@ modified: 12-9-2014
 comments: true
 parentTitle: get-involved
 image:
-  feature: /images/site/Get Involved_website.jpg
+  feature: /images/site/get_involved_why_join.jpg
 ---
