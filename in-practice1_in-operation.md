@@ -10,7 +10,7 @@ comments: true
 parent: in-practice
 summary: A list of all real life implementations of the PowerMatcher and FPAI
 image:
-  feature: /images/site/banner_inner.jpg
+  feature: /images/site/in_practice.jpg
   thumbnail: /images/site/in_practice_in_operation.jpg
 ---
 

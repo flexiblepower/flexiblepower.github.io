@@ -9,7 +9,7 @@ parent: get-started
 summary: Make profit by leveraging flexibility and trading on the wholesale markets.
 image:
   feature: /images/site/get_started_main.jpg
-  thumbnail: /images/site/get_started_main.jpg
+  thumbnail: /images/site/aggregator.jpg
 ---
 
 The PowerMatcher is available open source and can be used to unlock flexibility, even into household level, cost effectively. All parties are encouraged to take the PowerMatcher, which is licensed under Apache 2.0, and integrate it with their own solution. If you are looking for a standard out of the box flexibility trading platform, look no further.
