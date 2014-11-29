@@ -7,7 +7,7 @@ description: "How to get started with the PowerMatcher"
 tags: [Get started, introduction, open source, how to]
 parentTitle: get-started
 image:
-  feature: /images/site/Get Started_website.jpg
+  feature: /images/site/get_started_main.jpg
 ---
 
 ## Virtual Machine ##
