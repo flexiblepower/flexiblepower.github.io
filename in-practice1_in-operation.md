@@ -11,7 +11,7 @@ parent: in-practice
 summary: A list of all real life implementations of the PowerMatcher and FPAI
 image:
   feature: /images/site/banner_inner.jpg
-  thumbnail: /images/site/banner_inner.jpg
+  thumbnail: /images/site/in_practice_in_operation.jpg
 ---
 
 Current PowerMatcher™ implementations can be also be found on the [Flexiblepower Alliance Network](http://www.flexiblepower.org/implementations/ "Flexiblepower Alliance Network")
