@@ -11,7 +11,7 @@ parent: in-practice
 summary: A list of all currently available device agents for PowerMatcher and appliance drivers for FPAI.
 image:
   feature: /images/site/banner_inner.jpg
-  thumbnail: /images/site/banner_inner.jpg
+  thumbnail: /images/site/in_practice_list.jpg
 ---
 
 List of existing device agents
