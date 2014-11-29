@@ -9,7 +9,7 @@ parent: get-started
 summary: The PowerMatcher is a great tool for managing local congestion points.
 image:
   feature: /images/site/Get Started_website.jpg
-  thumbnail: /images/site/Get Started_website.jpg
+  thumbnail: /images/site/grid_operator.jpg
 ---
 
 The PowerMatcher is a great tool for managing local congestion points, we have proven this in various test beds in the Netherlands and Bornhol island. This is also the reason why the two biggest grid operators of the Netherlands: Alliander and Stedin have already joined the FAN alliance.
