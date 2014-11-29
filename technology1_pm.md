@@ -11,7 +11,7 @@ parent: technology
 summary: Read up on the concept of PowerMatcher and see how PowerMatcher can change the world.
 image:
   feature: /images/site/banner_inner.jpg
-  thumbnail: /images/site/technology_pm.jpg
+  thumbnail: /images/site/under_the_hood.jpg
 ---
 
 
