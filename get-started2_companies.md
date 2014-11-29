@@ -8,7 +8,7 @@ tags: [Company, energy]
 parent: get-started
 summary: The PowerMatcherSuite can be used to optimize your office building or even a set of office buildings.
 image:
-  feature: /images/site/Get Started_website.jpg
+  feature: /images/site/get_started_main.jpg
   thumbnail: /images/site/green_office.jpg
 ---
 
