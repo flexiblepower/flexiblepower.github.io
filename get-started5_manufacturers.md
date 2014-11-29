@@ -8,7 +8,7 @@ parent: get-started
 summary: Making your smart appliance PowerMatcher Ready is relatively simple!
 tags: [device, manufacturer, PowerMatcher, FPAI]
 image:
-  feature: /images/site/Get Started_website.jpg
+  feature: /images/site/get_started_main.jpg
   thumbnail: /images/site/manufacturer.jpg
 ---
 
