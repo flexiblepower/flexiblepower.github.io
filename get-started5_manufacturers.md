@@ -8,8 +8,8 @@ parent: get-started
 summary: Making your smart appliance PowerMatcher Ready is relatively simple!
 tags: [device, manufacturer, PowerMatcher, FPAI]
 image:
-  feature: /images/site/Get Started_website.jpg
-  thumbnail: /images/site/Get Started_website.jpg
+  feature: /images/site/get_started_main.jpg
+  thumbnail: /images/site/manufacturer.jpg
 ---
 
 All you need to do for your company to be able to leverage the PowerMatcher technology is to make your appliance capable of talking PowerMatcher language. It needs a device driver and possibly a device agent. 

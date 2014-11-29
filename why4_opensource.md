@@ -11,7 +11,7 @@ parent: why
 summary: The Suite is open sourced under the Apache 2.0 license. A unique proposition in the smart grid world. We believe it will propell adoption.
 image:
   feature: /images/site/why_open.jpg
-  thumbnail: /images/site/why_open.jpg
+  thumbnail: /images/site/why_open_source.jpg
 ---
 
 # The PowerMatcher Suite and Open Source
