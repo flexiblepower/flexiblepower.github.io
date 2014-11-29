@@ -9,6 +9,6 @@ modified: 22-9-2014
 comments: true
 parentTitle: in-practice
 image:
-  feature: /images/site/banner_inner.jpg
+  feature: /images/site/in_practice.jpg
 ---
 
