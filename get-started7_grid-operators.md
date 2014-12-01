@@ -8,7 +8,7 @@ tags: [DSO, grid operator, congestion management]
 parent: get-started
 summary: The PowerMatcher is a great tool for managing local congestion points.
 image:
-  feature: /images/site/Get Started_website.jpg
+  feature: /images/site/get_started_main.jpg
   thumbnail: /images/site/grid_operator.jpg
 ---
 
