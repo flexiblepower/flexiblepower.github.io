@@ -14,4 +14,4 @@ image:
 
 The PowerMatcher is a very scalable solution for connecting cluster of residential buildings and local generation units. By means of the PowerMatcher a microgrid can be created that maintains its own balance. A coupling with the power grid is still possible for those moments that the generation capability of your microgrid is not sufficient to deal with the load. 
 
-Please contact us here so we can work with you on a large scale rollout of the technology.
+Please contact us [here](http://www.flexiblepower.org/contact/) so we can work with you on a large scale rollout of the technology.
