@@ -45,9 +45,12 @@ The PowerMatcher consists of various agents that communicate via the PowerMatche
 
 ##The Device Agent
 In the PowerMatcher framework a smart device is represented by a device agent. The device agent contains logic to operate the process associated with the device in an economical optimal way.  It translates the state of a smart device (battery charge is low or CHP output is 1500W and gas consumption is 0,61 Euro/m3) to a bid on the PowerMatcher market (see Protocol section). 
-The device agent could also contain logic to make the device “smart” by including end user wishes as well external input such as  weather or energy price forecasts. By taking into account this extra information the device can determine for itself what would be the best time to consume…. or produce energy.
 
-To steer  and read out the machine, a “physical” connection has to be made with the device. This could be done by mapping the agent directly to the IO of the device or perhaps a web service as delivered by the device manufacturer. Instead we have chosen to run PowerMatcher on the FPAI technology as an intermediate layer;  this only requires a connection of the device agent to the abstraction layer of FPAI. FPAI takes care of the actual physical connection with the device (see FPAI section). As a result the PowerMatcher device agent does not have to think about the type of machine, brand, or model number. The reader is referred to the FPAI section for a more detailed explanation of FPAI technology.
+The device agent could also contain logic to make the device “smart” by including end user wishes as well as external input such as  weather or energy price forecasts. By taking into account this extra information the device can determine for itself what would be the best time to consume…. or produce energy.
+
+On one side the device agent is connected to the the PowerMatcher market, on the other side to the physical device.
+
+To steer and read out the machine, a “physical” connection has to be made with the device. This could be done by mapping the agent directly to the IO of the device or perhaps a web service as delivered by the device manufacturer. PowerMatcher can also be run on the FPAI technology as an intermediate layer;  this only requires a mapping of the device agent to the abstraction layer of FPAI. FPAI takes care of the actual physical connection with the device (see FPAI section). As a result the PowerMatcher device agent does not have to think about the type of machine, brand, or model number. The reader is referred to the FPAI section for a more detailed explanation of FPAI technology.
 
 ##The Concentrator Agent
 The concentrator agent performs three functions. The first function of the concentrator is the bundling of messages received from child agents. Children could be other concentrator agents or other device agents. The concentrator concentrates, or aggregates,  all these messages and publishes a single message upward in the hierarchy. 
@@ -61,14 +64,15 @@ The auctioneer  always stands on top of the hierarchy and bundles all messages r
 The objective agent gives a cluster its purpose. The objective agent interfaces to the business logic behind the specific application. The objective agent can be connected to the auctioneer or a concentrator agent. The objective agent  can send external incentives to manipulate the other agent by means of the general PowerMatcher protocol (See Protocol section). 
 When the objective agent is absent, the goal of the cluster is to balance itself, i.e., it strives for an equal supply and demand within the cluster itself. Depending on the specific application, the goal of the cluster might be different. If the cluster has to operate as a virtual power plant, for example, it needs to follow a certain externally provided setpoint schedule. Such an externally imposed objective can be realized by implementing an objective agent.  Other couplings could be with the energy trading market, external optimization algorithms etc.
 
-#Distributed nature and a message bus.
+#Distributed nature
 
-The PowerMatcher is distributed in nature, however every agent can also run on a central server (Want to see how this works, follow the Get Started guide to setup your own PowerMatcher!). We hold the vision that in the future device agent logic will be implemented in physical smart appliances. 
+The PowerMatcher is distributed in nature [Want to see how this works, follow the Get Started guide to setup your own PowerMatcher!](https://github.com/flexiblepower/powermatcher/wiki/SimplePMCluster). 
 
 The best solution presently is the use of FPAI that functions as a gateway operating system (a gateway can be compared to your router for connecting to the internet, like your laptop with Windows the gateway also needs an operating system) and unburdens the PowerMatcher from the connectivity and interoperability with physical appliances (see FPAI). 
+
 Because of the distributed nature of the PowerMatcher the concept is extremely scalable. You can implement it on household level and have an auctioneer optimize your house. It can also be implemented by an energy collective or aggregator to optimize over a large system.
 
-The central server of the PowerMatcher that receives all incoming messages from child agents has implemented a message bus. A message bus is a common solution for “Internet of things” implementations. For a more detailed explanation the reader is referred to the specification section.
+Agents communicate with each other over the internet. A logical setup would be a central PowerMatcher server hosted by for instance an Aggregator or Energy Collective. This central server is the endpoint connection for hundreds of households and houses the Auctioneer; each household hosts its own mix of device and concentrator agents on a local gateway and connects to the auctioneer on the central server.
 
 #PowerMatcher protocol
 Every agent in the PowerMatcher framework communicates via a standardized protocol. This protocol defines two way communication where the upward message in the hierarchy is different from the downward or returning message.  
@@ -89,13 +93,14 @@ At the moment we distinguish at least three types of optimization system approac
 1.	Centralized optimization (e.g. Simplex method)
 2.	Decentralized optimization (part of the objective function is calculated locally)
 3.	Agent technology
-In a centralized optimization system a control signal is often centrally imposed meaning a control center determines whether your air-condition should be turned on or off. A centralized optimization can also become very processing-intensive with increasing amount of connected devices and parameters.
+4.	
+In a centralized optimization system a control signal is often centrally imposed meaning a control center determines whether your air-condition should be turned on or off. A centralized optimization can also become very computationally-intensive with increasing amount of connected devices and parameters.
 
-A decentralized optimization is already more in line with PowerMatcher ideology, yet we feel that the solution would still be too complex. 
+A decentralized optimization is already more in line with PowerMatcher ideology, yet we feel that the solution would still be too complex with many iterations. 
 
 In the PowerMatcher framework we relied on agent technology. Your appliance and agent will act autonomously based on your predefined settings (most cost efficient, most green energy etc.) and settings are never imposed. In other words, you still get to decide at any moment whether you want to turn your airco on or off.  The PowerMatcher ensures that the end user retains full control but its energy consumption or production will be optimized autonomously as set by end user’s desired constraints.
 
-The optimization of the PowerMatcher is based on the micro-economic principle of demand and supply. When supply and demand are equal (i.e. when the supply function and demand function intersect) the economy is said to be at equilibrium. PowerMatcher core application provides the marketing mechanism which is embedded in the communication protocol for the determination of the equilibrium, while the agents work as actors representing demand and/or supply.
+The optimization of the PowerMatcher is based on the micro-economic principle of demand and supply. When supply and demand are equal (i.e. when the supply function and demand function intersect) the economy is said to be at equilibrium. PowerMatcher core application provides the marketing mechanism which is embedded in the communication protocol for the determination of the equilibrium, while the agents work as actors representing demand and/or supply. The optimum is determined in a single iteration.
 
 ##Bid curve aggregation and determining the optimal set point
 As bid curves are send higher up the hierarchy they are received by the parent agent. A parent agent is always a concentrator or auctioneer agent. Both agents aggregate the received bid curves and compose a new single bid curve. Aggregation means as much as adding bid curves; bid curves that represent generation of energy, produce ‘negative power’ or ‘negative supply’ and are therefore subtracted. 
@@ -109,4 +114,4 @@ After aggregation of all child agent bid curves a new aggregated bid curve is co
 The auctioneer performs one extra action after aggregation to determine the optimal point of the system. Since the final aggregated bid curve represents the net power demand as a function of the price, the price where the net demand equals zero is the point where the systems supplies as much power as is demanded. This is the internal price where the system is in balance. Consequently this price is communicated down the hierarchy, each individual device will start consuming or producing energy as ‘promised’ by its bid curve.
 
 ##Optimization of current state and events
-The PowerMatcher always optimizes the current state. The state of the system changes due to events. So as soon as the internal temperature of a refrigerator changes it sends out a new bid curve, or event. This event is then dealt with within the PowerMatcher possibly causing a chain of events  if the implications of the bid curve caused a significant change in the system.
+The PowerMatcher always optimizes the current state. The state of the system changes due to events. So as soon as the internal temperature of a refrigerator changes it sends out a new bid curve, or event. This event is then dealt with within the PowerMatcher possibly causing a chain of events if the implications of the bid curve caused a significant change in the system.
