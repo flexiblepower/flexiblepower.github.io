@@ -8,7 +8,7 @@ tags: [developers, open source, powermatcher]
 parent: get-started
 summary: Do you want to help us Grow!?
 image:
-  feature: /images/site/Get Started_website.jpg
+  feature: /images/site/get_started_main.jpg
   thumbnail: /images/site/developer.jpg
 ---
 
