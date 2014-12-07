@@ -6,50 +6,44 @@
 <head>
 {% include _head.html %}
 </head>
-<body class="home">
-
-{% include _browser-upgrade.html %}
-
-{% include _navigation.html %}
-
-{% include _header-home.html %}
-
-<div id="index" class="row">
-  <div class="col-md-8 col-md-offset-2">
-    <section id="search-results" style="display: none;">
-      <p>Search results</p>
-      <div class="entries">
-        {% raw %}
-          <script id="search-results-template" type="text/mustache">
-            {{#entries}}
-              <article>
-                <div class="row search-result-row">
-                  <div class="col-md-2">
-                    <h4>{{#date}}<time datetime="{{pubdate}}" pubdate>{{displaydate}}</time>{{/date}}</h4>
-                  </div>
-                  <div class="col-md-10">
-                    <h4><a href="{{url}}">{{title}} {{titleGreen}}</a></h4>
-                  </div>
-                </div>
-              </article>
-            {{/entries}}
-          </script>
-        {% endraw %}
+  <body class="home">
+    <div class="container-fluid">
+      {% include _browser-upgrade.html %}
+      {% include _navigation.html %}
+      {% include _header-home.html %}
+      <div id="index" class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <section id="search-results" style="display: none;">
+            <p>Search results</p>
+            <div class="entries">
+              {% raw %}
+                <script id="search-results-template" type="text/mustache">
+                  {{#entries}}
+                    <article>
+                      <div class="row search-result-row">
+                        <div class="col-md-2">
+                          <h4>{{#date}}<time datetime="{{pubdate}}" pubdate>{{displaydate}}</time>{{/date}}</h4>
+                        </div>
+                        <div class="col-md-10">
+                          <h4><a href="{{url}}">{{title}} {{titleGreen}}</a></h4>
+                        </div>
+                      </div>
+                    </article>
+                  {{/entries}}
+                </script>
+              {% endraw %}
+            </div>
+          </section>
+        </div>
       </div>
-    </section>
-  </div>
-</div>
-<div class="row">
-  <div class="footer-wrap">
-  <footer class="col-md-12">
-    {% include _footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
-</div>
-
-
-{% include _scripts.html %}
-  
-</body>
-
+      <div class="row">
+        <div class="footer-wrap">
+        <footer class="col-md-12">
+          {% include _footer.html %}
+        </footer>
+      </div><!-- /.footer-wrap -->
+      </div>
+      {% include _scripts.html %}
+    </div> 
+  </body>
 </html>

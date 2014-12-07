@@ -6,99 +6,85 @@
 <head>
 {% include _head.html %}
 </head>
+  <body class="page">
+    <div class="container-fluid">
+    {% include _browser-upgrade.html %}
 
-<body class="page">
+    {% include _navigation.html %}
 
-{% include _browser-upgrade.html %}
-
-{% include _navigation.html %}
-
-<div class="row">
-  <div class="col-md-12">
-    {% if post.image.feature %}
-      <img class="featured-image img-responsive" src=
-        {% if page.image.feature contains 'http://' %}
-          "{{ page.image.feature }}"
-        {% elsif page.image.feature contains 'https://' %}
-          "{{ page.image.feature }}"
+    <div class="row">
+      <div class="col-md-12">
+        {% if post.image.feature %}
+          <img class="featured-image img-responsive" src=
+            {% if page.image.feature contains 'http://' %}
+              "{{ page.image.feature }}"
+            {% elsif page.image.feature contains 'https://' %}
+              "{{ page.image.feature }}"
+            {% else %}
+              "{{ page.image.feature }}"
+            {% endif %}
+          alt="{{ page.title }} feature image">      
         {% else %}
-          "{{ page.image.feature }}"
+          <img class="featured-image img-responsive" src="/images/site/banner_inner.jpg" />
         {% endif %}
-      alt="{{ page.title }} feature image">      
-    {% else %}
-      <img class="featured-image img-responsive" src="/images/site/banner_inner.jpg" />
-    {% endif %}
-  </div>
-</div>
-<div id="main" class="row" role="main">
-  <div class="col-md-8 col-md-offset-2">
-    <div class="row no-margin-left-right">
-    <div class="col-md-9">
-      <article>
-        <h1><span class="black-word">{{ page.title }}</span> <span class="green-word">{{ page.titleGreen }}</span></h1>
-        <div class="date">
-          {{ page.date | date: "%B %d, %Y" }} | {% for tag in page.tags %} <span class="tag">{{ tag }}</span>, {% endfor %} 
-        </div>
-        <p>
-          {{ page.description }}
-        </p>
-        <hr/>
-        <div class="article-wrap">
-          {{ content }}
-        </div><!-- /.article-wrap -->
-        {% if site.disqus_shortname and page.comments %}
-          <section id="disqus_thread"></section><!-- /#disqus_thread -->
-        {% endif %}
-      </article>
+      </div>
     </div>
-    <div class="col-md-3">
-      <div class="page-sidebar">
-        <div class="join-box">
-          <h2 class="join-text">Powermatcher is awesome</h2>
-          <button class="join-button">JOIN NOW!</button>
+    <div id="main" class="row" role="main">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="row no-margin-left-right">
+        <div class="col-md-9">
+          <article>
+            <h1><span class="black-word">{{ page.title }}</span> <span class="green-word">{{ page.titleGreen }}</span></h1>
+            <div class="date">
+              {{ page.date | date: "%B %d, %Y" }} | {% for tag in page.tags %} <span class="tag">{{ tag }}</span>, {% endfor %} 
+            </div>
+            <p>
+              {{ page.description }}
+            </p>
+            <hr/>
+            <div class="article-wrap">
+              {{ content }}
+            </div>
+            {% if site.disqus_shortname and page.comments %}
+              <section id="disqus_thread"></section>
+            {% endif %}
+          </article>
         </div>
-        <div class="sidebar-articles">
-        <h1>Latest <span class="last-word">News</span></h1>   
-          {% for post in site.posts limit:3 %}  
-              <div class="item">
-                <img class="img-responsive" src="{{ post.thumbnail }}"/>
-                <article class="sidebar-article-title">
-                  {% if post.link %}    
-                    <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
-                  {% else %}
-                    <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>                
-                  {% endif %}
-                </article>
-              </div>            
-          {% endfor %}
-        </div>
-        </div>    
-          <div class="float-center-wrapper">
-            <button class="center-header">More news</button>
+        <div class="col-md-3">
+          <div class="page-sidebar">
+            <div class="join-box">
+              <h2 class="join-text">Powermatcher is awesome</h2>
+              <button class="join-button">JOIN NOW!</button>
+            </div>
+            <div class="sidebar-articles">
+            <h1>Latest <span class="last-word">News</span></h1>   
+              {% for post in site.posts limit:3 %}  
+                  <div class="item">
+                    <img class="img-responsive" src="{{ post.thumbnail }}"/>
+                    <article class="sidebar-article-title">
+                      {% if post.link %}    
+                        <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
+                      {% else %}
+                        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>                
+                      {% endif %}
+                    </article>
+                  </div>            
+              {% endfor %}
+            </div>
+            </div>    
+              <div class="float-center-wrapper">
+                <button class="center-header float-right">More news</button>
+              </div>
+            </div>
           </div>
+        </div>
         </div>
       </div>
     </div>
+      <footer>
+        {% include _footer.html %}
+      </footer>
     </div>
-  </div>
-</div><!-- 
-
-<div class="footer-wrap">
-  <div class="related-articles">
-  <h4>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/posts/">View all posts</a>)</small></h4>
-    <ul>
-    {% for post in site.related_posts limit:3 %}
-      <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
-    <hr />
-  </div><!-- /.related-articles --> 
-  <footer>
-    {% include _footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
-
-{% include _scripts.html %}	        
-
-</body>
+    {% include _scripts.html %}	        
+  </body>
 </html>

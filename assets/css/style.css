@@ -1,21 +1,21 @@
 @font-face {
     font-family: alliander-font;
-    src: url(/assets/fonts/OPENSANS-REGULAR.TTF);
+    src: url('/assets/fonts/OPENSANS-REGULAR.woff');
 }
 
 @font-face {
     font-family: alliander-font-extrabold;
-    src: url(/assets/fonts/OPENSANS-EXTRABOLD.TTF);
+    src: url('/assets/fonts/OPENSANS-EXTRABOLD.woff');
 }
 
 @font-face {
     font-family: alliander-font-bold;
-    src: url(/assets/fonts/OPENSANS-BOLD.TTF);
+    src: url('/assets/fonts/OPENSANS-BOLD.woff');
 }
 
 @font-face {
     font-family: alliander-font-light;
-    src: url(/assets/fonts/OPENSANS-LIGHT.TTF);
+    src: url('/assets/fonts/OPENSANS-LIGHT.woff');
 }
 
 a {
@@ -283,10 +283,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .introductions {
 	margin-bottom: 100px;
-}
-
-.home #index .introductions img {
-	height: 150px;
+	word-break: break-word;
 }
 
 .read-more-button {
@@ -321,6 +318,10 @@ h1.center-header {
 
 .float-center-wrapper {
 	text-align:center;
+}
+
+.float-right {
+	float:right;
 }
 
 .float-center-wrapper > button {
@@ -391,7 +392,7 @@ ul.footer-list{
 }
 
 .newsletter-subscription {
-	margin: 50px 0 0 40px;
+	margin: 50px 0 0 0px;
 	color: white;
 	text-transform: uppercase;
 }
@@ -478,6 +479,7 @@ ul.footer-list{
 }
 
 .page-sidebar {
+	display: inline-block;
 	min-height: 1200px;
 }
 
