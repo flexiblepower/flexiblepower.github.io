@@ -251,6 +251,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	position: relative;
 }
 
+#homebanner_mainbox {
+	height: 620px;
+}
+
 @media only screen and (max-width: 1024px)  { 
 	.home #index .intro-story1 {
 		padding: 0!important;
@@ -480,7 +484,7 @@ ul.footer-list{
 
 .page-sidebar {
 	display: inline-block;
-	min-height: 1200px;
+	min-height: 1600px;
 }
 
 .page-sidebar h1, .page-sidebar h2 {
