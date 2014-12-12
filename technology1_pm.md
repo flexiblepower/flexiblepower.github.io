@@ -115,3 +115,6 @@ The auctioneer performs one extra action after aggregation to determine the opti
 
 ##Optimization of current state and events
 The PowerMatcher always optimizes the current state. The state of the system changes due to events. So as soon as the internal temperature of a refrigerator changes it sends out a new bid curve, or event. This event is then dealt with within the PowerMatcher possibly causing a chain of events if the implications of the bid curve caused a significant change in the system.
+
+# Read more
+[The PowerMatcher Smart Coordination for the Smart Electricity Grid - Koen Kok](http://dare.ubvu.vu.nl/bitstream/handle/1871/43567/dissertation.pdf?sequence=1)
