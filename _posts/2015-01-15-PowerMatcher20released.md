@@ -2,7 +2,7 @@
 layout: post
 title: PowerMatcher 2.0 released!
 description: "PowerMatcher takes next step in production ready technology"
-tags: [PowerMatcher, 2.0, java OSGI, PowerMatcher ready]
+tags: [PowerMatcher, 2.0, java OSGI, PowerMatcher ready, open source, Apache 2.0, community, PowerMatcherSuite]
 comments: true
 published: false
 thumbnail: /images/site/PMnewslogo.png
@@ -26,3 +26,5 @@ Version 2.0 contains the following features:
 * CSVlogger for KLE (Kibana, Logstash and Elastic Search) integration
 
 Do you want to get stared with this release? Please visit the [PowerMatcher Github wiki](https://github.com/flexiblepower/powermatcher/wiki) for technical background information.
+
+More information about the PowerMacher concept can be found on this website.
