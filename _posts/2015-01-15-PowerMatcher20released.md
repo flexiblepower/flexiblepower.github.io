@@ -25,4 +25,4 @@ Version 2.0 contains the following features:
 * Configuration interface
 * CSVlogger for KLE (Kibana, Logstash and Elastic Search) integration
 
-Do you want to get stared with this realease? Please visit the [PowerMatcher Github wiki](https://github.com/flexiblepower/powermatcher/wiki) for technical background information.
+Do you want to get stared with this release? Please visit the [PowerMatcher Github wiki](https://github.com/flexiblepower/powermatcher/wiki) for technical background information.
