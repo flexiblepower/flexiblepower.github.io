@@ -10,7 +10,7 @@ image:
   feature: /images/site/get_started_main.jpg
 ---
 
-## demo Virtual Machine ##
+## Demo virtual machine ##
 You can download a demo [here](https://github.com/flexiblepower/flexiblepower.github.io/blob/master/download/PowerMatcherSuite_13.10_Demo.zip?raw=true) (the file includes a manual).
 
 ## Manual installation ##
