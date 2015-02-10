@@ -74,6 +74,8 @@ For more information on the different functionalities please read the [detailed 
 
 In the PowerMatcher a device (washing machine, windmill, battery etc...) is represented by a device agent. It is therefore connected to both the PowerMatcher and to the physical device. The device agent sends bids and receives prices from the PowerMatcher, by acting on the market it also influences the market. The device agent sends new setpoints (based on market prices) to the device and receives information on its current state (that can result in new bids).
 
+Your appliance and agent will act autonomously based on your predefined settings (most cost efficient, most green energy etc.) and settings are never imposed. In other words, you still get to decide at any moment whether you want to turn your airco on or off.  The PowerMatcher ensures that the end user retains full control but its energy consumption or production will be optimized autonomously as set by end user’s desired constraints.
+
 For more information on the different functionalities please read the [detailed documentation on github](https://github.com/flexiblepower/powermatcher/wiki/Architecture-PowerMatcher#the-device-agent).
 
 
