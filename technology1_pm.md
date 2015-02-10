@@ -58,13 +58,13 @@ Each Agent can strive for different goals as long as they communicate the PowerM
 
 <img src="/images/site/auca.png">
 
-The Auctioneer always stands on top of the hierarchy and bundles all messages received from child agents. The Auctioneer determines the equilibrium of the cluster and returns the price to each child agent; each child agent will receive this price and forward it to his children….and so forth.
+The Auctioneer always stands on top of the hierarchy and aggregates all messages received from "child" Agents. The Auctioneer determines the equilibrium of the cluster and returns the price to each Agent....this market price will be the incentive for devices to start producing or consuming....more...or...less! The price will balance the system so this is different for every device.
 
 ##	Concentrator agent  
 
 <img src="/images/site/conb.png"> <img src="/images/site/conc.png">
 
-The Concentrator concentrates, or aggregates, all bids and publishes a single bid upward in the hierarchy thereby reducing communications in the system and making it very scalable. 
+The Concentrator concentrates, or aggregates, all bids and publishes a single bid upward in the hierarchy thereby reducing communications in the system, making it very scalable. 
 
 For more information on the different functionalities please read the [detailed documentation on github](https://github.com/flexiblepower/powermatcher/wiki/Architecture-PowerMatcher#the-concentrator-agent).
 
