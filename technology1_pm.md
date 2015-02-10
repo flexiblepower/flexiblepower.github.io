@@ -58,7 +58,7 @@ Each Agent can strive for different goals as long as they communicate the PowerM
 
 <img src="/images/site/auca.png">
 
-The Auctioneer always stands on top of the hierarchy and aggregates all messages received from "child" Agents. The Auctioneer determines the equilibrium of the cluster and returns the price to each Agent....this market price will be the incentive for devices to start producing or consuming....more...or...less! The price will balance the system so this is different for every device.
+The Auctioneer always stands on top of the hierarchy and aggregates all bids received from "child" Agents. The Auctioneer determines the equilibrium of the cluster and returns the price to each Agent....this market price will be the incentive for devices to start producing or consuming....more...or...less! The price will balance the system so this is different for every device.
 
 ##	Concentrator agent  
 
