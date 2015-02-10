@@ -32,7 +32,7 @@ Try to picture a normal auction where a potential buyer would bid on an object e
 
 A PowerMatcher auction does NOT!! work that way... 
 
-Tn the PowerMatcher protocol a bid describes the device's entire demand or supply relationship. The device agent lays out all his cards on the table on every bidding occasion and updates his demand or supply relationship based on the state of machine (e.g. low battery wants to charge). As a result the Auctioneer has all the demand and supply information in the market and requires 0 iterations to determine the market equilibrium.
+In the PowerMatcher protocol a bid describes the device's entire demand or supply relationship. The device agent lays out all his cards on the table on every bidding occasion and updates his demand or supply relationship based on the state of machine (e.g. low battery wants to charge). As a result the Auctioneer has all the demand and supply information in the market and requires zero! iterations to determine the market equilibrium.
 
 <img src="/images/site/powermatcher.png">
 
