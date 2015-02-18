@@ -50,6 +50,9 @@ The owner of a FPAI hub can open a dashboard or Graphical User Interface (GUI) i
 
 <img src="/images/site/gui.png">
 
+# Read more
+* [Technical implementation details (Github wiki)](https://github.com/flexiblepower/fpai-core/wiki)
+
 
 
 
