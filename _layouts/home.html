@@ -32,42 +32,30 @@
             </div>
           </div>
           <hr/>
-          <div class="row introductions">
-            <div class="col-md-4 col-sm-4 col-xs-4">
-              <div class="intro-story1">
-                <div class="home-image-wrapper">
-                  <img class="img-responsive" src="/images/site/whoweare_icon.png"/>
-                </div>
-                <h1>Who <span class="last-word">we are</span></h1> 
-                <p>
-                  The Suite was developed in cooperation with industry and research partners, it is maintained and promoted by the Flexiblepower Alliance Network.
-                </p>
-                <a href="/about/"><button class="read-more-button">Read more</button></a>
-              </div>
+          <div class="row">
+            <div class="col-md-4 intro-story">           
+              <img class="img-responsive" src="/images/site/whoweare_icon.png"/>
+              <h1>Who <span class="last-word">we are</span></h1> 
+              <p>
+                The Suite was developed in cooperation with industry and research partners, it is maintained and promoted by the Flexiblepower Alliance Network.
+              </p>
+              <a href="/about/"><button class="read-more-button">Read more</button></a>
+            </div> 
+            <div class="col-md-4 intro-story">
+              <img  class="img-responsive" src="/images/site/nutshell_icon.png"/>  
+              <h1>In a <span class="last-word">nutshell</span></h1>
+              <p>
+                A quick overview of both technologies in the Suite; The PowerMatcher and FPAI. Your fast route to the technology.
+              </p>            
+              <a href="/why/"><button class="read-more-button">Read more</button></a>
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-4">
-              <div class="intro-story2">
-                <div class="home-image-wrapper">
-                  <img  class="img-responsive" src="/images/site/nutshell_icon.png"/>  
-                </div>
-                <h1>In a <span class="last-word">nutshell</span></h1> 
-                <p>
-                  A quick overview of both technologies in the Suite; The PowerMatcher and FPAI. Your fast route to the technology.
-                </p>  
-                <a href="/why/"><button class="read-more-button">Read more</button></a>
-              </div>  
-            </div>
-            <div class="col-md-4 col-sm-4 col-xs-4">
-              <div class="intro-story3">
-                <div class="home-image-wrapper">
-                  <img class="img-responsive" src="/images/site/technical_icon.png"/>
-                </div>
-                <h1>Get <span class="last-word">technical</span></h1>  
-                <p>
-                  The PowerMatcher automatically balances demand and supply in clusters of Distributed Energy Resources. FPAI lets you easily interconnect devices and energy applications.
-                </p>  
-                <a href="/technology/"><button class="read-more-button">Read more</button></a>
-              </div>  
+            <div class="col-md-4 intro-story">
+              <img class="img-responsive" src="/images/site/technical_icon.png"/>
+              <h1>Get <span class="last-word">technical</span></h1>
+              <p>
+                The PowerMatcher automatically balances demand and supply in clusters of Distributed Energy Resources. FPAI lets you easily interconnect devices and energy applications.
+              </p>
+              <a href="/technology/"><button class="read-more-button">Read more</button></a>
             </div>
           </div>
           <hr/>
@@ -90,7 +78,7 @@
           </h1>
           <div class="featured-articles row">
             {% for post in site.posts limit:4 %}  
-              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div class="item">
                   <img class="img-responsive" src="{{ post.thumbnail }}"/>
                   <article class="sidebar-article-title">
@@ -111,15 +99,15 @@
           </a>
           <div class="row">
             <div class="col-md-12" style="text-align:center;">
-              <img src="/images/site/ajaxSpinner.gif"/ alt="spinner" class="spinner">
+              <img src="/images/site/ajaxSpinner.gif" alt="spinner" class="spinner">
               <br/>
               <a class="twitter-timeline"
                 width="20000"
                 height="50"
                 href="https://twitter.com/PowerMatcher" 
                 data-widget-id="527535039504863233">Tweets by @PowerMatcher</a>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-              
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                </script>              
             </div>
           </div>
         </div>
@@ -129,7 +117,6 @@
         <footer class="col-md-12">
           {% include _footer.html %}
         </footer>
-      </div>
       </div>
       {% include _scripts.html %}
     </div>

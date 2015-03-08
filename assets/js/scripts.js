@@ -1,4 +1,8 @@
-$(document).ready(function(){
+$(document).ready(function() {
+	setitemheight();
+	$(window).resize(function(){		
+		setitemheight();		
+	});
 	var url = window.location;
 	$('ul.nav a[href="'+ url +'"]').parent().addClass('active');
 	$('ul.nav a').filter(function() {
@@ -25,7 +29,7 @@ $(document).ready(function(){
 		infinite: true,
   		autoplay: true,
   		autoplaySpeed: 10000,
-  		adaptiveHeight: true,  		
+  		adaptiveHeight: false,  		
   		prevArrow: '<button type="button" data-role="none" style="height:40px; width:40px;" class="slick-prev">Previous</button>',
   		nextArrow: '<button type="button" data-role="none" style="height:40px; width:40px;" class="slick-next">Next</button>'
 	});
@@ -41,16 +45,6 @@ $(document).ready(function(){
 	var div = $('iframe');
 	var width = (div.width() * 0.6);
 	$("iframe").css('height', width);
-	var changeIntroHeight = function (){
-		var introHighestHeight = 0;
-		$("div[class*='intro-story']").each(function() {
-			$(this).height("auto");
-			if ($(this).height() > introHighestHeight) {
-				introHighestHeight = $(this).height();
-			}
-			$("div[class*='intro-story']").height(introHighestHeight + 50);
-		});
-	}
 	setTimeout(function() {	
 		$("iframe#twitter-widget-0").css({
 			"width": "100%",
@@ -59,10 +53,6 @@ $(document).ready(function(){
 		});
 		$(".spinner").hide();
 	}, 3000);
-	changeIntroHeight();
-	$(window).resize(function(){		
-		changeIntroHeight();		
-	});
 	$('#search-query').lunrSearch({
       indexUrl: '/search.json',              
       results:  '#search-results',          
@@ -78,12 +68,14 @@ $(document).ready(function(){
 		var black2 = $(this).text();
 		$("#" + id).text(black2.slice(0, black2.indexOf(green2))).append("<span class='subpage-title-green'>" + green2 + "</span>");
 	});
-
-	//setTimeout(function() {	    	
-    	//var content = myIFrame.contentWindow.document.body.innerHTML;
-	//	$("span.p-nickname").hide();
-	//	console.log($("span.p-nickname").html());
-	//}, 4000);
-	
-
 });
+var setitemheight = function(){
+	var itemheight = $('.featured-articles .item').width();
+	var letterheight = itemheight / 8;
+
+	$(".featured-articles .item").css({
+		"height": itemheight + "px"
+	});	
+
+		
+}
