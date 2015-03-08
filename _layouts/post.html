@@ -52,13 +52,17 @@
         </div>
         <div class="col-md-3">
           <div class="page-sidebar">
-            <div class="join-box">
-              <h2 class="join-text">Powermatcher is awesome</h2>
-              <button class="join-button">JOIN NOW!</button>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="join-box">
+                  <h2 class="join-text">Powermatcher is awesome</h2>
+                  <button class="join-button">JOIN NOW!</button>
+                </div>
+              </div>
             </div>
             <div class="sidebar-articles">
             <h1>Latest <span class="last-word">News</span></h1>   
-              {% for post in site.posts limit:4 %}  
+              {% for post in site.posts limit:3 %}  
                   <div class="item">
                     <img class="img-responsive" src="{{ post.thumbnail }}"/>
                     <article class="sidebar-article-title">
@@ -72,9 +76,11 @@
               {% endfor %}
             </div>
             </div>    
-              <div class="float-center-wrapper">
-                <button class="center-header float-right">More news</button>
-              </div>
+              <a href="/news/">
+                <div class="float-center-wrapper">                
+                    <button class="center-header float-left">More news</button>
+                </div>
+              </a>
             </div>
           </div>
         </div>
