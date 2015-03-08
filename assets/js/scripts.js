@@ -51,7 +51,7 @@ $(document).ready(function() {
 			"height": "200px",
 			"visibility": "visible"
 		});
-		$(".spinner").hide();
+		$(".spinner").hide();			
 	}, 3000);
 	$('#search-query').lunrSearch({
       indexUrl: '/search.json',              
@@ -68,6 +68,11 @@ $(document).ready(function() {
 		var black2 = $(this).text();
 		$("#" + id).text(black2.slice(0, black2.indexOf(green2))).append("<span class='subpage-title-green'>" + green2 + "</span>");
 	});
+
+	var twitterOptions = {
+	    "url": "/assets/css/twitter.css"
+	};
+	CustomizeTwitterWidget(twitterOptions);
 });
 var setitemheight = function(){
 	var itemheight = $('.featured-articles .item').width();
@@ -75,7 +80,5 @@ var setitemheight = function(){
 
 	$(".featured-articles .item").css({
 		"height": itemheight + "px"
-	});	
-
-		
+	});			
 }
