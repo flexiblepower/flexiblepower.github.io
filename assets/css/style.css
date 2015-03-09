@@ -625,7 +625,7 @@ ul.footer-list{
 	font:800 36px/46px  'alliander-font-extrabold', sans-serif;
 	display:block;
 }
-.intro-story {
+.intro-story a {
 	text-decoration: none;
 }
 
