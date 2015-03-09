@@ -635,6 +635,19 @@ ul.footer-list{
 		display: none;
 	}
 
+	.intro-story {		
+		text-align: center;
+		word-break: break-word;
+	}
+
+	.intro-story img {
+		margin: 0 auto;
+	}
+
+	.intro-story p, .intro-story button {
+		display:none;
+	}
+
 	.banner_text {
 		display: none;
 	}
