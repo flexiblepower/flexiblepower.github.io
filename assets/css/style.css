@@ -482,7 +482,6 @@ ul.footer-list{
 	border-radius: 30px;
 	font-family: alliander-font;
 	text-transform: uppercase;
-	float:right;
 	margin-top: 40px;
 }
 
@@ -507,10 +506,7 @@ ul.footer-list{
 }
 
 .sidebar-articles {
-	height: 22em;
-	width: 22em;
-	margin-top: 40px;
-	float: right;
+	margin-top: 40px auto;
 }
 
 .sidebar-articles h1, .featured-articles h1 {
@@ -631,6 +627,10 @@ ul.footer-list{
 }
 
 @media only screen and (max-width: 1024px)  { 
+	.join-box {
+		margin:0 auto;
+	}
+
 	#header-carousel {
 		display: none;
 	}
