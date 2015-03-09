@@ -477,8 +477,8 @@ ul.footer-list{
 	background: -moz-radial-gradient(#B1C782, #829F41); /* For Firefox 3.6 to 15 */
 	background: radial-gradient(#B1C782, #829F41); /* Standard syntax */
 	background-color: #829F41;
-	width: 25em;
-	height: 25em;
+	width: 22em;
+	height: 22em;
 	border-radius: 30px;
 	font-family: alliander-font;
 	text-transform: uppercase;
@@ -778,7 +778,7 @@ footer a:hover{
 	color: #829F41;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   body {
     padding-right: 0;
     padding-left: 0;
