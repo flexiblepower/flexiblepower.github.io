@@ -625,6 +625,9 @@ ul.footer-list{
 	font:800 36px/46px  'alliander-font-extrabold', sans-serif;
 	display:block;
 }
+.intro-story {
+	text-decoration: none;
+}
 
 @media only screen and (max-width: 1024px)  { 
 	.join-box {
