@@ -78,7 +78,14 @@ var setitemheight = function(){
 	var itemheight = $('.featured-articles .item').width();
 	var letterheight = itemheight / 8;
 
+	var sidebaritemheight = $('.sidebar-articles .item').width();
+	var letterheight = sidebaritemheight / 8;
+
 	$(".featured-articles .item").css({
 		"height": itemheight + "px"
+	});	
+
+	$(".sidebar-articles .item").css({
+		"height": sidebaritemheight + "px"
 	});			
 }

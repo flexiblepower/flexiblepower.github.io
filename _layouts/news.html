@@ -22,7 +22,7 @@
                 {% for post in site.posts %}  
                   <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="item">
-                      <img class="img-responsive" src="{{ post.thumbnail }}"/>
+                      <img src="{{ post.thumbnail }}"/>
                       <article class="sidebar-article-title">
                         {% if post.link %}    
                           <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>

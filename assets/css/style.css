@@ -486,7 +486,7 @@ ul.footer-list{
 
 .sidebar-articles .item, .featured-articles .item {
 	background-color: white;
-	width: 100%;
+	max-width: 22em;
 	border: 1px solid #BDC3C6;
 	border-radius: 20px;
 	margin-bottom: 40px;
@@ -819,8 +819,3 @@ footer a:hover{
 	}
 }
 
-@media only screen and (max-width: 970px)  {  
-	.sidebar-articles .item, .featured-articles .item {
-		width: 22em;
-	}
-}
