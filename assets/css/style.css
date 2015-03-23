@@ -750,7 +750,7 @@ footer a:hover{
 	}
 }
 
-@media only screen and (max-width: 1024px)  { 
+@media only screen and (max-width: 970px)  { 
 	.join-box {
 		margin:0 auto;
 	}

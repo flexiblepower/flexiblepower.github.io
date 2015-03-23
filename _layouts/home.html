@@ -68,18 +68,20 @@
             </div>
           </div>
           <hr/>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="float-center-wrapper">
-                <div id="partners-carousel">
-                  {% for img in page.carousel_images %}
-                    <div>
-                      <img class="col-xs-12 img-responsive" src="{{img}}" />
-                    </div>
-                  {% endfor %}            
-                </div>
+          <div>
+            {% assign counter = 0 %}
+            {% for img in page.carousel_images %}                          
+              {% if counter == 0 or counter == 4 or counter == 8 or counter == 12 or counter == 16 or counter == 20 or counter == 24 %}
+                <div class="row">
+              {% endif %} 
+              {% assign counter=counter | plus:1 %}                                  
+              <div class="col-md-3 col-sm-6 col-xs-12">                           
+                <img class="img-responsive" src="{{img}}" style="margin:0 auto;" />                   
               </div>
-            </div>
+              {% if counter == 0 or counter == 4 or counter == 8 or counter == 12 or counter == 16 or counter == 20 or counter == 24 %}
+                </div>  
+              {% endif %}           
+            {% endfor %} 
           </div>
           <hr/>
           <h1 class="center-header">
