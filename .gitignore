@@ -5,3 +5,7 @@ _site
 codekit-config.json
 node_modules
 Gemfile.lock
+.bundle/config
+_config.yml
+_config.yml
+_config.yml

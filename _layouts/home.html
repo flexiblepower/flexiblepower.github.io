@@ -72,7 +72,7 @@
             {% assign counter = 0 %}
             {% for img in page.carousel_images %}                          
               {% if counter == 0 or counter == 4 or counter == 8 or counter == 12 or counter == 16 or counter == 20 or counter == 24 %}
-                <div class="row">
+                <div class="row top-buffer">
               {% endif %} 
               {% assign counter=counter | plus:1 %}                                  
               <div class="col-md-3 col-sm-6 col-xs-12">                           

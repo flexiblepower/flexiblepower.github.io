@@ -7,13 +7,14 @@ image:
   credit: PowerMatcher community
   creditlink: http://www.flexiblepower.org
 carousel_images:
-  - http://www.flexiblepower.org/wp-content/themes/fan3/assets/img/logo.png
-  - /images/site/tno-logo.jpg
-  - http://www.flexiblepower.org/wp-content/themes/fan3/assets/img/logo-alliander.png
-  - http://www.flexiblepower.org/wp-content/themes/fan3/assets/img/logo-stedin.png
-  - http://www.flexiblepower.org/wp-content/themes/fan3/assets/img/logo-cgi.png
-  - http://www.flexiblepower.org/wp-content/themes/fan3/assets/img/logo-accenture.png
-  - http://www.flexiblepower.org/wp-content/themes/fan3/assets/img/logo-dhpa.png
+  - /images/site/home-logos/logo-alliander.png  
+  - /images/site/home-logos/logo-tno.jpg
+  - /images/site/home-logos/logo-accenture.png
+  - /images/site/home-logos/logo-cgi.png
+  - /images/site/home-logos/logo-stedin.png
+  - /images/site/home-logos/logo-dhpa.png  
+  - /images/site/home-logos/logo-flexiblepower.png 
+  
 ---
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/Zz4OpVwYWYE" frameborder="0" allowfullscreen></iframe>

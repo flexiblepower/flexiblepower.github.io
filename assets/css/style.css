@@ -278,6 +278,10 @@ h1.center-header {
 	float:right;
 }
 
+.top-buffer div{
+	padding-top: 4em;
+}
+
 .float-center-wrapper > button {
 	font-family: alliander-font;
 	background-color: #43515A;
