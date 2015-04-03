@@ -16,4 +16,4 @@ PowerMatcher allows electricity demand response and coordinate the production of
 
 TECHNOLUTION has an interest in energy management systems.
 
-Find out more on this topic on the [FAN website] (http://www.flexiblepower.org/wp-content/uploads/2015/03/FAN-Persbericht-20150324-ECN-en-Technolution-treden-toe.pdf)
+Find out more on this topic on the [FAN website (Dutch)] (http://www.flexiblepower.org/wp-content/uploads/2015/03/FAN-Persbericht-20150324-ECN-en-Technolution-treden-toe.pdf)
