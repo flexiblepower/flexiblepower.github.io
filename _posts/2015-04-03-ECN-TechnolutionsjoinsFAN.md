@@ -15,4 +15,4 @@ ECN is interested in the PowerMatcher as part of the sustainable future vision. 
 
 TECHNOLUTION  joined the Alliance because of their experience and involvement in a research project that improved the core concepts of the Flexible Power Application Infrastructure. TECHNOLUTION's interest in energy management systems and positive experience with FPAI has led them to join the Alliance.
 
-Find out more on this topic on the [FAN website (Dutch)] (http://www.flexiblepower.org/wp-content/uploads/2015/03/FAN-Persbericht-20150324-ECN-en-Technolution-treden-toe.pdf)
+Find out more on this topic on the:[FAN website (Dutch)](http://www.flexiblepower.org/wp-content/uploads/2015/03/FAN-Persbericht-20150324-ECN-en-Technolution-treden-toe.pdf)
