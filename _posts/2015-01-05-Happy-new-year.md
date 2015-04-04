@@ -5,7 +5,7 @@ description: "Happy new year!"
 tags: [PowerMatcher, FPAI, Christmas tree]
 comments: true
 published: true
-thumbnail: /images/20141212_FPAI-Christmas-tree1.jpg
+thumbnail: /images/20141212_FPAI-Christmas-tree1-newslogo.jpg
 ---
 
 #The PowerMatcher community wishes you a happy new year!
