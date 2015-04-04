@@ -17,4 +17,3 @@ TNO had a FPAI christmas last year with an FPAI Powered Christmas tree.
 Blue lights reflect if wind energy is available.
 Orange lights reflect if solar energy is available.
 Other lights reflect that there is no wind energy of solar energy available.
-
