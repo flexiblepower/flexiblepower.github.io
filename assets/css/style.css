@@ -186,6 +186,26 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	margin-top: 30px;
 }
 
+.documentation-buttons {
+	margin: 22px auto;
+	text-align: center;
+	font-family: "alliander-font-bold";
+	text-transform: uppercase;
+}
+
+.documentation-buttons input[type="button"] {
+	background-color: #829F41;
+	border:0;
+	border-radius: 10px;
+	padding: 3px 35px;	
+	font-size: 20px;	
+	color: white;
+}
+
+.documentation-buttons input[type="button"]:hover {
+	background-color: #43515A;
+}
+
 #header-carousel img {
 	max-width:100% !important;
     display: table;
