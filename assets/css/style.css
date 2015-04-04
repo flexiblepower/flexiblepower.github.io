@@ -202,6 +202,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	color: white;
 }
 
+.fork-me-ribbon {
+	position: fixed; 
+	top: 0;
+	right: 0; 
+	z-index:1000;
+}
+
 .documentation-buttons input[type="button"]:hover {
 	background-color: #43515A;
 }
