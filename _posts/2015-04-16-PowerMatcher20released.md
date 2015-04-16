@@ -5,7 +5,7 @@ description: "PowerMatcher takes next step in production ready technology"
 tags: [PowerMatcher, 2.0, java OSGI, PowerMatcher ready, open source, Apache 2.0, community, PowerMatcherSuite]
 comments: true
 published: true
-thumbnail: /images/site/20150416_release2.jpg
+thumbnail: /images/20150416_release2.jpg
 ---
 
 # LAUNCH OF POWERMATCHER 2.0  
@@ -27,7 +27,7 @@ The new feature to avoid congestions in distribution grids has been tested alrea
 ## About Flexiblepower Alliance Network (FAN)
 FAN is a not-for-profit foundation developing an open-source stand for Smart Grid optimization. Founded in 2013 by two initiating participants, FAN has eight participants today:  Alliander, TNO, Accenture, Stedin, DHPA, CGI, ECN and Technolution.  All participants are active in Smart Grid developments.   See FAN website: www.flexiblepower.org 
 
-## About the 
+## About the PowerMatcher Suite
 
 The “PowerMatcher Suite” is a standardized matching system and equipment driver for smart grids and local markets. This aims at matching (local) renewable generation, like wind and solar, with local flexible demand.  It enables local customers and producers to exploit their own flexibility potential and better utilize their own or each other’s power.  
 PowerMatcher , in different  versions of it, has been successfully demonstrated in various reference cases in the Netherlands and Europe, e.g. in the award-winning “PowerMatching city” project in Hoogkerk, the “Couperus” heat pump project in the Hague and the “EcoGrid” project in Denmark.  Powermatcher will also be applied in new smart grid projects in Heerhugowaard and Lochem. 
