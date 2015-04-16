@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about/
+permalink: /get-involved/about/
 title: About the PowerMatcher Suite
 titleGreen: PowerMatcher Suite
 tagline: PowerMatcher, Mission, 
