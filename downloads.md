@@ -13,6 +13,6 @@ image:
 
 
 | Technology     |     Demo      |    Source code  |    Binaries      |  Documentation  | 
-|:-------------  |--------------:|----------------:|-----------------:|
-| PowerMatcher   | [[Download|]] |  [[Download|https://github.com/flexiblepower/powermatcher/archive/master.zip]] [[Github|https://github.com/flexiblepower/powermatcher/tree/master]] | [[Link|https://github.com/flexiblepower/powermatcher/wiki]]|       |
-| FPAI           | [[Download|]] |  [[Download|]]  |                  |                 |   
+|:-------------  |--------------:|----------------:|-----------------:|----------------:|
+| PowerMatcher   | [[Download|]] |  [[Download|https://github.com/flexiblepower/powermatcher/archive/master.zip]] ||| 
+ 
