@@ -56,6 +56,8 @@
       subhref: "/get-involved/why-join/"
     - subtitle: "Contribute"
       subhref: "/get-involved/contribute/"
+    - subtitle: "About"
+      subhref: "/get-involved/about/"
 
-- title: "About"
-  href: "/about/"
+- title: "Downloads"
+  href: "/downloads/"
