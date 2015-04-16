@@ -12,7 +12,8 @@ image:
 ---
 
 
-| Technology     |     Demo      |    Source code  |    Binaries      |  Documentation  | 
-|:-------------  |--------------:|----------------:|-----------------:|
-| PowerMatcher   | [[Download|]] |  [[Download|https://github.com/flexiblepower/powermatcher/archive/master.zip]] [[Github|https://github.com/flexiblepower/powermatcher/tree/master]] | [[Link|https://github.com/flexiblepower/powermatcher/wiki]]|       |
-| FPAI           | [[Download|]] |  [[Download|]]  |                  |                 |   
+|Technology|Version|Status|Demo|Source code|Binaries|Documentation| 
+|:--------------------|--------------------:|--------------------:|--------------------:|--------------------:|--------------------:|--------------------:|
+| PowerMatcher | 2.0 | Stable |[Download](https://github.com/flexiblepower/flexiblepower.github.io/blob/master/download/PowerMatcherSuite_13.10_Demo.zip?raw=true)|[Download](https://github.com/flexiblepower/powermatcher/archive/master.zip) ||[Link](https://github.com/flexiblepower/powermatcher/wiki)| 
+|FPAI|14.10|Stable|[Download](https://github.com/flexiblepower/flexiblepower.github.io/blob/master/download/PowerMatcherSuite_13.10_Demo.zip?raw=true)|[Download](https://github.com/flexiblepower/fpai-core/archive/development.zip)||[Link](http://fpai-ci.sensorlab.tno.nl/builds/fpai-documentation/v14.10/html/) [PDF](http://fpai-ci.sensorlab.tno.nl/builds/fpai-documentation/v14.10/fpai-v14.10-documentation.pdf)|
+ 

@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /in-practice/driver-list/
+permalink: /cases/driver-list/
 title: List of Drivers
 titleGreen: Drivers
 tagline: PowerMatcher™ Technology
 tags: [FPAI, Drivers, Smart Appliances]
 modified: 22-9-2014
 comments: true
-parent: in-practice
+parent: cases
 summary: A list of all currently available device agents for PowerMatcher and appliance drivers for FPAI.
 image:
   feature: /images/site/in_practice.jpg
