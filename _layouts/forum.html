@@ -1,0 +1,62 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+  <body class="page">
+    <div class="container-fluid">
+    {% include _browser-upgrade.html %}
+    {% include _navigation.html %}
+    {% if page.image.feature %}
+    <div class="row">
+      <div class="col-md-12">
+      <img class="featured-image img-responsive" src=
+        {% if page.image.feature contains 'http://' %}
+          "{{ page.image.feature }}"
+        {% elsif page.image.feature contains 'https://' %}
+          "{{ page.image.feature }}"
+        {% else %}
+          "{{ page.image.feature }}"
+        {% endif %}
+      alt="{{ page.title }} feature image">
+      </div><!-- /.image-wrap -->
+    {% endif %}
+    <div id="main" class="row" role="main">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="row no-margin-left-right">
+          <div class="col-md-12">
+            <article>
+              <h1><span class="black-word">{{ page.title }}</span> <span class="green-word">{{ page.titleGreen }}</span></h1>
+              <hr/>
+              {{ content }}
+              <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES * * */
+                    var disqus_shortname = 'flexiblepower';
+                    
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                        document.getElementById("footer").style.display = "none";
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            </article>          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-wrap">
+      <footer>
+        {% include _footer.html %}
+      </footer>
+    </div>
+    {% include _scripts.html %}          
+    </div>
+  </body>
+</html>

@@ -854,3 +854,7 @@ footer a:hover{
 	}
 }
 
+
+div[data-tracking-area="footer"] {
+	display:none!important;
+}
