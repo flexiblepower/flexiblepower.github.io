@@ -264,6 +264,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	height: 5.5em;
 }
 
+.intro-story .img-responsive {
+	width: auto;
+}
+
 .introductions {
 	margin-bottom: 100px;
 	word-break: break-word;
