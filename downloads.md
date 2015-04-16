@@ -14,5 +14,5 @@ image:
 
 | Technology     |     Demo      |    Source code  |    Binaries      |  Documentation  | 
 |:-------------  |--------------:|----------------:|-----------------:|----------------:|
-| PowerMatcher   | [[Download|]] |  [[Download|https://github.com/flexiblepower/powermatcher/archive/master.zip]] ||| 
+| PowerMatcher   | [Download]|() |  [Download](https://github.com/flexiblepower/powermatcher/archive/master.zip) ||| 
  
