@@ -13,13 +13,13 @@
     - subtitle: "Why open source?"
       subhref: "/why/opensource/"
 
-- title: "In Practice"
-  href: "/in-practice/"
+- title: "Cases"
+  href: "/cases/"
   subcategories:
     - subtitle: "In Operation"
-      subhref: "/in-practice/in-operation/"
+      subhref: "/cases/in-operation/"
     - subtitle: "Driver List"
-      subhref: "/in-practice/driver-list/"
+      subhref: "/cases/driver-list/"
 
 - title: "Technology"
   href: "/technology/"
