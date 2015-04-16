@@ -7,8 +7,11 @@ tagline: PowerMatcher, Mission,
 tags: [about, PowerMatcher, FAN, Transactive Energy]
 modified: 8-8-2014
 comments: true
+parent: get-involved
+summary: The Flexiblepower Alliance Network (FAN) manages the PowerMatcher Suite.
 image:
   feature: /images/site/about.jpg
+  thumbnail: /images/site/about.jpg
 ---
 
 PowerMatcherSuite (PowerMatcher and FPAI) is a Flexiblepower Alliance Network project.
