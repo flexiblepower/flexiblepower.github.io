@@ -2,7 +2,7 @@
 layout: overview
 permalink: /cases/
 title: Cases
-titleGreen: cases
+titleGreen: Cases
 tagline: PowerMatcher™ Technology
 tags: [PowerMatcher™, Practice, Transactive Energy, Features]
 modified: 22-9-2014
