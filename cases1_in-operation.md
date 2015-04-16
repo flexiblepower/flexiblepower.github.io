@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /in-practice/in-operation/
+permalink: /cases/in-operation/
 title: In Operation
 titleGreen: Operation
 tagline: PowerMatcher™ Technology
 tags: [PowerMatcher™, Practice, Transactive Energy, Features]
 modified: 22-9-2014
 comments: true
-parent: in-practice
+parent: cases
 summary: A list of all real life implementations of the PowerMatcher and FPAI
 image:
   feature: /images/site/in_practice.jpg
