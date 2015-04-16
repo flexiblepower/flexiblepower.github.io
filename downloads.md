@@ -12,7 +12,7 @@ image:
 ---
 
 
-| Technology     |     Demo      |    Source code  |    Binaries      |  Documentation  | 
-|:-------------  |--------------:|----------------:|-----------------:|----------------:|
-| PowerMatcher   | [Download]|() |  [Download](https://github.com/flexiblepower/powermatcher/archive/master.zip) ||| 
+| Technology     | Version  | Status     | Demo       | Source code     | Binaries        | Documentation   | 
+|:-------------  |---------:|-----------:|-----------:|----------------:|----------------:|----------------:|
+| PowerMatcher   | 2.0      |Stable      |[Download]()|  [Download](https://github.com/flexiblepower/powermatcher/archive/master.zip) ||| 
  
