@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PowerMatcher 2.0 released!
+title: New Release!
 description: "PowerMatcher takes next step in production ready technology"
 tags: [PowerMatcher, 2.0, java OSGI, PowerMatcher ready, open source, Apache 2.0, community, PowerMatcherSuite]
 comments: true
