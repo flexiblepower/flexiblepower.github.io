@@ -11,10 +11,12 @@ image:
   feature: /images/site/why_open.jpg
 ---
 
+Please download the FlexiblePower Base API before downloading the PowerMathcer or FPAI. Both are dependent on the FlexiblePower Base API
+
 {:.table.table-responsive}
 |Technology|Version|Status|Demo|Source code|Binaries|Github release|Documentation| 
 |:--------------------|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
-| FlexiblePower API |15.04|Stable|N/A|[Download](https://github.com/flexiblepower/flexiblepower-base/archive/15.04.zip)|[Download](https://github.com/flexiblepower/flexiblepower-base/releases/download/15.04/flexiblepower-base-bundles-release-15-04.zip)|[Link](https://github.com/flexiblepower/flexiblepower-base/releases)|[Link](http://fpai-ci.sensorlab.tno.nl/builds/fpai-documentation/v14.10/html/) [PDF](http://fpai-ci.sensorlab.tno.nl/builds/fpai-documentation/v14.10/fpai-v14.10-documentation.pdf)|
+| FlexiblePower Base API |15.04|Stable|N/A|[Download](https://github.com/flexiblepower/flexiblepower-base/archive/15.04.zip)|[Download](https://github.com/flexiblepower/flexiblepower-base/releases/download/15.04/flexiblepower-base-bundles-release-15-04.zip)|[Link](https://github.com/flexiblepower/flexiblepower-base/releases)|[Link](http://fpai-ci.sensorlab.tno.nl/builds/fpai-documentation/v14.10/html/) [PDF](http://fpai-ci.sensorlab.tno.nl/builds/fpai-documentation/v14.10/fpai-v14.10-documentation.pdf)|
 | PowerMatcher | 2.0 | Stable |[Download]()|[Download](https://github.com/flexiblepower/powermatcher/archive/v2.0.zip) |[Download](https://github.com/flexiblepower/powermatcher/releases/download/v2.0/powermatcher-bundles-release-2.0.zip)|[Link](https://github.com/flexiblepower/powermatcher/releases)|[Link](https://github.com/flexiblepower/powermatcher/wiki)| 
-|FPAI|14.10|Stable|[Download]()|[Download]()|[Download]()|[Link]()|[Link](http://fpai-ci.sensorlab.tno.nl/builds/fpai-documentation/v14.10/html/) [PDF](http://fpai-ci.sensorlab.tno.nl/builds/fpai-documentation/v14.10/fpai-v14.10-documentation.pdf)|
+|FPAI Core|14.10|Stable|[Download]()|[Download](https://github.com/flexiblepower/fpai-core/archive/v14.10.zip)|[Link](https://github.com/flexiblepower/fpai-core/releases)|[Link](https://github.com/flexiblepower/fpai-core/releases)|[Link](http://fpai-ci.sensorlab.tno.nl/builds/fpai-documentation/v14.10/html/) [PDF](http://fpai-ci.sensorlab.tno.nl/builds/fpai-documentation/v14.10/fpai-v14.10-documentation.pdf)|
  
