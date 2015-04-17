@@ -11,7 +11,7 @@ image:
   feature: /images/site/why_open.jpg
 ---
 
-Please download the FlexiblePower Base API before downloading the PowerMathcer or FPAI. Both are dependent on the FlexiblePower Base API
+Please download the FlexiblePower Base API before downloading the PowerMatcher or FPAI. Both are dependent on the FlexiblePower Base API.
 
 {:.table.table-responsive}
 |Technology|Version|Status|Demo|Source code|Binaries|Github release|Documentation| 
