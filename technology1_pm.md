@@ -66,7 +66,7 @@ The Auctioneer always stands on top of the hierarchy and aggregates all bids rec
 
 The Concentrator concentrates, or aggregates, all bids and publishes a single bid upward in the hierarchy thereby reducing communications in the system, making it very scalable. 
 
-For more information on the different functionalities please read the [detailed documentation on github](https://github.com/flexiblepower/powermatcher/wiki/Architecture-PowerMatcher#the-concentrator-agent).
+For more information on the different functionalities please read the [detailed documentation on github](http://fpai-ci.sensorlab.tno.nl/builds/powermatcher-documentation/master/html/Architecture-PowerMatcher.html).
 
 ##	Device agent 			
 
