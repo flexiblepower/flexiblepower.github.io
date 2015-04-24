@@ -76,7 +76,7 @@ In the PowerMatcher a device (washing machine, windmill, battery etc...) is repr
 
 Your appliance and agent will act autonomously based on your predefined settings (most cost efficient, most green energy etc.) and settings are never imposed. In other words, you still get to decide at any moment whether you want to turn your airco on or off.  The PowerMatcher ensures that the end user retains full control but its energy consumption or production will be optimized autonomously as set by end user’s desired constraints.
 
-For more information on the different functionalities please read the [detailed documentation on github](https://github.com/flexiblepower/powermatcher/wiki/Architecture-PowerMatcher#the-device-agent).
+For more information on the different functionalities please read the [detailed documentation on github](http://fpai-ci.sensorlab.tno.nl/builds/powermatcher-documentation/master/html/Bids.html).
 
 
 ##	Objective agent
