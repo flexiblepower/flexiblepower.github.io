@@ -45,6 +45,6 @@ As an Organisation it could also be of interest for you to actively join the dev
 
 7. Proof for your customers that you know the software since you make active contributions.
 		
-Please contact info@flexiblepower.org if you want to join the FAN and subscribe to our [github.com/flexiblepower](github.com/flexiblepower) repositories.
+Please contact info@flexiblepower.org if you want to join the FAN and subscribe to our [github.com/flexiblepower](https://github.com/flexiblepower) repositories.
 
 	
