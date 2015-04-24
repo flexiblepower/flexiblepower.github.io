@@ -86,4 +86,4 @@ The objective agent gives a cluster its purpose. The objective agent interfaces 
 
 # Read more
 * [The PowerMatcher Smart Coordination for the Smart Electricity Grid - Koen Kok](http://dare.ubvu.vu.nl/bitstream/handle/1871/43567/dissertation.pdf?sequence=1)
-* [Technical implementation details (Github wiki)](https://github.com/flexiblepower/powermatcher/wiki)
+* [Technical implementation details (Gitbook )](http://fpai-ci.sensorlab.tno.nl/builds/powermatcher-documentation/master/html)
