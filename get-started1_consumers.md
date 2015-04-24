@@ -14,6 +14,6 @@ image:
 
 Being a prosumer means producing your own energy next to the consumption of energy. Do you have a solar panel and do you want your washing machine to switch on when it is producing power?
 
-You don’t have to wait for the market to be ready with a fully operational PowerMatcher infrastructure in place. You can [download](https://github.com/flexiblepower/powermatcher/tree/master) the PowerMatcher here and start to optimize your own house. [The documentation](https://github.com/flexiblepower/powermatcher/wiki/SettingUpTheIDE) explains step by step how you can install the PowerMatcher on a computer and how to connect it to your devices*
+You don’t have to wait for the market to be ready with a fully operational PowerMatcher infrastructure in place. You can [download](https://github.com/flexiblepower/powermatcher/tree/master) the PowerMatcher here and start to optimize your own house. [The documentation](http://fpai-ci.sensorlab.tno.nl/builds/powermatcher-documentation/master/html/Tutorials.html) explains step by step how you can install the PowerMatcher on a computer and how to connect it to your devices*
 
 We already have a set of agents and drivers that work with a set of appliances. See if your appliance is listed [here](http://flexiblepower.github.io/in-practice/driver-list/). Not in there and like a little bit of hacking? Join our [community](https://github.com/flexiblepower/FAN-wiki/wiki/On-boarding-process) and get some support so that you can have a PowerMatcher system up in no time.
