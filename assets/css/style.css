@@ -199,13 +199,22 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	text-transform: uppercase;
 }
 
-.documentation-buttons input[type="button"] {
+.documentation-buttons button {
 	background-color: #829F41;
 	border:0;
 	border-radius: 10px;
-	padding: 3px 35px;	
+	padding: 3px 35px 3px 25px;	
 	font-size: 20px;	
 	color: white;
+	margin-right: 5px;	
+}
+
+.documentation-buttons button a {
+	color: white;
+}
+
+.documentation-buttons button .glyphicon {
+	top: 3px;
 }
 
 .fork-me-ribbon {
@@ -215,7 +224,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	z-index:1000;
 }
 
-.documentation-buttons input[type="button"]:hover {
+.documentation-buttons button:hover {
 	background-color: #43515A;
 }
 
