@@ -875,3 +875,28 @@ footer a:hover{
 div[data-tracking-area="footer"] {
 	display:none!important;
 }
+
+.faq-question {
+	font-family: alliander-font-light;
+	color: #829F41;
+}
+
+.faq-question:hover {
+	cursor: pointer;
+	color: #333;
+}
+
+.faq-answer {
+	display: none;
+}
+
+.faq-question .caret-right {
+	vertical-align: middle!important;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-left: 4px solid;
+    display: inline-block;
+    height: 0;
+    vertical-align: top;
+    width: 0;
+}

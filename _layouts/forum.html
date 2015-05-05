@@ -12,7 +12,7 @@
     {% include _navigation.html %}
     {% if page.image.feature %}
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12" style="padding-right:0px; padding-left:0px;">
         <img class="featured-image img-responsive" src=
           {% if page.image.feature contains 'http://' %}
             "{{ page.image.feature }}"
@@ -25,13 +25,22 @@
       </div>
     </div>
     {% endif %}
-      <div class="col-md-8 col-md-offset-2">
+      <div id="main"class="col-md-8 col-md-offset-2">
         <div class="row no-margin-left-right">
           <div class="col-md-12">
             <article>
               <h1><span class="black-word">{{ page.title }}</span> <span class="green-word">{{ page.titleGreen }}</span></h1>
               <hr/>
-              {{ content }}
+              <p>
+                This is the frequently asked questions section. If you have a question that is not answered in this section, please pose it in the comment section of this page and we will get back to you.
+              </p>
+              {% for faq in site.posts %}
+                {% if faq.category == "FAQ" %}
+                  <h3 class="faq-question"><span class="caret-right"></span> {{faq.question}}</h3>
+                  <div class="faq-answer">{{faq.content}}</div>
+                {% endif %}
+              {% endfor %}
+              <hr/>
               <div id="disqus_thread"></div>
                 <script type="text/javascript">
                     /* * * CONFIGURATION VARIABLES * * */
@@ -51,12 +60,9 @@
         </div>
       </div>
     </div>
-    <div class="footer-wrap">
-      <footer>
+    <footer class="col-md-12">
         {% include _footer.html %}
-      </footer>
-    </div>
-    {% include _scripts.html %}          
-    </div>
+    </footer>
+    {% include _scripts.html %}
   </body>
 </html>

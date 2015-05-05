@@ -73,6 +73,11 @@ $(document).ready(function() {
 	    "url": "/assets/css/twitter.css"
 	};
 	CustomizeTwitterWidget(twitterOptions);
+
+	$(".faq-question").on("click", function () {
+		$(this).find("span").toggleClass("caret").toggleClass("caret-right");
+		$(this).next(".faq-answer").slideToggle();
+	});
 });
 var setitemheight = function(){
 	var itemheight = $('.featured-articles .item').width();
