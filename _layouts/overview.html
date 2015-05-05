@@ -8,68 +8,68 @@
 </head>
   <body class="page">
     <div class="container-fluid">
-    {% include _browser-upgrade.html %}
-    {% include _navigation.html %}
-    {% if page.image.feature %}
-    <div class="container-fluid">
+      {% include _browser-upgrade.html %}
+      {% include _navigation.html %}
+      {% if page.image.feature %}
       <div class="row">
+        <div class="col-md-12" style="padding-right:0px; padding-left:0px;">
+        <img class="featured-image img-responsive" src=
+          {% if page.image.feature contains 'http://' %}
+            "{{ page.image.feature }}"
+          {% elsif page.image.feature contains 'https://' %}
+            "{{ page.image.feature }}"
+          {% else %}
+            "{{ page.image.feature }}"
+          {% endif %}
+            alt="{{ page.title }} feature image">
+          {% endif %}
+        </div>
+        <div id="main" role="main" class="col-md-10 col-md-offset-1">
+          <article>
+            <h1><span class="black-word">{{ page.title }}</span> <span class="green-word">{{ page.titleGreen }}</span></h1>
+            <div class="article-wrap">
+              <p>
+                {{ content }}
+              </p>
+              <hr/>
+                {% assign counter = 0 %}
+                {% for subpage in site.pages %}            
+                  {% if subpage.parent == page.parentTitle %}                  
+                    {% if counter == 0 or counter == 3 or counter == 6 or counter == 9 %}
+                      <div class="row">
+                    {% endif %} 
+                    {% assign counter=counter | plus:1 %}                                  
+                    <div class="col-md-4">                           
+                      <div class="overview-image">
+                        <a href="{{ subpage.permalink }}">  
+                          <img src="{{ subpage.image.thumbnail }}" alt="{{image.credit}}"/>
+                        </a>
+                      </div>
+                      <h4>
+                        <span class="subpage-title" id="title-{{counter}}">{{ subpage.title }} <span class="subpage-title-green"> {{ subpage.titleGreen }} </span></span>
+                      </h4>
+                        <hr/>
+                        <p>
+                          {{ subpage.summary }}
+                        </p>                      
+                    </div>
+                    {% if counter == 0 or counter == 3 or counter == 6 or counter == 9 %}
+                      </div>
+                    {% endif %}   
+                  {% endif %}           
+                {% endfor %}            
+            </div>     
+          </article>
+        </div>
+      </div>
+    </div>
+    <div class="row">
       <div class="col-md-12">
-      <img class="featured-image img-responsive" src=
-        {% if page.image.feature contains 'http://' %}
-          "{{ page.image.feature }}"
-        {% elsif page.image.feature contains 'https://' %}
-          "{{ page.image.feature }}"
-        {% else %}
-          "{{ page.image.feature }}"
-        {% endif %}
-      alt="{{ page.title }} feature image">
+        <footer >
+          {% include _footer.html %}
+        </footer>
       </div>
-    {% endif %}
-    <div id="main" class="row" role="main">
-      <div class="col-md-10 col-md-offset-1">
-        <article>
-          <h1><span class="black-word">{{ page.title }}</span> <span class="green-word">{{ page.titleGreen }}</span></h1>
-          <div class="article-wrap">
-            <p>
-              {{ content }}
-            </p>
-            <hr/>
-              {% assign counter = 0 %}
-              {% for subpage in site.pages %}            
-                {% if subpage.parent == page.parentTitle %}                  
-                  {% if counter == 0 or counter == 3 or counter == 6 or counter == 9 %}
-                    <div class="row">
-                  {% endif %} 
-                  {% assign counter=counter | plus:1 %}                                  
-                  <div class="col-md-4">                           
-                    <div class="overview-image">
-                      <a href="{{ subpage.permalink }}">  
-                        <img src="{{ subpage.image.thumbnail }}" alt="{{image.credit}}"/>
-                      </a>
-                    </div>
-                    <h4>
-                      <span class="subpage-title" id="title-{{counter}}">{{ subpage.title }} <span class="subpage-title-green"> {{ subpage.titleGreen }} </span></span>
-                    </h4>
-                      <hr/>
-                      <p>
-                        {{ subpage.summary }}
-                      </p>                      
-                  </div>
-                  {% if counter == 0 or counter == 3 or counter == 6 or counter == 9 %}
-                    </div>
-                  {% endif %}   
-                {% endif %}           
-              {% endfor %}            
-          </div>     
-        </article>
-      </div>
-    </div>
-    <div class="footer-wrap">
-      <footer>
-        {% include _footer.html %}
-      </footer>
-    </div>
-    {% include _scripts.html %}          
+      {% include _scripts.html %} 
     </div>
   </body>
 </html>

@@ -8,81 +8,79 @@
 </head>
   <body class="page">
     <div class="container-fluid">
-    {% include _browser-upgrade.html %}
-    {% include _navigation.html %}
-    {% if page.image.feature %}
-    <div class="row">
-      <div class="col-md-12">
-      <img class="featured-image img-responsive" src=
-        {% if page.image.feature contains 'http://' %}
-          "{{ page.image.feature }}"
-        {% elsif page.image.feature contains 'https://' %}
-          "{{ page.image.feature }}"
-        {% else %}
-          "{{ page.image.feature }}"
+      <div class="row">
+        {% include _browser-upgrade.html %}
+        {% include _navigation.html %}
+        {% if page.image.feature %}      
+          <div class="col-md-12" style="padding-right:0px; padding-left:0px;">
+            <img class="featured-image img-responsive" src=
+              {% if page.image.feature contains 'http://' %}
+                "{{ page.image.feature }}"
+              {% elsif page.image.feature contains 'https://' %}
+                "{{ page.image.feature }}"
+              {% else %}
+                "{{ page.image.feature }}"
+              {% endif %}
+            alt="{{ page.title }} feature image">
+          </div><!-- /.image-wrap -->
         {% endif %}
-      alt="{{ page.title }} feature image">
-      </div><!-- /.image-wrap -->
-    {% endif %}
-    <div id="main" class="row" role="main">
-      <div class="col-md-8 col-md-offset-2">
-        <div class="row no-margin-left-right">
-        <div class="col-md-9">
-          <article>
-            <h1><span class="black-word">{{ page.title }}</span> <span class="green-word">{{ page.titleGreen }}</span></h1>
-            <hr/>
-            <div class="article-wrap">
-              {{ content }}
-            </div><!-- /.article-wrap -->
-            {% if site.disqus_shortname and page.comments %}
-              <section id="disqus_thread"></section><!-- /#disqus_thread -->
-            {% endif %}
-          </article>
-        </div>
-        <div class="col-md-3">
-          <div class="page-sidebar">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="join-box">
-                  <h2 class="join-text">Join the Community!</h2>
-                  <button class="join-button" onclick="location.href='https://github.com/flexiblepower/FAN-wiki/wiki/On-boarding-process'">JOIN NOW!</button>
+        <div id="main" class="col-md-8 col-md-offset-2">
+          <div class="col-lg-9 col-md-12">
+            <article>
+              <h1><span class="black-word">{{ page.title }}</span> <span class="green-word">{{ page.titleGreen }}</span></h1>
+              <hr/>
+              <div class="article-wrap">
+                {{ content }}
+              </div><!-- /.article-wrap -->
+              {% if site.disqus_shortname and page.comments %}
+                <section id="disqus_thread"></section><!-- /#disqus_thread -->
+              {% endif %}
+            </article>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="page-sidebar">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="join-box">
+                    <h2 class="join-text">Join the Community!</h2>
+                    <button class="join-button" onclick="location.href='https://github.com/flexiblepower/FAN-wiki/wiki/On-boarding-process'">JOIN NOW!</button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="join-box">
-                  <h2 class="join-text">Download the Demo! Note: This version is based on PM0.9. New version online end of the week</h2>
-                  <button class="join-button" onclick="location.href='https://github.com/flexiblepower/flexiblepower.github.io/blob/master/download/PowerMatcherSuite_13.10_Demo.zip?raw=true'">Download!</button>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="join-box">
+                    <h2 class="join-text">Download the Demo! Note: This version is based on PM0.9. New version online end of the week</h2>
+                    <button class="join-button" onclick="location.href='https://github.com/flexiblepower/flexiblepower.github.io/blob/master/download/PowerMatcherSuite_13.10_Demo.zip?raw=true'">Download!</button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="sidebar-articles">
-            <h1>Latest <span class="last-word">News</span></h1>   
-              {% for post in site.posts limit:3 %}  
-                  <div class="item">
-                    <img class="img-responsive" src="{{ post.thumbnail }}"/>
-                    <article class="sidebar-article-title">
-                      {% if post.link %}    
-                        <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
-                      {% else %}
-                        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>                
-                      {% endif %}
-                    </article>
-                  </div>            
-              {% endfor %}
+              <div class="sidebar-articles">
+              <h1>Latest <span class="last-word">News</span></h1>   
+                {% for post in site.posts limit:3 %}  
+                    <div class="item">
+                      <img class="img-responsive" src="{{ post.thumbnail }}"/>
+                      <article class="sidebar-article-title">
+                        {% if post.link %}    
+                          <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
+                        {% else %}
+                          <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>                
+                        {% endif %}
+                      </article>
+                    </div>            
+                {% endfor %}
+              </div>
             </div>
           </div>
         </div>
-        </div>
       </div>
+      <div class="row">
+        <footer class="col-md-12">
+          {% include _footer.html %}
+        </footer>
+      </div>
+      {% include _scripts.html %}
     </div>
-    <div class="footer-wrap">
-      <footer>
-        {% include _footer.html %}
-      </footer>
-    </div>
-    {% include _scripts.html %}          
-    </div>
+    {% include _scripts.html %}        
   </body>
 </html>

@@ -13,18 +13,18 @@
     {% if page.image.feature %}
     <div class="row">
       <div class="col-md-12">
-      <img class="featured-image img-responsive" src=
-        {% if page.image.feature contains 'http://' %}
-          "{{ page.image.feature }}"
-        {% elsif page.image.feature contains 'https://' %}
-          "{{ page.image.feature }}"
-        {% else %}
-          "{{ page.image.feature }}"
-        {% endif %}
-      alt="{{ page.title }} feature image">
-      </div><!-- /.image-wrap -->
+        <img class="featured-image img-responsive" src=
+          {% if page.image.feature contains 'http://' %}
+            "{{ page.image.feature }}"
+          {% elsif page.image.feature contains 'https://' %}
+            "{{ page.image.feature }}"
+          {% else %}
+            "{{ page.image.feature }}"
+          {% endif %}
+        alt="{{ page.title }} feature image">
+      </div>
+    </div>
     {% endif %}
-    <div id="main" class="row" role="main">
       <div class="col-md-8 col-md-offset-2">
         <div class="row no-margin-left-right">
           <div class="col-md-12">

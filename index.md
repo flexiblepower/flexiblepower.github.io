@@ -7,7 +7,6 @@ image:
   credit: PowerMatcher community
   creditlink: http://www.flexiblepower.org
 carousel_images:
-  - /images/site/home-logos/logo-flexiblepower.png 
   - /images/site/home-logos/logo-alliander.png  
   - /images/site/home-logos/logo-tno.jpg
   - /images/site/home-logos/logo-accenture.png

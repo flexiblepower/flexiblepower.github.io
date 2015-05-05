@@ -11,7 +11,7 @@
       {% include _browser-upgrade.html %}
       {% include _navigation.html %}
       {% include _header-home.html %}
-      <div id="index" class="row">
+      <div id="index">
         <div class="col-md-8 col-md-offset-2">
           <div class="row">
             <div class="col-md-6 powermatcher-top-image">
@@ -67,6 +67,13 @@
               </a>
             </div>
           </div>
+          <hr/>  
+          <div class="row">
+            <img src="images/site/logo-flexiblepower.png" alt="logo flexible power" class="col-md-3"/>        
+            <h1 class="col-md-6 text-center">            
+              <a href="/news/">Our <span class="last-word">Partners</span></a>
+            </h1>
+          </div>
           <hr/>
           <div>
             {% assign counter = 0 %}
@@ -83,7 +90,7 @@
               {% endif %}           
             {% endfor %} 
           </div>
-          <hr/>
+          <hr/>          
           <h1 class="center-header">
             <a href="/news/">Latest <span class="last-word">News</span></a>
           </h1>
@@ -123,12 +130,9 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="footer-wrap">
-        <footer class="col-md-12">
-          {% include _footer.html %}
-        </footer>
-      </div>
+      <footer class="col-md-12">
+        {% include _footer.html %}
+      </footer>
       {% include _scripts.html %}
     </div>
   </body>

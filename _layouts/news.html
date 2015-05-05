@@ -9,42 +9,34 @@
   <body class="news">
     <div class="container-fluid">
       {% include _browser-upgrade.html %}
-
       {% include _navigation.html %}
-
       {% include _header-home.html %}
-      <div class="container-fluid">
-        <div id="index" class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <div class="row">
-              <h1 class="center-header">Latest <span class="last-word">News</span></h1>
-              <div class="featured-articles">
-                {% for post in site.posts %}  
-                  <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="item">
-                      <img src="{{ post.thumbnail }}"/>
-                      <article class="sidebar-article-title">
-                        {% if post.link %}    
-                          <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
-                        {% else %}
-                          <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>                
-                        {% endif %}
-                      </article>
-                    </div> 
-                  </div>           
-                {% endfor %}
-              </div> 
-            </div>
+      <div id="index">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="row">
+            <h1 class="center-header">Latest <span class="last-word">News</span></h1>
+            <div class="featured-articles">
+              {% for post in site.posts %}  
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="item">
+                    <img src="{{ post.thumbnail }}"/>
+                    <article class="sidebar-article-title">
+                      {% if post.link %}    
+                        <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
+                      {% else %}
+                        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>                
+                      {% endif %}
+                    </article>
+                  </div> 
+                </div>           
+              {% endfor %}
+            </div> 
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="footer-wrap">
-        <footer class="col-md-12">
-          {% include _footer.html %}
-        </footer>
-      </div><!-- /.footer-wrap -->
-      </div>
+      <footer class="col-md-12">
+        {% include _footer.html %}
+      </footer>
       {% include _scripts.html %}
     </div>
   </body>

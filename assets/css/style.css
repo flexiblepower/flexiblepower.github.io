@@ -39,6 +39,16 @@ h1 {
 	margin-right:0;
 }
 
+.text-center {
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	.text-center {
+		text-align: left;
+	}
+}
+
 /* enable absolute positioning */
 .inner-addon { 
     position: relative; 
@@ -96,10 +106,6 @@ h1 {
 }
 
 /*menu */
-.container-fluid {
-	padding: 0;
-}
-
 .navbar {
 	border:0;
 	border-top: 1px solid #dedede;
@@ -239,6 +245,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 #index {
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-top: 30px;
 }
 
