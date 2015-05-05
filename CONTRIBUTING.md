@@ -19,8 +19,7 @@ Best way to get started is to start with these:
 * Onboarding process: <https://github.com/flexiblepower/FAN-wiki/wiki/On-boarding-process>
 * General wiki: <https://github.com/flexiblepower/FAN-wiki/wiki>
 * Website:  <http://www.powermatcher.org>
-* Project specific issues: <https://github.com/flexiblepower/powermatcher-frontend/issues>
-* Project specific wiki: <https://github.com/flexiblepower/powermatcher-frontend/wiki>
+* Website specific issues: <https://github.com/flexiblepower/flexiblepower.github.io>
 
 # New features
 
