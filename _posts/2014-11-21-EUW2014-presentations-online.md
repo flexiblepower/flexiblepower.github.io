@@ -3,7 +3,7 @@ layout: post
 title: PowerMatcher and FPAI presentations online!
 description: "Learn more about the PowerMatcherSuite"
 tags: [PowerMatcher, EUW, EUW2014, Engerati, TNO, Alliander, Technolution, open source, Smart grid]
-comments: true
+comments: false
 published: true
 thumbnail: /images/EUW.jpg
 ---

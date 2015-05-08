@@ -3,7 +3,7 @@ layout: post
 title: Happy new year!
 description: "Happy new year!"
 tags: [PowerMatcher, FPAI, Christmas tree]
-comments: true
+comments: false
 published: true
 thumbnail: /images/20141212_FPAI-Christmas-tree1-newslogo.jpg
 ---

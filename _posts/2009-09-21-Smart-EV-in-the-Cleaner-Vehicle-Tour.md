@@ -3,7 +3,7 @@ layout: post
 title: Smart EV in the Cleaner Vehicle Tour
 description: "Smart EV in the Cleaner Vehicle Tour"
 tags: [PowerMatcher, Prius, EV, Cleaner Vehicle Tour 2009]
-comments: true
+comments: false
 thumbnail: /images/site/PMnewslogo.png
 ---
 

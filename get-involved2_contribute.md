@@ -6,7 +6,7 @@ titleGreen: Contribute?
 tagline: PowerMatcher, Github
 tags: [Community, open source, Gitub, PowerMatcher, get involved, Transactive Energy]
 modified: 12-9-2014
-comments: true
+comments: false
 parent: get-involved
 summary: Instructions on how to join the community and contribute code or other things.
 image:

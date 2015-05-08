@@ -6,7 +6,7 @@ titleGreen: Downloading!
 tagline: PowerMatcher, Github, Downloads, Source Code, Documentation 
 tags: [Community, open source, Gitub, PowerMatcher, get involved, Transactive Energy]
 modified: 12-9-2014
-comments: true
+comments: false
 image:
   feature: /images/site/why_open.jpg
 ---

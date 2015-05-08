@@ -6,7 +6,7 @@ titleGreen: PowerMatcher Suite?
 tagline: Why is de PowerMatcher build?
 tags: [PowerMatcher, Why, Transactive Energy]
 modified: 8-8-2014
-comments: true
+comments: false
 parentTitle: why
 image:
   feature: /images/site/banner_inner.jpg

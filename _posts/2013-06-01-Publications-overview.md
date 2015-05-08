@@ -3,7 +3,7 @@ layout: post
 title: Overview of publications
 description: "Overview of Achievements & Papers"
 tags: [PowerMatcher, Achievements, jekyll, tutorial]
-comments: true
+comments: false
 thumbnail: /images/Couperus.jpg
 ---
 ## The PowerMatcher: Smart Coordination for the Smart Electricity Grid ##

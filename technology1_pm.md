@@ -6,7 +6,7 @@ titleGreen: under the Hood
 tagline: Minimal Mistakes, a Jekyll Theme
 tags: [PowerMatcher, Technology, Explained]
 modified: 8-8-2014
-comments: true
+comments: false
 parent: technology
 summary: Read up on the concept of PowerMatcher and see how PowerMatcher can change the world.
 image:

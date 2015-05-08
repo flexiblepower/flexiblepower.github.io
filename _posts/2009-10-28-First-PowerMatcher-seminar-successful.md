@@ -3,7 +3,7 @@ layout: post
 title: First PowerMatcher seminar successful
 description: "First PowerMatcher seminar successful"
 tags: [PowerMatcher,ECN, VITO, Nedap, AREVA]
-comments: true
+comments: false
 thumbnail: /images/site/PMnewslogo.png
 ---
 

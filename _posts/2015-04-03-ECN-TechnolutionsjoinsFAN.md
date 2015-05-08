@@ -3,7 +3,7 @@ layout: post
 title: ECN and TECHNOLUTION are new FAN members!
 description: "PowerMatcher takes the next step in production ready technology"
 tags: [TECHNOLUTION, FAN, ECN, community, PowerMatcherSuite]
-comments: true
+comments: false
 published: true
 thumbnail: /images/site/PMnewslogo.png
 ---

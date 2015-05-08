@@ -6,7 +6,7 @@ titleGreen:  Powermatcher
 tagline: PowerMatcher, Discussion, Forum
 tags: [Community, open source, Gitub, PowerMatcher, get involved, Transactive Energy]
 modified: 04-16-2015
-comments: true
+comments: false
 parent: get-involved
 summary: Discuss the Powermatcher on this page
 image:

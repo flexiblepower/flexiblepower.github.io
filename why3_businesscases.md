@@ -6,7 +6,7 @@ titleGreen: Cases
 tagline: Business Cases for FPAI and PowerMatcher
 tags: [Flexibility, Prosumers, Transactive Energy]
 modified: 8-8-2014
-comments: true
+comments: false
 parent: why
 summary: The Suite is targeted at a large user group and therefore holds various business cases for a variety  of stakeholders. Please read this section to find out how to cash the chips.
 image:

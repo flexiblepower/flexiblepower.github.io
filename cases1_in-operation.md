@@ -6,7 +6,7 @@ titleGreen: Operation
 tagline: PowerMatcher™ Technology
 tags: [PowerMatcher™, Practice, Transactive Energy, Features]
 modified: 22-9-2014
-comments: true
+comments: false
 parent: cases
 summary: A list of all real life implementations of the PowerMatcher and FPAI
 image:

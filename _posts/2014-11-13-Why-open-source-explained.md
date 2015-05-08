@@ -3,7 +3,7 @@ layout: post
 title: Why open source explaind
 description: "Interview about open source with TNO"
 tags: [PowerMatcher, EUW, Engerati, TNO, open source]
-comments: true
+comments: false
 published: true
 thumbnail: /images/EUW.jpg
 ---

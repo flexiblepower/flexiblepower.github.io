@@ -6,7 +6,7 @@ titleGreen: Join?
 tagline: PowerMatcher, Github
 tags: [Community, open source, Gitub, PowerMatcher, get involved, Transactive Energy]
 modified: 12-9-2014
-comments: true
+comments: false
 parent: get-involved
 summary: We need all the help we can get to get the technology out there.
 image:

@@ -6,7 +6,7 @@ titleGreen: Open Source?!
 tagline: Why openess always wins in the end!
 tags: [Open Source, Apache 2.0, Github]
 modified: 8-8-2014
-comments: true
+comments: false
 parent: why
 summary: The Suite is open sourced under the Apache 2.0 license. A unique proposition in the smart grid world. We believe it will propell adoption.
 image:
