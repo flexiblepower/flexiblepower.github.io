@@ -13,7 +13,7 @@ image:
 
 Please download the FlexiblePower Base API before downloading the PowerMatcher or FPAI. Both are dependent on the FlexiblePower Base API.
 
-_NOTE_ Please be aware when downloading the demo, that the demo is still based on PowerMatcher 0.9. However, for getting familiar with the concept no difference should be perceived. The new demo, based on PowerMatcher 2.0, will be uploaded by 1st May 2015. 
+_NOTE_ Please be aware when downloading the demo, that the demo is still based on PowerMatcher 0.9. However, for getting familiar with the concept no difference should be perceived. The new demo, based on PowerMatcher 2.0, will be uploaded later this year. 
 
 <div class="table-responsive" markdown="1">{:.table.table-responsive}
 |Technology|Version|Status|Demo|Source code|Binaries|Github release|Documentation|Javadoc| 
