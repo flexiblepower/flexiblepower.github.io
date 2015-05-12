@@ -6,7 +6,7 @@ titleGreen: PowerMatcher Suite
 tagline: PowerMatcher, Mission, 
 tags: [about, PowerMatcher, FAN, Transactive Energy]
 modified: 8-8-2014
-comments: true
+comments: false
 parent: get-involved
 summary: The Flexiblepower Alliance Network (FAN) manages the PowerMatcher Suite.
 image:

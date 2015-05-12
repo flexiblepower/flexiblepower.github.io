@@ -6,7 +6,7 @@ titleGreen: Flexible Power Application Infrastructure
 tagline: Operating System, Abstraction Layer
 tags: [Operating System, Abstraction Layer, Standard, Interface]
 modified: 8-8-2014
-comments: true
+comments: false
 parent: why
 summary: An introduction into the world of FPAI, a platform that removes silo thinking for smart appliance connectivity.
 image:

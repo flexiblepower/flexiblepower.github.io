@@ -58,6 +58,8 @@
       subhref: "/get-involved/contribute/"
     - subtitle: "About"
       subhref: "/get-involved/about/"
+    - subtitle: "Discuss"
+      subhref: "/get-involved/discuss/"
 
 - title: "Downloads"
   href: "/downloads/"

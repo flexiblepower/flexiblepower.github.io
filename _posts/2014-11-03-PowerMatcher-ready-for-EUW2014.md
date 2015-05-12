@@ -3,7 +3,7 @@ layout: post
 title: PowerMatcher ready for the EUW2014 with a new website and Github presence
 description: "EUW14 Ready"
 tags: [PowerMatcher, EUW, European utility week, FAN, github, open source, apache 2.0 , smart grid]
-comments: true
+comments: false
 published: true
 thumbnail: /images/EUW.jpg
 ---

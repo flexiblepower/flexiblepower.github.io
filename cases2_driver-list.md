@@ -6,7 +6,7 @@ titleGreen: Drivers
 tagline: PowerMatcher™ Technology
 tags: [FPAI, Drivers, Smart Appliances]
 modified: 22-9-2014
-comments: true
+comments: false
 parent: cases
 summary: A list of all currently available device agents for PowerMatcher and appliance drivers for FPAI.
 image:

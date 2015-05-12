@@ -6,7 +6,7 @@ titleGreen: PowerMatcher
 tagline: Minimal Mistakes, a Jekyll Theme
 tags: [PowerMatcher, Why, Transactive Energy]
 modified: 8-8-2014
-comments: true
+comments: false
 parent: why
 summary: An introduction into the world of PowerMatcher, a smart grid coordination mechanism.
 image:

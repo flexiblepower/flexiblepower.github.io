@@ -6,7 +6,7 @@ titleGreen: under the Hood
 tagline: Minimal Mistakes, a Jekyll Theme
 tags: [PowerMatcher, Technology, Explained]
 modified: 8-8-2014
-comments: true
+comments: false
 parent: technology
 summary: Read up on the concept of PowerMatcher and see how PowerMatcher can change the world.
 image:
@@ -66,7 +66,7 @@ The Auctioneer always stands on top of the hierarchy and aggregates all bids rec
 
 The Concentrator concentrates, or aggregates, all bids and publishes a single bid upward in the hierarchy thereby reducing communications in the system, making it very scalable. 
 
-For more information on the different functionalities please read the [detailed documentation on github](https://github.com/flexiblepower/powermatcher/wiki/Architecture-PowerMatcher#the-concentrator-agent).
+For more information on the different functionalities please read the [detailed documentation on github](http://fpai-ci.sensorlab.tno.nl/builds/powermatcher-documentation/master/html/Architecture-PowerMatcher.html).
 
 ##	Device agent 			
 
@@ -76,7 +76,7 @@ In the PowerMatcher a device (washing machine, windmill, battery etc...) is repr
 
 Your appliance and agent will act autonomously based on your predefined settings (most cost efficient, most green energy etc.) and settings are never imposed. In other words, you still get to decide at any moment whether you want to turn your airco on or off.  The PowerMatcher ensures that the end user retains full control but its energy consumption or production will be optimized autonomously as set by end user’s desired constraints.
 
-For more information on the different functionalities please read the [detailed documentation on github](https://github.com/flexiblepower/powermatcher/wiki/Architecture-PowerMatcher#the-device-agent).
+For more information on the different functionalities please read the [detailed documentation on github](http://fpai-ci.sensorlab.tno.nl/builds/powermatcher-documentation/master/html/Bids.html).
 
 
 ##	Objective agent
@@ -86,4 +86,4 @@ The objective agent gives a cluster its purpose. The objective agent interfaces 
 
 # Read more
 * [The PowerMatcher Smart Coordination for the Smart Electricity Grid - Koen Kok](http://dare.ubvu.vu.nl/bitstream/handle/1871/43567/dissertation.pdf?sequence=1)
-* [Technical implementation details (Github wiki)](https://github.com/flexiblepower/powermatcher/wiki)
+* [Technical implementation details (Gitbook )](http://fpai-ci.sensorlab.tno.nl/builds/powermatcher-documentation/master/html)

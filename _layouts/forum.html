@@ -1,0 +1,68 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+  <body class="page">
+    <div class="container-fluid">
+    {% include _browser-upgrade.html %}
+    {% include _navigation.html %}
+    {% if page.image.feature %}
+    <div class="row">
+      <div class="col-md-12" style="padding-right:0px; padding-left:0px;">
+        <img class="featured-image img-responsive" src=
+          {% if page.image.feature contains 'http://' %}
+            "{{ page.image.feature }}"
+          {% elsif page.image.feature contains 'https://' %}
+            "{{ page.image.feature }}"
+          {% else %}
+            "{{ page.image.feature }}"
+          {% endif %}
+        alt="{{ page.title }} feature image">
+      </div>
+    </div>
+    {% endif %}
+      <div id="main"class="col-md-8 col-md-offset-2">
+        <div class="row no-margin-left-right">
+          <div class="col-md-12">
+            <article>
+              <h1><span class="black-word">{{ page.title }}</span> <span class="green-word">{{ page.titleGreen }}</span></h1>
+              <hr/>
+              <p>
+                This is the frequently asked questions section. If you have a question that is not answered in this section, please pose it in the comment section of this page and we will get back to you.
+              </p>
+              {% for faq in site.posts %}
+                {% if faq.category == "FAQ" %}
+                  <h3 class="faq-question"><span class="caret-right"></span> {{faq.question}}</h3>
+                  <div class="faq-answer">{{faq.content}}</div>
+                {% endif %}
+              {% endfor %}
+              <hr/>
+              <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES * * */
+                    var disqus_shortname = 'flexiblepower';
+                    
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                        document.getElementById("footer").style.display = "none";
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            </article>          
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="col-md-12">
+        {% include _footer.html %}
+    </footer>
+    {% include _scripts.html %}
+  </body>
+</html>

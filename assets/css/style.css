@@ -39,6 +39,16 @@ h1 {
 	margin-right:0;
 }
 
+.text-center {
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	.text-center {
+		text-align: left;
+	}
+}
+
 /* enable absolute positioning */
 .inner-addon { 
     position: relative; 
@@ -96,10 +106,6 @@ h1 {
 }
 
 /*menu */
-.container-fluid {
-	padding: 0;
-}
-
 .navbar {
 	border:0;
 	border-top: 1px solid #dedede;
@@ -187,19 +193,28 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 .documentation-buttons {
-	margin: 22px auto;
+	margin: 40px auto;
 	text-align: center;
 	font-family: "alliander-font-bold";
 	text-transform: uppercase;
 }
 
-.documentation-buttons input[type="button"] {
+.documentation-buttons button {
 	background-color: #829F41;
 	border:0;
 	border-radius: 10px;
-	padding: 3px 35px;	
+	padding: 3px 35px 3px 25px;	
 	font-size: 20px;	
 	color: white;
+	margin-right: 5px;	
+}
+
+.documentation-buttons button a {
+	color: white;
+}
+
+.documentation-buttons button .glyphicon {
+	top: 3px;
 }
 
 .fork-me-ribbon {
@@ -209,7 +224,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	z-index:1000;
 }
 
-.documentation-buttons input[type="button"]:hover {
+.documentation-buttons button:hover {
 	background-color: #43515A;
 }
 
@@ -239,6 +254,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 #index {
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-top: 30px;
 }
 
@@ -854,3 +871,32 @@ footer a:hover{
 	}
 }
 
+
+div[data-tracking-area="footer"] {
+	display:none!important;
+}
+
+.faq-question {
+	font-family: alliander-font-light;
+	color: #829F41;
+}
+
+.faq-question:hover {
+	cursor: pointer;
+	color: #333;
+}
+
+.faq-answer {
+	display: none;
+}
+
+.faq-question .caret-right {
+	vertical-align: middle!important;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-left: 4px solid;
+    display: inline-block;
+    height: 0;
+    vertical-align: top;
+    width: 0;
+}

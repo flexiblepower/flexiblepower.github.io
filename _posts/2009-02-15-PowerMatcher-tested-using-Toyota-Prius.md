@@ -3,7 +3,7 @@ layout: post
 title: PowerMatcher tested using Toyota Prius
 description: "PowerMatcher tested using Toyota Prius"
 tags: [PowerMatcher, Prius, EV]
-comments: true
+comments: false
 thumbnail: /images/site/PMnewslogo.png
 ---
 

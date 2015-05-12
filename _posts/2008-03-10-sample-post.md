@@ -5,7 +5,7 @@ description: "Just about everything you'll need to style in the theme: headings,
 modified: 2013-05-31
 tags: [intro, beginner, jekyll, tutorial]
 published: false
-comments: true
+comments: false
 image:
   feature: texture-feature-05.jpg
   credit: Texture Lovers

@@ -3,7 +3,7 @@ layout: post
 title: New Release!
 description: "PowerMatcher takes next step in production ready technology"
 tags: [PowerMatcher, 2.0, java OSGI, PowerMatcher ready, open source, Apache 2.0, community, PowerMatcherSuite]
-comments: true
+comments: false
 published: true
 thumbnail: /images/20150416_release2.jpg
 ---
@@ -11,8 +11,6 @@ thumbnail: /images/20150416_release2.jpg
 # LAUNCH OF POWERMATCHER 2.0  
 
 User-friendly version includes Congestion Management tool for local grids
-
-AMSTERDAM, 16 April 2015
 
 Today, Flexiblepower Alliance Network (FAN) launches POWERMATCHER 2.0. The redesigned PowerMatcher provides easier utilization in smart grids, by grid companies, aggregators and local energy collectives.  It  also contains a new congestion management tool for electricity grids. Next to the Open Source code, the new PowerMatcherSuite is  also available as runtime-demo, that can be downloaded as a compressed file, ready to be unpacked and run.  As the software is open source, it is freely available from the community development website http:// www.powermatcher.org. This was revealed by FAN Board member Richard Beekhuis  in today’s end conference of the smart grid project “Powermatching City” in Groningen. 
 
@@ -34,6 +32,6 @@ PowerMatcher , in different  versions of it, has been successfully demonstrated 
 The Powermatcher Suite is a technical infrastructure designed by Flexiblepower Alliance Network FAN.  It is complementary to the USEF initiative, developing the organizational framework in order to  provide a complete package for the development and operation of local smart grids. 
 
 
-Do you want to get started with this release? Please visit the [PowerMatcher Github wiki](https://github.com/flexiblepower/powermatcher/wiki) for technical background information.
+Do you want to get started with this release? Please visit the [PowerMatcher Github wiki](http://fpai-ci.sensorlab.tno.nl/builds/powermatcher-documentation/master/html/index.html) for technical background information.
 
 More information about the PowerMacher concept can be found on this website.

@@ -3,7 +3,7 @@ layout: post
 title: Four Articles at CIRED'09
 description: "Four Articles at CIRED'09"
 tags: [PowerMatcher,CIRED, Gigre, Nedap, AREVA]
-comments: true
+comments: false
 thumbnail: /images/site/PMnewslogo.png
 ---
 

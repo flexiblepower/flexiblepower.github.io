@@ -3,7 +3,7 @@ layout: post
 title: EXE & Triodos are working on PowerMatcher technology in offices
 description: "Powermatcher technology will be used for offices"
 tags: [PowerMatcher, EXE, Triodos, R.E.X. , Offices, smart grid]
-comments: true
+comments: false
 thumbnail: /images/site/PMnewslogo.png
 ---
 

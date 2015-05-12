@@ -6,7 +6,7 @@ titleGreen: Join?
 tagline: PowerMatcher, Github
 tags: [Community, open source, Gitub, PowerMatcher, get involved, Transactive Energy]
 modified: 12-9-2014
-comments: true
+comments: false
 parent: get-involved
 summary: We need all the help we can get to get the technology out there.
 image:
@@ -45,6 +45,6 @@ As an Organisation it could also be of interest for you to actively join the dev
 
 7. Proof for your customers that you know the software since you make active contributions.
 		
-Please contact info@flexiblepower.org if you want to join the FAN and subscribe to our [github.com/flexiblepower](github.com/flexiblepower) repositories.
+Please contact info@flexiblepower.org if you want to join the FAN and subscribe to our [github.com/flexiblepower](https://github.com/flexiblepower) repositories.
 
 	
