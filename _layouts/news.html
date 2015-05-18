@@ -16,7 +16,8 @@
           <div class="row">
             <h1 class="center-header">Latest <span class="last-word">News</span></h1>
             <div class="featured-articles">
-              {% for post in site.posts %}  
+              {% for post in site.posts %}
+                {% if post.category != "FAQ" %}  
                 <div class="col-md-3 col-sm-6 col-xs-12">
                   <div class="item">
                     <img src="{{ post.thumbnail }}"/>
@@ -28,7 +29,8 @@
                       {% endif %}
                     </article>
                   </div> 
-                </div>           
+                </div>   
+                {% endif %}        
               {% endfor %}
             </div> 
           </div>
