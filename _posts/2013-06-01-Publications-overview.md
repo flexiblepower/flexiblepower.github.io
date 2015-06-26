@@ -47,4 +47,3 @@ Koen Kok, Cor Warmer, and René Kamphuis. __The PowerMatcher: Multiagent control
  
 Koen Kok, Cor Warmer, and René Kamphuis. __PowerMatcher: multiagent control in the electricity infrastructure__. In AAMAS ’05: Proceedings of the 4th int. joint conf. on Autonomous Agents and Multiagent Systems, volume industry track, pages 75–82, New York, NY, USA, 2005. ACM Press. Awarded one of the best industry contributions to AAMAS 2005.
 
-[Article Download](http://jmvidal.cse.sc.edu/library/AAMAS-05/docs/itIT25_75.pdf)
