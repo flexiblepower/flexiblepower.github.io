@@ -14,10 +14,6 @@ image:
   thumbnail: /images/site/in_practice_list.jpg
 ---
 
-List of existing device agents
-
-
-
 FPAI drivers (all open source):
 
 <div class="table-responsive" markdown="1">{:.table.table-responsive}
@@ -26,12 +22,13 @@ FPAI drivers (all open source):
 |S0 pulse counters| https://github.com/flexiblepower/fpai-apps |
 |Miele@Home gateway protocol Dishwasher DW1000|https://github.com/flexiblepower/fpai-apps |
 |Miele@Home gateway protocol Refrigerator|https://github.com/flexiblepower/fpai-apps |
+|SMA PV panel| | |
 |PV Panel Simulation + managers|https://github.com/flexiblepower/fpai-apps |
 |Battery Simulation + managers|https://github.com/flexiblepower/fpai-apps |
 |Heatpump Simulation + managers|https://github.com/flexiblepower/fpai-apps |
-|Hexabus driver|https://github.com/flexiblepower/fpai-apps |
+|Hexabus smartplug |https://github.com/flexiblepower/fpai-apps |
 |Smartmeter driver + manager|https://github.com/flexiblepower/fpai-apps |
-| Scenario application|https://github.com/flexiblepower/fpai-apps |
+|Scenario application|https://github.com/flexiblepower/fpai-apps |
 
 PowerMatcher device agents
 
