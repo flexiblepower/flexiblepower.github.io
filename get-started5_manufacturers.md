@@ -12,7 +12,7 @@ image:
   thumbnail: /images/site/manufacturer.jpg
 ---
 
-All you need to do for your company to be able to leverage the PowerMatcher technology is to make your appliance capable of talking PowerMatcher language. It needs a [device driver](https://github.com/flexiblepower/fpai-core/wiki/ResourceDriver) for FPAI and a [device agent](http://fpai-ci.sensorlab.tno.nl/builds/powermatcher-documentation/master/html/CreationOfDeviceAgent.html) for PowerMatcher. 
+All you need to do for your company to be able to leverage the PowerMatcher technology is to make your appliance capable of talking PowerMatcher language. It needs a [device driver](https://github.com/flexiblepower/fpai-core/wiki/ResourceDriver) for FPAI and a [device agent](http://fpai-ci.sensorlab.tno.nl/builds/powermatcher-documentation/master/html/CreateADeviceAgent.html) for PowerMatcher. 
 
 The device driver entails the physical connection and mapping of the device control space to the FPAI control space. A device driver is manufacturer, type and model specific.  The benefit of developing a device driver is that in the future any Energy App like the PowerMatcher that interfaces with the FPAI platform can control your appliance.
 
