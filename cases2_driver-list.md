@@ -23,6 +23,9 @@ FPAI drivers (all open source):
 |Miele@Home gateway protocol Dishwasher DW1000|https://github.com/flexiblepower/fpai-apps |
 |Miele@Home gateway protocol Refrigerator|https://github.com/flexiblepower/fpai-apps |
 |SMA PV panel| | |
+|Generic serial protocol driver | | |
+|Generic Modbus TCP driver | | |
+|Generic Bleutooth driver | | |
 |PV Panel Simulation + managers|https://github.com/flexiblepower/fpai-apps |
 |Battery Simulation + managers|https://github.com/flexiblepower/fpai-apps |
 |Heatpump Simulation + managers|https://github.com/flexiblepower/fpai-apps |
