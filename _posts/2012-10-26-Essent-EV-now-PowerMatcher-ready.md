@@ -12,7 +12,6 @@ These two cars will participate in the Integral field test that is currently run
  
 Before the cars were picked up on Friday by Essent, Eric Bakker from Humiq and Bart Roossien from ECN did some last configuration to finalise the installation. With the latest version of the display software the Essent EVPowerMatcher is working in both cars since last Monday. The owners of these cars are now able to set the State-of-Charge that is requested as well a the maximum current that can be used to charge the batteries. Also, the owner can tell the PowerMatcher Agent at what time the battery must have reached the requested fill level.
  
- <img src="{{ site.url }}/images/DSC_0061-2.JPG"> 
  <img src="{{ site.url }}/images/DSC_0067-2.JPG"> 
  <img src="{{ site.url }}/images/DSC_0065-2.JPG"> 
 Display
