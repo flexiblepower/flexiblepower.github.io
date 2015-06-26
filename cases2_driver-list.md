@@ -34,4 +34,19 @@ FPAI drivers (all open source):
 	*	 Smartmeter driver + manager
 * Scenario application
 
+<div class="table-responsive" markdown="1">{:.table.table-responsive}
+|Driver|URL|Example| 
+|:--------------------|:--------------------:|:--------------------:|
+|S0 pulse counters| |
+|Miele@Home gateway protocol Dishwasher DW1000| |
+|Miele@Home gateway protocol Refrigerator| |
+|PV Panel Simulation + managers| |
+|Battery Simulation + managers| |
+|Heatpump Simulation + managers| |
+|Hexabus driver| |
+|Smartmeter driver + manager| |
+| Scenario application| |
+
+
+
 Your driver/agent here? [Please add it to this page](https://github.com/flexiblepower/flexiblepower.github.io/edit/master/cases2_driver-list.md)
