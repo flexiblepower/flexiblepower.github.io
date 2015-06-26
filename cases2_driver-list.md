@@ -22,7 +22,7 @@ FPAI drivers (all open source):
 |S0 pulse counters| [FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
 |Miele@Home gateway protocol Dishwasher DW1000| [FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
 |Miele@Home gateway protocol Refrigerator|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
-|SMA PV panel| [FPAI-apps](https://github.com/flexiblepower/fpai-apps) |http://www.smainverted.com/files/2012/10/ALP_120612_SMA-SA-788W-tif.jpg |
+|SMA PV panel| [FPAI-apps](https://github.com/flexiblepower/fpai-apps) | |
 |Generic serial protocol driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | |
 |Generic Modbus TCP driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | |
 |Generic Bleutooth driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | |
