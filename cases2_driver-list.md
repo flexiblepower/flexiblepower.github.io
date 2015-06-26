@@ -19,7 +19,7 @@ FPAI drivers (all open source):
 <div class="table-responsive" markdown="1">{:.table.table-responsive}
 |Driver|URL|Example| 
 |:--------------------|:--------------------:|:--------------------:|
-|S0 pulse counters| https://github.com/flexiblepower/fpai-apps |
+|S0 pulse counters| [Github](https://github.com/flexiblepower/fpai-apps) |
 |Miele@Home gateway protocol Dishwasher DW1000|https://github.com/flexiblepower/fpai-apps |
 |Miele@Home gateway protocol Refrigerator|https://github.com/flexiblepower/fpai-apps |
 |SMA PV panel| | |
