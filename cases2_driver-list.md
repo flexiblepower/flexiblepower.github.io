@@ -34,4 +34,4 @@ FPAI drivers (all open source):
 	*	 Smartmeter driver + manager
 * Scenario application
 
-Your driver/agent here? [Please add it to this page](https://github.com/flexiblepower/flexiblepower.github.io/edit/master/in-practice2_driver-list.md)
+Your driver/agent here? [Please add it to this page](https://github.com/flexiblepower/flexiblepower.github.io/edit/master/cases2_driver-list.md)
