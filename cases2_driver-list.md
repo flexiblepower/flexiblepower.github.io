@@ -16,37 +16,25 @@ image:
 
 List of existing device agents
 
-PowerMatcher device agents
 
-* Bluegen (closed source, made by IBM)
 
 FPAI drivers (all open source):
-
-* S0 pulse counters 
-* Miele@Home gateway protocol
-	*        Miele Dishwasher DW1000
-	*        Miele Refrigerator
-* Simulation drivers + managers
-	*        PV Panel
-	*        Battery
-	*        Heatpump
-* Hexabus driver
-	*	 Smartmeter driver + manager
-* Scenario application
 
 <div class="table-responsive" markdown="1">{:.table.table-responsive}
 |Driver|URL|Example| 
 |:--------------------|:--------------------:|:--------------------:|
-|S0 pulse counters| |
-|Miele@Home gateway protocol Dishwasher DW1000| |
-|Miele@Home gateway protocol Refrigerator| |
-|PV Panel Simulation + managers| |
-|Battery Simulation + managers| |
-|Heatpump Simulation + managers| |
-|Hexabus driver| |
-|Smartmeter driver + manager| |
-| Scenario application| |
+|S0 pulse counters| https://github.com/flexiblepower/fpai-apps |
+|Miele@Home gateway protocol Dishwasher DW1000|https://github.com/flexiblepower/fpai-apps |
+|Miele@Home gateway protocol Refrigerator|https://github.com/flexiblepower/fpai-apps |
+|PV Panel Simulation + managers|https://github.com/flexiblepower/fpai-apps |
+|Battery Simulation + managers|https://github.com/flexiblepower/fpai-apps |
+|Heatpump Simulation + managers|https://github.com/flexiblepower/fpai-apps |
+|Hexabus driver|https://github.com/flexiblepower/fpai-apps |
+|Smartmeter driver + manager|https://github.com/flexiblepower/fpai-apps |
+| Scenario application|https://github.com/flexiblepower/fpai-apps |
 
+PowerMatcher device agents
 
+* Bluegen (closed source, made by IBM)
 
 Your driver/agent here? [Please add it to this page](https://github.com/flexiblepower/flexiblepower.github.io/edit/master/cases2_driver-list.md)
