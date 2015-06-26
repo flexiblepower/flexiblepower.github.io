@@ -19,19 +19,19 @@ FPAI drivers (all open source):
 <div class="table-responsive" markdown="1">{:.table.table-responsive}
 |Driver|URL|Example| 
 |:--------------------|:--------------------:|:--------------------:|
-|S0 pulse counters| [Github](https://github.com/flexiblepower/fpai-apps) |
-|Miele@Home gateway protocol Dishwasher DW1000|https://github.com/flexiblepower/fpai-apps |
-|Miele@Home gateway protocol Refrigerator|https://github.com/flexiblepower/fpai-apps |
-|SMA PV panel| | |
-|Generic serial protocol driver | | |
-|Generic Modbus TCP driver | | |
-|Generic Bleutooth driver | | |
-|PV Panel Simulation + managers|https://github.com/flexiblepower/fpai-apps |
-|Battery Simulation + managers|https://github.com/flexiblepower/fpai-apps |
-|Heatpump Simulation + managers|https://github.com/flexiblepower/fpai-apps |
-|Hexabus smartplug |https://github.com/flexiblepower/fpai-apps |
-|Smartmeter driver + manager|https://github.com/flexiblepower/fpai-apps |
-|Scenario application|https://github.com/flexiblepower/fpai-apps |
+|S0 pulse counters| [FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
+|Miele@Home gateway protocol Dishwasher DW1000| [FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
+|Miele@Home gateway protocol Refrigerator|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
+|SMA PV panel| [FPAI-apps](https://github.com/flexiblepower/fpai-apps) | |
+|Generic serial protocol driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | |
+|Generic Modbus TCP driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | |
+|Generic Bleutooth driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | |
+|PV Panel Simulation + managers|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)|
+|Battery Simulation + managers|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)|
+|Heatpump Simulation + managers|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
+|Hexabus smartplug |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
+|Smartmeter driver + manager|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)|
+|Scenario application|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
 
 PowerMatcher device agents
 
