@@ -36,4 +36,5 @@ FPAI aims to create an interoperable platform that is able to connect to a varie
 
   * Lastly smart appliance manufacturers only have to provide a single driver in order for their device to be interoperable with a variety of services.
 
+Download the full whitepaper [here](https://github.com/flexiblepower/flexiblepower.github.io/blob/master/download/Whitepaper%20EF-Pi%20final%20june%201st%202015%20version.pdf).
 
