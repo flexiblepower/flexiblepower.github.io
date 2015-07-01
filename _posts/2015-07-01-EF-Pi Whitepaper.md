@@ -10,4 +10,4 @@ thumbnail:
 
 # EF-Pi Whitepaper published
 
-Download the whitepaper [here](https://github.com/flexiblepower/flexiblepower.github.io/blob/master/download/Whitepaper%20EF-Pi%20final%20june%201st%202015%20version.pdf).
+Download the whitepaper [here](https://github.com/flexiblepower/flexiblepower.github.io/raw/master/download/Whitepaper%20EF-Pi%20final%20june%201st%202015%20version.pdf).
