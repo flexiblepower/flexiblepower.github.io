@@ -17,21 +17,22 @@ image:
 FPAI drivers (all open source):
 
 <div class="table-responsive" markdown="1">{:.table.table-responsive}
-|Driver|URL|Example| 
-|:--------------------|:--------------------:|:--------------------:|
-|S0 pulse counters| [FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
-|Miele@Home gateway protocol Dishwasher DW1000| [FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
-|Miele@Home gateway protocol Refrigerator|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
-|SMA PV panel| [FPAI-apps](https://github.com/flexiblepower/fpai-apps) | |
-|Generic serial protocol driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | |
-|Generic Modbus TCP driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | |
-|Generic Bleutooth driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | |
-|PV Panel Simulation + managers|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)|
-|Battery Simulation + managers|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)|
-|Heatpump Simulation + managers|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
-|Hexabus smartplug |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
-|Smartmeter driver + manager|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)|
-|Scenario application|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) |
+|Driver|URL|Example| Doc|
+|:--------------------|:--------------------:|:--------------------:|:--------------------:|
+|S0 pulse counters| [FPAI-apps](https://github.com/flexiblepower/fpai-apps) ||
+|Miele@Home gateway protocol Dishwasher DW1000| [FPAI-apps](https://github.com/flexiblepower/fpai-apps) ||
+|Miele@Home gateway protocol Refrigerator|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) ||
+|SMA PV panel| [FPAI-apps](https://github.com/flexiblepower/fpai-apps) | |[Download](https://github.com/flexiblepower/flexiblepower.github.io/raw/master/download/EF-pi%20SMA%20inverter%20driver%20and%20manager.pdf)|
+|Indesit washing machine and manager|  | |[Download](https://github.com/flexiblepower/flexiblepower.github.io/raw/master/download/EF-pi%20Indesit%20washing%20machine%20driver%20and%20manager.pdf)|
+|Generic serial protocol driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | ||
+|Generic Modbus TCP driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | ||
+|Generic Bleutooth driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | ||
+|PV Panel Simulation + managers|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)||
+|Battery Simulation + managers|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)||
+|Heatpump Simulation + managers|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) ||
+|Hexabus smartplug |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) ||
+|Smartmeter driver + manager|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)|[Download](https://github.com/flexiblepower/flexiblepower.github.io/raw/master/download/EF-pi%20Smart%20Meter%20driver%20and%20manager.pdf)|
+|Scenario application|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) ||
 
 PowerMatcher device agents
 
