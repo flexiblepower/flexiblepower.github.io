@@ -37,8 +37,10 @@ FPAI drivers (all open source):
 |Scenario application|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) ||
 
 PowerMatcher device agents
+
 <div class="table-responsive" markdown="1">{:.table.table-responsive}
 |Device Agents|URL|Example| Doc|
+|:--------------------|:--------------------:|:--------------------:|:--------------------:|
 |Bluegen| (closed source, made by IBM) email: info (a_t) flexiblepower.org ||
 |PV Panel Simulation + managers|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)||
 |Battery Simulation + managers|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)||
