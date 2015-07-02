@@ -51,7 +51,8 @@ The owner of a FPAI hub can open a dashboard or Graphical User Interface (GUI) i
 <img src="/images/site/gui.png">
 
 # Read more
-* [Technical implementation details (Github wiki)](https://github.com/flexiblepower/fpai-core/wiki)
+* [Technical implementation details (Github wiki)](http://fpai-ci.sensorlab.tno.nl/builds/fpai-documentation/development/html/)
+* [EF-Pi Whitepaper](https://github.com/flexiblepower/flexiblepower.github.io/raw/master/download/Whitepaper%20EF-Pi%20final%20june%201st%202015%20version.pdf)
 
 
 
