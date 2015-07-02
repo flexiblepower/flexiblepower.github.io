@@ -33,8 +33,7 @@ FPAI drivers (all open source):
 |Generic serial protocol driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | ||
 |Generic Modbus TCP driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | ||
 |Generic Bleutooth driver |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) | ||
-
-|Scenario application|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) ||
+|Scenario application|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) |||
 
 PowerMatcher device agents
 
