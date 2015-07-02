@@ -31,7 +31,7 @@ FPAI drivers (all open source):
 |Battery Simulation + managers|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)||
 |Heatpump Simulation + managers|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) ||
 |Hexabus smartplug |[FPAI-apps](https://github.com/flexiblepower/fpai-apps) ||
-|Smartmeter driver + manager|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)|[Download](https://github.com/flexiblepower/flexiblepower.github.io/raw/master/download/EF-pi%20Smart%20Meter%20driver%20and%20manager.pdf)|
+|Smartmeter driver + manager|[FPAI-apps](https://github.com/flexiblepower/fpai-apps)||[Download](https://github.com/flexiblepower/flexiblepower.github.io/raw/master/download/EF-pi%20Smart%20Meter%20driver%20and%20manager.pdf)|
 |Scenario application|[FPAI-apps](https://github.com/flexiblepower/fpai-apps) ||
 
 PowerMatcher device agents
