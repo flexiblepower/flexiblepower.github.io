@@ -47,12 +47,17 @@ $(document).ready(function() {
 	$("iframe").css('height', width);
 	setTimeout(function() {	
 		$("iframe#twitter-widget-0").css({
+			"max-width": "inherit",
 			"width": "100%",
 			"height": "200px",
 			"visibility": "visible"
 		});
+		$(".timeline").css({
+			"max-width": "inherit",
+			"width": "100%"
+		});
 		$(".spinner").hide();			
-	}, 3000);
+	}, 2500);
 	$('#search-query').lunrSearch({
       indexUrl: '/search.json',              
       results:  '#search-results',          

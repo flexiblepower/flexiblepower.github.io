@@ -15,4 +15,10 @@
        .p-author a.profile:hover .p-name,
         .p-author a.profile:focus .p-name {
         	color: white!important;
+          width: inherit;
         }
+
+.timeline {
+  max-width: 100%;
+  width: 100%;
+}
