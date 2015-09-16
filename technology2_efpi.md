@@ -9,8 +9,8 @@ tags: [EF-Pi, Smart Appliances, Operating System, Standard, Interface]
 parent: technology
 summary: A more detailed explanation on the Energy Flexibility Platform & Interface; an operating system and platform for easily connecting a multitide of devices and apps.
 image:
-  feature: /images/site/technology_FPAI_main.jpg
-  thumbnail: /images/site/technology_FPAI.jpg
+  feature: /images/site/technology_fpai_main.jpg
+  thumbnail: /images/site/technology_fpai.jpg
 ---
 
 The Energy Flexibility Platform & Interface (EF-Pi) provides a runtime environment that makes it possible to quickly design and implement new energy services and smart appliances. EF-Pi enables easy deployment and configuration of ‘Energy Apps’ and device drivers, and provides easy interaction through the Energy Flexibility Interface. Now device manufacturers can write generic device drivers for their appliances that can be used by any Energy App that runs on EF-Pi. Also any Energy App that is developed on EF-Pi can make use of all available drivers. 
