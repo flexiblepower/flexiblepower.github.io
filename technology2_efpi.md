@@ -7,7 +7,7 @@ modified: 29-9-2014
 tagline: PowerMatcher Technology
 tags: [EF-Pi, Smart Appliances, Operating System, Standard, Interface]
 parent: technology
-summary: A more detailed explanation on the Flexible Power Application Infrastructure; an operating system and platform for easily connecting a multitide of devices and apps.
+summary: A more detailed explanation on the Energy Flexibility Platform & Interface; an operating system and platform for easily connecting a multitide of devices and apps.
 image:
   feature: /images/site/technology_FPAI_main.jpg
   thumbnail: /images/site/technology_FPAI.jpg
@@ -52,7 +52,7 @@ The owner of a EF-Pi hub can open a dashboard or Graphical User Interface (GUI) 
 
 # Read more
 * [Technical implementation details (Github wiki)](http://fpai-ci.sensorlab.tno.nl/builds/EF-Pi-documentation/development/html/)
-* [EF-Pi Whitepaper](https://github.com/flexiblepower/flexiblepower.github.io/raw/master/download/Whitepaper%20fpai%20final%20june%201st%202015%20version.pdf)
+* [EF-Pi Whitepaper](https://github.com/flexiblepower/flexiblepower.github.io/raw/master/download/Whitepaper%20EF-Pi%20final%20june%201st%202015%20version.pdf)
 
 
 
