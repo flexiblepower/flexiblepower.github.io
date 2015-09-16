@@ -13,7 +13,7 @@ image:
   thumbnail: /images/site/technology_FPAI.jpg
 ---
 
-The Flexible Power Application Infrastructure (EF-Pi) provides a runtime environment that makes it possible to quickly design and implement new energy services and smart appliances. EF-Pi enables easy deployment and configuration of ‘Energy Apps’ and device drivers, and provides easy interaction through the Energy Flexibility Interface. Now device manufacturers can write generic device drivers for their appliances that can be used by any Energy App that runs on EF-Pi. Also any Energy App that is developed on EF-Pi can make use of all available drivers. 
+The Energy Flexibility Platform & Interface (EF-Pi) provides a runtime environment that makes it possible to quickly design and implement new energy services and smart appliances. EF-Pi enables easy deployment and configuration of ‘Energy Apps’ and device drivers, and provides easy interaction through the Energy Flexibility Interface. Now device manufacturers can write generic device drivers for their appliances that can be used by any Energy App that runs on EF-Pi. Also any Energy App that is developed on EF-Pi can make use of all available drivers. 
 
 # The Energy Flexibility Interface
 
