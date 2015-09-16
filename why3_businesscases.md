@@ -3,7 +3,7 @@ layout: page
 permalink: /why/businesscases/
 title: Business Cases
 titleGreen: Cases
-tagline: Business Cases for FPAI and PowerMatcher
+tagline: Business Cases for EF-Pi and PowerMatcher
 tags: [Flexibility, Prosumers, Transactive Energy]
 modified: 8-8-2014
 comments: false

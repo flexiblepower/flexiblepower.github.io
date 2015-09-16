@@ -1,5 +1,5 @@
 # flexiblepower.github.io
-Repo for PowerMatcher.org and Github Pages hosting. If you have powermatcher news or see room for improvement, send-in a pull request or report a bug.
+Repo for PowerMatcher.org and Github Pages hosting. If you have PowerMatcher news or see room for improvement, send-in a pull request or report a bug.
 
 # Bugs
 If you find a bug in the website you can report them [here](https://github.com/flexiblepower/flexiblepower.github.io

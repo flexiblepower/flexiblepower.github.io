@@ -14,7 +14,7 @@ image:
   thumbnail: /images/site/about.jpg
 ---
 
-PowerMatcherSuite (PowerMatcher and FPAI) is a Flexiblepower Alliance Network project.
+PowerMatcherSuite (PowerMatcher and EF-Pi) is a Flexiblepower Alliance Network project.
 
 [http://www.flexiblepower.org/](http://www.flexiblepower.org/)
 
@@ -34,4 +34,4 @@ If you want to get in touch.
 * Questions:
   * [General questions](https://github.com/flexiblepower/FAN-wiki/issues/new?title=Question:My%20Question&body)
   * [PowerMatcher questions](https://github.com/flexiblepower/powermatcher/issues/new?title=Question:My%20Title&body)
-  * [FPAI-core questions](https://github.com/flexiblepower/fpai-core/issues/new?title=Question:My%20Title&body)
+  * [fpai-core questions](https://github.com/flexiblepower/fpai-core/issues/new?title=Question:My%20Title&body)

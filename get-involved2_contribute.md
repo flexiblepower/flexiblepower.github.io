@@ -14,7 +14,7 @@ image:
   thumbnail: /images/site/contribute.jpg
 ---
 
-PowerMatcher and FPAI are open source projects. Contributions are welcome and actively encouraged to improve the experience.
+PowerMatcher and EF-Pi are open source projects. Contributions are welcome and actively encouraged to improve the experience.
 There are multiple ways to contribute to the project. Some examples: 
 
 * Share your experience with others (e.g. via powermatcher.org)
@@ -31,11 +31,11 @@ The home of the open source projects is [Github.com/flexiblepower](https://githu
 
 **How to contribute**
 
-General information on how the FAN projects work can be found the [FAN-wiki](https://github.com/flexiblepower/FAN-wiki/wiki). Project specific information can be found in the related repository e.g. [PowerMatcher](https://github.com/flexiblepower/powermatcher) or [FPAI](https://github.com/flexiblepower/fpai-core)
+General information on how the FAN projects work can be found the [FAN-wiki](https://github.com/flexiblepower/FAN-wiki/wiki). Project specific information can be found in the related repository e.g. [PowerMatcher](https://github.com/flexiblepower/powermatcher) or [EF-Pi](https://github.com/flexiblepower/fpai-core)
 
 **Stuff to work on**
 
-Look for an issue that fits you. E.g. [PowerMatcher](https://github.com/flexiblepower/powermatcher/issues) or [FPAI](https://github.com/flexiblepower/fpai-core/issues) or [FAN general items ](https://github.com/flexiblepower/FAN-wiki/issues)
+Look for an issue that fits you. E.g. [PowerMatcher](https://github.com/flexiblepower/powermatcher/issues) or [EF-Pi](https://github.com/flexiblepower/fpai-core/issues) or [FAN general items ](https://github.com/flexiblepower/FAN-wiki/issues)
 
 **Communication channels**
 

@@ -4,7 +4,7 @@ permalink: /get-involved/why-join/
 title: Why should I Join?
 titleGreen: Join? 
 tagline: PowerMatcher, Github
-tags: [Community, open source, Gitub, PowerMatcher, get involved, Transactive Energy]
+tags: [Community, open source, GitHub, PowerMatcher, get involved, Transactive Energy]
 modified: 12-9-2014
 comments: false
 parent: get-involved
@@ -21,7 +21,7 @@ Both individuals and organisations are welcomed to join the development.
 If you came this far you probably find that the problems we are facing in the near future regarding our massive energy consumption habits are unsustainable. By joining our movement you can do your part in reducing the consumption of fossil fuels because we can make much more efficient use of the already available infrastructure, integrate more renewables and have more electric vehicles yea! Besides making the world a better place you might also find that we are working on a very nifty piece of technology. However we are not under the impression that we have thought of the perfect product, but perhaps with your help we can get a step further to perfection!
 
 ## Organizations ##
-As an Organisation it could also be of interest for you to actively join the development of the PowerMatcher Suite.  PowerMatcher/FPAI can add value to your business/organization, but by actively participating you can gain insight and actively steer the product to include your own "demands"/wishes:
+As an Organisation it could also be of interest for you to actively join the development of the PowerMatcher Suite.  PowerMatcher/EF-Pi can add value to your business/organization, but by actively participating you can gain insight and actively steer the product to include your own "demands"/wishes:
 
 1. Reduce risks
 	* Gain insight in security (make sure that new features are save for you to implement)

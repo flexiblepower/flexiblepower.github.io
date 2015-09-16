@@ -1,19 +1,19 @@
 ---
 layout: page
-permalink: /technology/fpai/
-title: The Flexible Power Application Infrastructure
-titleGreen: Flexible Power Application Infrastructure
+permalink: /technology/efpi/
+title: The Energy Flexibility Platform & Interface
+titleGreen: Energy Flexibility Platform & Interface
 modified: 29-9-2014
 tagline: PowerMatcher Technology
-tags: [FPAI, Smart Appliances, Operating System, Standard, Interface]
+tags: [EF-Pi, Smart Appliances, Operating System, Standard, Interface]
 parent: technology
 summary: A more detailed explanation on the Flexible Power Application Infrastructure; an operating system and platform for easily connecting a multitide of devices and apps.
 image:
-  feature: /images/site/technology_fpai_main.jpg
-  thumbnail: /images/site/technology_fpai.jpg
+  feature: /images/site/technology_FPAI_main.jpg
+  thumbnail: /images/site/technology_FPAI.jpg
 ---
 
-The Flexible Power Application Infrastructure (FPAI) provides a runtime environment that makes it possible to quickly design and implement new energy services and smart appliances. FPAI enables easy deployment and configuration of ‘Energy Apps’ and device drivers, and provides easy interaction through the Energy Flexibility Interface. Now device manufacturers can write generic device drivers for their appliances that can be used by any Energy App that runs on FPAI. Also any Energy App that is developed on FPAI can make use of all available drivers. 
+The Flexible Power Application Infrastructure (EF-Pi) provides a runtime environment that makes it possible to quickly design and implement new energy services and smart appliances. EF-Pi enables easy deployment and configuration of ‘Energy Apps’ and device drivers, and provides easy interaction through the Energy Flexibility Interface. Now device manufacturers can write generic device drivers for their appliances that can be used by any Energy App that runs on EF-Pi. Also any Energy App that is developed on EF-Pi can make use of all available drivers. 
 
 # The Energy Flexibility Interface
 
@@ -21,7 +21,7 @@ The Energy Flexibility Interface defines a standard set of control spaces for fo
 
 The appliance driver uses a communication protocol to communicate with the appliance. At the physical level, this could be Zigbee, Z-Wave, PLC, WIFI, Ethernet, propriety, etc. This is often provided by the manufacturer of the appliance.
 
-<img src="/images/site/fpai.png">
+<img src="/images/site/FPAI.png">
 
 
 Using the Control Space of a device, Energy Apps can determine the usage profile of the devices, i.e. when a device should start or stop etc. The Energy App sends a control signal, or Allocation to the device based on certain events. In case of the PowerMatcher a control signal to the device would be the result of receiving a new market price. 
@@ -30,7 +30,7 @@ The appliance driver receives the Allocation and based on this it decides the op
 
 Control Spaces:
 
- * Uncontrollable.	Has no flexibility, is measureable and may provide forecast.	Examples are Photo voltaic panels, Wind   Turbines, TV, indoor lighting, etc.
+* Uncontrollable.	Has no flexibility, is measureable and may provide forecast.	Examples are Photo voltaic panels, Wind   Turbines, TV, indoor lighting, etc.
 
 * Time Shiftable.	Operations can be shifted in time,  but it has a deadline. Examples are	a Washing machine, Dishwasher, etc.
 
@@ -40,19 +40,19 @@ Control Spaces:
 
 # Other Interfaces
 
-The App Store is an online store that houses all Energy Apps and appliance drivers. A person can easily browse and install new applications on their FPAI hub. 
+The App Store is an online store that houses all Energy Apps and appliance drivers. A person can easily browse and install new applications on their EF-Pi hub. 
 
-The Remote Management Interface allows for remote management of multiple FPAI nodes. This makes it possible to do remote updating of the software or remotely troubleshooting a customer.
+The Remote Management Interface allows for remote management of multiple EF-Pi nodes. This makes it possible to do remote updating of the software or remotely troubleshooting a customer.
 
-# FPAI user interface
+# EF-Pi user interface
 
-The owner of a FPAI hub can open a dashboard or Graphical User Interface (GUI) in his browser that shows controls and information about his FPAI hub and the current state of his appliances in the form of Widgets. Each Widget shows information about an appliance. It is possible to have multiple Widgets per appliance. 
+The owner of a EF-Pi hub can open a dashboard or Graphical User Interface (GUI) in his browser that shows controls and information about his EF-Pi hub and the current state of his appliances in the form of Widgets. Each Widget shows information about an appliance. It is possible to have multiple Widgets per appliance. 
 
 <img src="/images/site/gui.png">
 
 # Read more
-* [Technical implementation details (Github wiki)](http://fpai-ci.sensorlab.tno.nl/builds/fpai-documentation/development/html/)
-* [EF-Pi Whitepaper](https://github.com/flexiblepower/flexiblepower.github.io/raw/master/download/Whitepaper%20EF-Pi%20final%20june%201st%202015%20version.pdf)
+* [Technical implementation details (Github wiki)](http://fpai-ci.sensorlab.tno.nl/builds/EF-Pi-documentation/development/html/)
+* [EF-Pi Whitepaper](https://github.com/flexiblepower/flexiblepower.github.io/raw/master/download/Whitepaper%20fpai%20final%20june%201st%202015%20version.pdf)
 
 
 

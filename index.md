@@ -1,7 +1,7 @@
 ---
 layout: home
 description: "Home of the PowerMatcher"
-tags: [PowerMatcher, Youtube, basics, powermatcher.org]
+tags: [PowerMatcher, EF-Pi, FPAI, Transactive Energy, Demand Response, Youtube, basics, powermatcher.org]
 image:
   feature: powermatcher-logo.png
   credit: PowerMatcher community

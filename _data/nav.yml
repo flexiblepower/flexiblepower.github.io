@@ -6,8 +6,8 @@
   subcategories:
     - subtitle: "Why Powermatcher"
       subhref: "/why/powermatcher/"
-    - subtitle: "Why FPAI"
-      subhref: "/why/fpai/"
+    - subtitle: "Why EF-Pi"
+      subhref: "/why/efpi/"
     - subtitle: "Businesscases"
       subhref: "/why/businesscases/"
     - subtitle: "Why open source?"
@@ -26,8 +26,8 @@
   subcategories:
     - subtitle: "Powermatcher"
       subhref: "/technology/powermatcher/"
-    - subtitle: "FPAI"
-      subhref: "/technology/fpai/"
+    - subtitle: "EF-Pi"
+      subhref: "/technology/efpi/"
 
 
 
