@@ -77,6 +77,8 @@ Lochem Energy is a smart energy initiative in an existing grid. It is the result
 
 *Partners are Locamation (coordinator), Lochem Energie, Universiteit Twente, Eaton Industries, Trianel and Alliander.*
 
+*[Results](http://www.rvo.nl/sites/default/files/2015/09/5339-IPIN-FS-Lochem-ENG%20%5Bweb%5D.pdf)
+
 ## Houthaven
 **Location: Amsterdam**
 
