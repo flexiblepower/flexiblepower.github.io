@@ -51,6 +51,9 @@ In 2012 a new complex with 300 apartments has been outfitted with heat-pumps. Th
 
 PMCII is the follow up to PowerMatching City. The project started in May 2013 and more than doubles the number of household to around 60. The focus is less on the technological side but more on energy services and energy markets. The project will test how different personal goals of end-users have different types of impact on the local energy system. Some households will aim to minimize their energy costs, by buying when energy is cheap and selling when energy is expensive. Others will aim to minimize their interaction with the outside by using locally available energy as much as possible.
 
+* [Report](https://github.com/flexiblepower/flexiblepower.github.io/raw/master/download/PowerMatching%20City_brochure_final_UK_29-04-2015.pdf)
+* [Website](http://www.powermatchingcity.nl/site/pagina.php?id=41)
+
 ##Ecogrid
 **Location: Bornholm**
 
