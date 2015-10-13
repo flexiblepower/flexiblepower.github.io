@@ -12,7 +12,7 @@ thumbnail: /images/EUW.jpg
 
 Powermatcher was succesful tested under stressful conditions. Read more:
 
-* [stresstest](https://www.utwente.nl/en/news/!/2015/4/43571/ut-researchers-test-power-network-with-pizza-ovens)
+* [Stresstest](https://www.utwente.nl/en/news/!/2015/4/43571/ut-researchers-test-power-network-with-pizza-ovens)
 * [Results](http://www.rvo.nl/sites/default/files/2015/09/5339-IPIN-FS-Lochem-ENG%20%5Bweb%5D.pdf)
 
 If you like to know more of the current PowerMatcherSuite developments. Come visit the European utility week 2015 in Vienna.
