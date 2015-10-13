@@ -8,9 +8,17 @@ published: false
 thumbnail: /images/site/PMnewslogo.png
 ---
 
-# PowerMatching tested under stress
+# PowerMatching tested under stress & EUW
 
 Powermatcher was succesful tested under stressful conditions. Read more:
 
 * [stresstest](https://www.utwente.nl/en/news/!/2015/4/43571/ut-researchers-test-power-network-with-pizza-ovens)
 * [Results](http://www.rvo.nl/sites/default/files/2015/09/5339-IPIN-FS-Lochem-ENG%20%5Bweb%5D.pdf)
+
+If you like to know more of the current PowerMatcherSuite developments. Come visit the European utility week 2015 in Vienna.
+
+* CGI booth: small scale demonstration of PowerMatcherSuite
+* Presentation of Alexander Krstulovic (Alliander) and Bert den Ouden (FAN) (Session 31, Wed 4 Nov 14:50 to 15:15)
+
+If you like to know about open source consider this talk:
+* Strategic use of open source to enamble IoT (Session 08, Tue 3 Nov 16:00 to 16:20)
