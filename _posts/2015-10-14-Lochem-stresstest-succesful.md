@@ -1,14 +1,14 @@
 ---
 layout: post
-title: PowerMatching city results
-description: "PowerMatcher succesfully used in PowerMatchingCity"
+title: Stresstest & EUW
+description: "PowerMatcher tested under stress & the upcoming European Utility Week Conference"
 tags: [Lochem, Lochemenergie, Strestest, smart grid, PowerMatcher, PowerMatcherSuite, EV, smart charging, EUW, Vienna, Alexander]
 comments: false
 published: true
 thumbnail: /images/EUW.jpg
 ---
 
-# PowerMatching tested under stress & the upcoming European Utility Week Conference
+# PowerMatcher tested under stress & the upcoming European Utility Week Conference
 
 PowerMatcher was succesful tested under stressful conditions. Read more:
 
