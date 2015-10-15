@@ -21,4 +21,5 @@ If you like to know more of the current PowerMatcherSuite developments. Come vis
 * [Presentation of Alexander Krstulovic (Alliander) and Bert den Ouden (FAN) (Session 31, Wed 4 Nov 14:50 to 15:15)](http://programme.european-utility-week.com/hub-sessions/grid-renewables-integration/session-31-successfully-integrating-self-generation-and-2)
 
 If you like to know about open source consider this talk:
+
 * [Strategic use of open source to enable IoT (Session 08, Tue 3 Nov 16:00 to 16:20)](http://programme.european-utility-week.com/strategic-conference/big-data-analytics-and-internet-things-iot/session-8-itot-integration-moving-4)
