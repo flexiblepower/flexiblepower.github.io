@@ -17,7 +17,7 @@ PowerMatcher was succesful tested under stressful conditions. Read more:
 
 If you like to know more of the current PowerMatcherSuite developments. Come visit the European utility week 2015 in Vienna.
 
-* CGI booth: small scale demonstration of PowerMatcherSuite playfully named the "MiniMatcher" :)
+* CGI booth: small scale demonstration of PowerMatcherSuite playfully named the "MiniMatcher" :) Boothnumber: A.k44
 * [Presentation of Alexander Krstulovic (Alliander) and Bert den Ouden (FAN) (Session 31, Wed 4 Nov 14:50 to 15:15)](http://programme.european-utility-week.com/hub-sessions/grid-renewables-integration/session-31-successfully-integrating-self-generation-and-2)
 
 If you like to know about open source consider this talk:
