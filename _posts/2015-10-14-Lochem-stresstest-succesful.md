@@ -20,7 +20,7 @@ If you like to know more of the current PowerMatcherSuite developments. Come vis
 * CGI booth: small scale demonstration of PowerMatcherSuite playfully named the "MiniMatcher" :) Boothnumber: A.k44
 * [Presentation of Alexander Krstulovic (Alliander) and Bert den Ouden (FAN) (Session 31, Wed 4 Nov 14:50 to 15:15)](http://programme.european-utility-week.com/hub-sessions/grid-renewables-integration/session-31-successfully-integrating-self-generation-and-2)
 * Workshop: Thursday 5 March, Accenture Room, 9.00-12.00 Workshop Transactive Power + Minimatcher Demo & more
-** Sign up at the CCI booth, Send an e-mail to info@flexiblepower.org or visit the presentation above and drop your businesscard in the bowl
+ (Sign up at the CCI booth, Send an e-mail to info@flexiblepower.org or visit the presentation of Alexander and Bert and drop your businesscard in the bowl)
 
 If you like to know about open source consider this talk:
 
