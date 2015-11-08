@@ -90,6 +90,29 @@
               {% endif %}           
             {% endfor %} 
           </div>
+                    <hr/>  
+          <div class="row">
+            <img src="images/site/logo-flexiblepower.png" alt="logo flexible power" class="col-md-2"/>        
+            <h1 class="col-md-8 text-center">            
+              <a href="/news/">Our <span class="last-word">Friends</span></a>
+            </h1>
+          </div>
+          <hr/>
+          <div>
+            {% assign counter = 0 %}
+            {% for img in page.friends_images %}                          
+              {% if counter == 0 or counter == 4 or counter == 8 or counter == 12 or counter == 16 or counter == 20 or counter == 24 %}
+                <div class="row top-buffer">
+              {% endif %} 
+              {% assign counter=counter | plus:1 %}                                  
+              <div class="col-md-3 col-sm-6 col-xs-12">                           
+                <img class="img-responsive" src="{{img}}" style="margin:0 auto;" />                   
+              </div>
+              {% if counter == 0 or counter == 4 or counter == 8 or counter == 12 or counter == 16 or counter == 20 or counter == 24 %}
+                </div>  
+              {% endif %}           
+            {% endfor %} 
+          </div>
           <hr/>          
           <h1 class="center-header">
             <a href="/news/">Latest <span class="last-word">News</span></a>
