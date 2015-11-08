@@ -16,7 +16,7 @@ carousel_images:
   - /images/site/home-logos/logo-technolution-300x100.png
   - /images/site/home-logos/logo-ecn-300x100.png
 friends_images:
-  - /images/site/home-logos/logo-zenodys-300x100.png
+  - /images/site/friends-logos/logo-zenodys-300x100.png
 
 ---
 
