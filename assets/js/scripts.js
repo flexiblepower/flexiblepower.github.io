@@ -42,6 +42,15 @@ $(document).ready(function() {
   		prevArrow: '<button type="button" data-role="none" style="height:40px; width:40px;" class="slick-prev">Previous</button>',
   		nextArrow: '<button type="button" data-role="none" style="height:40px; width:40px;" class="slick-next">Next</button>'
 	});
+	$("#friends-carousel").slick({
+		arrows: true,
+		infinite: true,
+  		infinite: true,
+  		slidesToShow: 4,
+  		slidesToScroll: 1,
+  		prevArrow: '<button type="button" data-role="none" style="height:40px; width:40px;" class="slick-prev">Previous</button>',
+  		nextArrow: '<button type="button" data-role="none" style="height:40px; width:40px;" class="slick-next">Next</button>'
+	});
 	var div = $('iframe');
 	var width = (div.width() * 0.6);
 	$("iframe").css('height', width);
