@@ -15,6 +15,9 @@ carousel_images:
   - /images/site/home-logos/logo-dhpa.png  
   - /images/site/home-logos/logo-technolution-300x100.png
   - /images/site/home-logos/logo-ecn-300x100.png
+friends_images:
+  - /images/site/home-logos/logo-zenodys-300x100.png
+
 ---
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/Zz4OpVwYWYE" frameborder="0" allowfullscreen></iframe>
