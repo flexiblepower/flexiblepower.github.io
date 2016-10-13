@@ -51,7 +51,7 @@ The owner of a EF-Pi hub can open a dashboard or Graphical User Interface (GUI) 
 <img src="/images/site/gui.png">
 
 # Read more
-* [Technical implementation details (Github wiki)](https://fan-ci.sensorlab.tno.nl/builds/fpai-documentation/master/html/)
+* [Technical implementation details (Github wiki)](https://fan-ci.sensorlab.tno.nl/builds/fpai-documentation/development/html/)
 * [EF-Pi Whitepaper](https://github.com/flexiblepower/flexiblepower.github.io/raw/master/download/Whitepaper%20EF-Pi%20final%20june%201st%202015%20version.pdf)
 
 
