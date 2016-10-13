@@ -32,6 +32,6 @@ PowerMatcher , in different  versions of it, has been successfully demonstrated 
 The Powermatcher Suite is a technical infrastructure designed by Flexiblepower Alliance Network FAN.  It is complementary to the USEF initiative, developing the organizational framework in order to  provide a complete package for the development and operation of local smart grids. 
 
 
-Do you want to get started with this release? Please visit the [PowerMatcher Github wiki](http://fpai-ci.sensorlab.tno.nl/builds/powermatcher-documentation/master/html/index.html) for technical background information.
+Do you want to get started with this release? Please visit the [PowerMatcher Github wiki](https://fan-ci.sensorlab.tno.nl/builds/powermatcher-documentation/master/html/) for technical background information.
 
 More information about the PowerMacher concept can be found on this website.
